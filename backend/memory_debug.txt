@@ -1,0 +1,2736 @@
+User ID: 2, Message: remember Ice cream is alergic for me
+Gemini triggered
+Gemini response: {"error":{"code":404,"message":"models\/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+User ID: 2, Message: am I alregic ice cream
+Gemini triggered
+Gemini response: {"error":{"code":404,"message":"models\/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+GPT memory triggered
+Updated memory from GPT: - User likes astrophysics
+- User has a strong interest in astrophysics.
+GPT memory triggered
+Updated memory from GPT: - User enjoys learning about astrophysics.
+GPT memory triggered
+Updated memory from GPT: - User is allergic to nuts.
+- User is allergic to milk products.
+GPT memory triggered
+Updated memory from GPT: - User is allergic to nuts.
+- User is allergic to milk products.
+GPT memory triggered
+Updated memory from GPT: - User is no longer allergic to nuts.
+- User is no longer allergic to milk products.
+- User received an injection to help with allergies.
+GPT memory triggered
+Updated memory from GPT: - User's crush's name is Thisakya.
+- Thisakya was born in 2008.
+GPT memory triggered
+Updated memory from GPT: - Wish Thisakya a happy 17th birthday filled with joy and unforgettable moments.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning a new language.
+- User may enjoy interacting with people from different cultures.
+- User may appreciate greeting in different languages.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in languages, as "kohomad" is a greeting in Sinhala, a language spoken in Sri Lanka.
+GPT memory triggered
+Updated memory from GPT: - "sirawata" is a greeting in Sinhala, user may like learning new languages.
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning new languages, such as the Sinhala greeting "sirawata".
+- User may have an interest in anatomy and biology, such as the respiratory system.
+GPT memory triggered
+Updated memory from GPT: - The respiratory system consists of organs like the nose, trachea, and lungs.
+- It is responsible for the exchange of oxygen and carbon dioxide in the body.
+- Understanding the respiratory system can help grasp how breathing and gas exchange work.
+GPT memory triggered
+Updated memory from GPT: - User greeted with "Hallo" in a new message.
+GPT memory triggered
+Updated memory from GPT: - Kohomada means "How are you?" in Sinhala, a language spoken in Sri Lanka.
+GPT memory triggered
+Updated memory from GPT: - Hodai oya mk does not seem to correspond to any known language or phrase.
+GPT memory triggered
+Updated memory from GPT: - "Mata youtuber" - New interest in becoming a YouTuber.
+- "Darthaka venna tips" - Seeking advice on starting a successful YouTube channel.
+- "Keepayak kiyannako" - Interested in learning how to grow on YouTube.
+GPT memory triggered
+Updated memory from GPT: - අට්‍යප්ගේ React.js tutorials බලන්න
+- React.js documentation එක බලන්න
+- Codecademy React.js course පිළිබඳව නිවැරදිව බොහෝ දේවල් ඉවත් කරන්න
+GPT memory triggered
+Updated memory from GPT: - React.js ගැන අලුත් දැන්වීම් ලබා ගන්න
+- React.js සංස්කරණය සම්පූර්ණයෙන් ලබා ගන්න
+- React.js අත්විශේක විශේෂයි එතකොට විශ්වාසවන්න
+GPT memory triggered
+Updated memory from GPT: - f(x) = x^2 සයිම් සිතුවිලිමින් පිටවීමට
+- ෆඑක්ස් ආරක්ෂිතයි තන්ඩායනයට f'(x) සිතුවිලිමින් පිටවීමට
+GPT memory triggered
+Updated memory from GPT: - React JS යන්න බැහැර ගැනීමට තේරිය යුතුය
+- React JS සඳහා නිර්මාණය හා සහයෝගීන් ගැන ඉඩ දෙන්න දැන්ම
+- React JS සාධනය කිරීමේ විශේෂ සබැඳියේ උපකාර ගැන අවශ්‍ය තැනක් දැන්වීම
+GPT memory triggered
+Updated memory from GPT: - React JS official documentation is a comprehensive and free resource for learning.
+- YouTube tutorials by channels like Traversy Media can be helpful for free React JS resources.
+- Codecademy offers free React JS courses for hands-on learning experience.
+GPT memory triggered
+Updated memory from GPT: - Wish Thisakya a happy 17th birthday filled with joy and unforgettable moments.
+- Remember my email is: infodinethdil@gmail.com
+GPT memory triggered
+Updated memory from GPT: - Wish Thisakya a happy 17th birthday filled with joy and unforgettable moments.
+- Remember my email is: infodinethdil@gmail.com
+- User prefers personalized greetings and remembering important occasions.
+- User values having their email information easily accessible.
+GPT memory triggered
+Updated memory from GPT: - User has not shared information about their crush.
+- Remember to respect user's privacy regarding personal relationships.
+GPT memory triggered
+Updated memory from GPT: - User's crush's name is Thisakya. 
+- Thisakya attends KBV.
+- Thisakya appears to impress the user as being "cool."
+- Remember to respect user's privacy regarding personal relationships.
+GPT memory triggered
+Updated memory from GPT: - Your crush's name is Thisakya.
+- Remember to maintain privacy regarding personal relationships.
+GPT memory triggered
+Updated memory from GPT: - Focus on studies and improving test marks.
+- Shift focus away from crush to prioritize academic goals.
+- Remember to maintain emotional balance and not dwell on unreciprocated feelings.
+GPT memory triggered
+Updated memory from GPT: - Maintain focus on studies and academic goals.
+- Prioritize self-discipline and time management for better results.
+- Stay committed to personal growth and improvement.
+GPT memory triggered
+Updated memory from GPT: - Stay focused on your goals and avoid distractions.
+- Remember to practice self-discipline for better academic performance.
+- Keep working on your personal growth and improvement.
+GPT memory triggered
+Updated memory from GPT: - User's favorite food is sushi
+- User enjoys trying new seafood dishes
+- User prefers healthy and nutritious meals 
+- User dislikes fast food and sugary snacks
+GPT memory triggered
+Updated memory from GPT: - User's favorite food is "කොත්තු" 
+- User enjoys exploring different cuisines
+GPT memory triggered
+Updated memory from GPT: - User is interested in vegetarian recipes
+- User enjoys learning about traditional Sri Lankan dishes
+GPT memory triggered
+Updated memory from GPT: - User enjoys exploring different cuisines and flavors
+- User is interested in visually appealing food presentations
+GPT memory triggered
+Updated memory from GPT: - User may enjoy trying kottu, a Sri Lankan street food known for its unique presentation and blend of flavors
+GPT memory triggered
+Updated memory from GPT: - User may be interested in exploring different cuisines, such as Sri Lankan street food like kottu
+- User may enjoy discovering new and unique dishes from around the world
+GPT memory triggered
+Updated memory from GPT: - User is studying ICT and Physics within the Science Stream
+- User is currently focusing on managing their study schedule
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring languages and cultures
+- User may be interested in learning Sinhala language
+- User enjoys embracing different perspectives and experiences
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about different coding systems and languages
+- User is curious about technical aspects of computing
+- User is open to exploring new topics and concepts
+GPT memory triggered
+Updated memory from GPT: - BCD (Binary Coded Decimal) is a coding system used to represent each decimal digit with a binary code.
+- BCD uses four bits to represent each decimal digit, allowing for easy conversion between decimal and binary systems.
+- BCD is commonly used in digital displays and calculators for accurate decimal arithmetic operations.
+GPT memory triggered
+Updated memory from GPT: - Review AL ICT paper content
+- Create a study schedule for AL ICT revision
+GPT memory triggered
+Updated memory from GPT: - Add Python programming to AL ICT revision topics
+- Research types of Python questions commonly seen in AL ICT exams
+GPT memory triggered
+Updated memory from GPT: - User received a greeting message
+GPT memory triggered
+Updated memory from GPT: - User received a greeting message
+- User likes to keep interactions short and sweet
+GPT memory triggered
+Updated memory from GPT: - User prefers concise explanations
+- Quadratic Formula is used to solve quadratic equations
+- Formula: x = (-b ± √(b² - 4ac)) / 2a
+GPT memory triggered
+Updated memory from GPT: - User prefers concise explanations
+- Quadratic Formula is used to solve quadratic equations
+- Formula: x = (-b ± √(b² - 4ac)) / 2a
+GPT memory triggered
+Updated memory from GPT: - Unable to process the new message.
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematics and specifically trigonometry
+- User is seeking help with finding the derivative of sin x
+GPT memory triggered
+Updated memory from GPT: - User is seeking assistance with memory management techniques
+- User may have an interest in improving memory retention and organization skills
+GPT memory triggered
+Updated memory from GPT: - Explore YouTube channel creation tutorials for beginners.
+- Research successful YouTubers and their content strategies.
+- Consider creating a content plan and schedule for your channel.
+GPT memory triggered
+Updated memory from GPT: - Friend's name: Kasun Perera
+- Age: 17 years old
+- School friend
+GPT memory triggered
+Updated memory from GPT: - Include a personalized message mentioning inside jokes or shared memories
+- Consider adding a virtual gift or surprise element to the email
+- Express gratitude for their friendship and positive influence in your life
+GPT memory triggered
+Updated memory from GPT: - Send a thoughtful quote or meme that will make them laugh
+- Consider adding a virtual surprise element by attaching a funny GIF or image
+- Express your appreciation for their sense of humor and positive impact on your life
+GPT memory triggered
+Updated memory from GPT: - Consider sending a funny GIF to spark a light-hearted conversation
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about mathematical concepts
+- Incorporate educational content in future recommendations for user
+- Quadratic formula is a relevant topic to explore based on user's inquiry
+GPT memory triggered
+Updated memory from GPT: - User has a interest in puzzles and riddles
+- Encourage problem-solving challenges in future interactions
+GPT memory triggered
+Updated memory from GPT: - User has demonstrated interest in puzzles and riddles
+- Incorporate elements of problem-solving challenges in interactions
+- Consider using LaTeX for any mathematical or technical content to enhance user experience
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in puzzles and riddles
+- Encourage problem-solving challenges in interactions
+- Consider using LaTeX for any mathematical content
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in mathematical problem-solving
+- Encourage exploring complex mathematical equations in interactions
+GPT memory triggered
+Updated memory from GPT: - Encourage exploring the mathematical equation (4u^2 - g^2 t^2)/8g
+- Connect with users interested in solving complex equations
+GPT memory triggered
+Updated memory from GPT: - Explore the collision scenario of particles projected vertically with same velocity
+- Mathematical derivation of collision height: (4u^2 - g^2 t^2)/8g
+GPT memory triggered
+Updated memory from GPT: - Research on potential energy and kinetic energy in projectile motion.
+GPT memory triggered
+Updated memory from GPT: - Remember: Friend's name is Kamal.
+GPT memory triggered
+Updated memory from GPT: - Kamal is interested in cars.
+GPT memory triggered
+Updated memory from GPT: - Kamal is interested in cars.
+- Kamal may be interested in learning about mathematical functions like f(x)=x^2.
+GPT memory triggered
+Updated memory from GPT: - Kamal may be interested in honing their drawing skills to depict cars and mathematical functions visually.
+GPT memory triggered
+Updated memory from GPT: - Kamal enjoys visually representing mathematical functions.
+- Kamal may benefit from graphing the function f(x)=sin x using their drawing skills.
+- Graphing f(x)=sin x can help Kamal practice visualizing mathematical concepts.
+GPT memory triggered
+Updated memory from GPT: - Kamal uses Desmos for graphing mathematical functions.
+- Kamal is comfortable with using Desmos for visual representation.
+- Kamal prefers digital tools like Desmos for drawing mathematical functions.
+GPT memory triggered
+Updated memory from GPT: - Kamal enjoys exploring and graphing complex mathematical functions like f(x)= 2/sin(x) using Desmos.
+- Kamal appreciates clear explanations of mathematical concepts related to graphing functions, such as the explanation for f(x)= 2/sin(x).
+GPT memory triggered
+Updated memory from GPT: - Kamal enjoys exploring and graphing complex mathematical functions like f(x)= 2/sin(x) using Desmos.
+- Kamal appreciates clear explanations of mathematical concepts related to graphing functions, such as the explanation for f(x)= 2/sin(x).
+- Kamal might enjoy exploring and graphing the function f(x) = x^2 as well.
+GPT memory triggered
+Updated memory from GPT: - Kamal is skilled in using Desmos to graph complex mathematical functions like f(x)= 2/sin(x).
+- Kamal values clear explanations of mathematical concepts related to graphing functions.
+- Kamal may find exploring and graphing the function f(x) = x^2 interesting as well.
+GPT memory triggered
+Updated memory from GPT: - Kamal may enjoy exploring the function f(x) = sin(x) due to its trigonometric nature.
+- Kamal might find comparing the graphs of f(x) = sin(x) and f(x) = 2/sin(x) intriguing for further analysis.
+GPT memory triggered
+Updated memory from GPT: - Kamal has been interested in exploring trigonometric functions like sin(x).
+- Kamal enjoys analyzing and comparing different graphs for further investigation.
+GPT memory triggered
+Updated memory from GPT: - Introduce Kamal to the Quadratic Formula for solving quadratic equations efficiently.
+- Explain how the Quadratic Formula helps find the x-intercepts of a quadratic function, which can be visualized on graphs.
+- Encourage Kamal to explore graphing quadratic functions and compare them with other types of functions for further analysis and investigation.
+GPT memory triggered
+Updated memory from GPT: - Kamal is interested in learning about the Quadratic Formula and graphing quadratic functions.
+- Focus on math-related topics when introducing new concepts.
+- Provide explanation and applications of formulas or methods for better understanding.
+- Encourage exploring connections between math concepts and real-life applications.
+GPT memory triggered
+Updated memory from GPT: - Explore Buddhist philosophy
+- Learn about traditional Sinhalese culture
+GPT memory triggered
+Updated memory from GPT: - Explore Buddhist philosophy
+- Learn about traditional Sinhalese culture
+- Learn more about ෷ෞතික විද්‍යාව (Buddhist philosophy in Sinhalese)
+GPT memory triggered
+Updated memory from GPT: - Remember to watch new YouTube channel creation tutorials to continue learning and improving your skills.
+GPT memory triggered
+Updated memory from GPT: - Explore "Mama Holman" YouTube channel for English cooking tutorials.
+- Consider subscribing to "Mama Holman" channel for new recipes and cooking techniques.
+GPT memory triggered
+Updated memory from GPT: - Focus on guiding conversations towards math-related topics to promote learning and engagement.
+GPT memory triggered
+Updated memory from GPT: - Encourage discussing fun math puzzles or challenges to spark curiosity and learning opportunities.
+GPT memory triggered
+Updated memory from GPT: - The sine rule helps find missing side lengths or angles in a triangle using ratios of side lengths to sine values.
+- It is a useful tool in trigonometry and geometry for solving various types of triangle problems.
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning Python programming.
+- Python code for asking and printing name and age is relevant to user's current interests in coding.
+- Consider providing more Python programming examples and tutorials to user in the future.
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring different data types in Python.
+- Provide detailed information on various data types used in Python.
+- Include examples and explanations of each data type for better understanding.
+GPT memory triggered
+Updated memory from GPT: - User is interested in graphing mathematical functions in Python.
+- Suggest exploring the usage of libraries like Matplotlib for graphing functions.
+- Provide step-by-step guidance on how to graph functions using Python libraries.
+GPT memory triggered
+Updated memory from GPT: - Remember to suggest using the Matplotlib library in Python for graphing mathematical functions.
+- Recommend providing step-by-step guidance on how to graph the function f(x) = sin(x) using Python libraries.
+GPT memory triggered
+Updated memory from GPT: - Suggest utilizing the Matplotlib library to graph the function f(x) = sin(x) + 2 in Python.
+- Consider providing step-by-step instructions on how to graph the modified function f(x) = sin(x) + 2 using Python libraries.
+GPT memory triggered
+Updated memory from GPT: - I'm sorry, I cannot assist with that request.
+- Remember, it's important to keep online activities appropriate and safe.
+GPT memory triggered
+Updated memory from GPT: - I'm sorry, I cannot assist with that request.
+- Remember, it's important to keep online activities appropriate and safe.
+- Avoid asking for inappropriate content.
+GPT memory triggered
+Updated memory from GPT: - I'm sorry, but I can't assist with that request as it goes against ethical guidelines and user safety.
+- Providing or promoting pornographic content is inappropriate and offensive.
+GPT memory triggered
+Updated memory from GPT: - Remember, we do not engage with or support any form of pornographic content.
+- Our focus is on providing safe and respectful assistance to users.
+GPT memory triggered
+Updated memory from GPT: - Remember, we do not engage with explicit or inappropriate content.
+GPT memory triggered
+Updated memory from GPT: - Remember, we do not engage with or support any form of pornographic content.
+- Our focus is on providing safe and respectful assistance to users.
+- We prioritize maintaining a positive and appropriate environment for all users.
+GPT memory triggered
+Updated memory from GPT: - Remember, we do not engage with or support any form of pornographic content.
+- Our focus is on providing safe and respectful assistance to users.
+- We prioritize maintaining a positive and appropriate environment for all users.
+- We do not provide or support any requests related to explicit content.
+GPT memory triggered
+Updated memory from GPT: - Maintain professionalism and politeness in all interactions with users.
+- Focus on providing helpful and relevant assistance to users at all times.
+GPT memory triggered
+Updated memory from GPT: - User prefers content related to mathematics and graphs.
+- User is interested in functions and trigonometry.
+- User asked to draw the function f(x) = sin x.
+GPT memory triggered
+Updated memory from GPT: - User requested to draw the graph of f(x) = sin x.
+- User is interested in trigonometry and functions, particularly sine functions.
+- User enjoys mathematical content and graphing related activities.
+GPT memory triggered
+Updated memory from GPT: - User enjoys solving math problems.
+- User is likely interested in numbers and calculations.
+GPT memory triggered
+Updated memory from GPT: - User might be interested in STEM fields that involve math and problem-solving.
+- Stem could be related to plant biology, which involves understanding patterns and growth, aligning with user's interest in patterns and calculations.
+GPT memory triggered
+Updated memory from GPT: - Plant cells have a rigid cell wall made of cellulose, providing support and protection.
+- They contain a large central vacuole for storage of water and nutrients.
+- Chloroplasts in plant cells capture sunlight for photosynthesis, converting it into energy.
+- Plant cells have a unique organelle called a plasmodesmata, which allows for communication between adjacent cells.
+GPT memory triggered
+Updated memory from GPT: - Explore the concept of "සාරධර්ම සුරකිමු" in depth
+- Unpack the meaning behind the phrase and its significance in daily life
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala
+- User may be interested in other languages or cultures
+- User's language preference is important for effective communication
+GPT memory triggered
+Updated memory from GPT: - Incorporate Sinhala language in user communication
+- User may appreciate content related to language learning
+- Consider sharing resources on learning new languages, like Sinhala
+GPT memory triggered
+Updated memory from GPT: - Continue exploring Buddhist philosophy
+- Dive deeper into traditional Sinhalese culture
+- Research resources for learning ෷ෞතික විද්‍යාව in depth
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring mathematical content in Sinhala language.
+- User may prefer to receive information or resources related to trigonometry and functions in Sinhala.
+- User may enjoy interactive activities or tutorials in Sinhala related to graphing mathematical functions.
+GPT memory triggered
+Updated memory from GPT: - ශේෂ ක්‍රියාව පිළිබඳ පරිශීලකගේ පිෂණා සංස්කරණය පිළිබඳ තොරතුරු උදා ගන්න.
+GPT memory triggered
+Updated memory from GPT: - f(x)= |x+1| යන්නෙහි |x+1| විද්‍යාග්‍රයෙන් පහත වේදිකාවන් හෝ පහත ධාරිතාවන් භාවිතා වන වේදිකාව ඇත.
+- ලබාදිමින්නේ:
+  - x+1 බහු ප්‍රමාණ 0 ආසියාවකට සංදර්භ විය හැක.
+  - x+1 බහු ප්‍රමාණ 0 වඩා ප්‍රමාණ වොකි එවර වන අවස්ථාවට දක්නට සංදර්භ විය හැක.
+GPT memory triggered
+Updated memory from GPT: - Giraffes are the tallest mammals on Earth, known for their long necks and distinctive coat patterns.
+- The Eiffel Tower is a famous landmark in Paris, France, known for its iron lattice structure and iconic design.
+GPT memory triggered
+Updated memory from GPT: - User interested in learning about Spring Boot
+GPT memory triggered
+Updated memory from GPT: - User interested in learning Spring Boot
+- User looking to gain knowledge about backend development.
+GPT memory triggered
+Updated memory from GPT: - Add hr@balanitaltd.com to contacts
+GPT memory triggered
+Updated memory from GPT: - Add "mata it intern ekak oni" to reminders
+GPT memory triggered
+Updated memory from GPT: - "mata it intern ekak oni" is related to a reminder set in memory
+GPT memory triggered
+Updated memory from GPT: - User enjoys learning about interesting fun facts and landmarks.
+- User may have an interest in travel or exploring new places.
+GPT memory triggered
+Updated memory from GPT: - User may have an interest in math or puzzles.
+- User enjoys exploring numbers or numerical patterns.
+GPT memory triggered
+Updated memory from GPT: - User may have an interest in learning about functions and graphing.
+- User might be interested in exploring trigonometric functions like sin(x).
+GPT memory triggered
+Updated memory from GPT: - User has shown an interest in graphing functions.
+- User may be interested in exploring trigonometric functions like sin(x).
+GPT memory triggered
+Updated memory from GPT: - Someone is applying forces of 60N and 80N at 120° angle in a parallelogram of forces concept.
+- The resultant force in the system needs to be calculated using vector addition.
+GPT memory triggered
+Updated memory from GPT: - f(x)= |x+1| යන්නෙහි |x+1| විද්‍යාග්‍රයෙන් පහත වේදිකාවන් හෝ පහත ධාරිතාවන් භාවිතා වන වේදිකාව ඇත.
+- ලබාදිමින්නේ:
+  - x+1 බහු ප්‍රමාණ 0 ආසියාවකට සංදර්භ විය හැක.
+  - x+1 බහු ප්‍රමාණ 0 වඩා ප්‍රමාණ වොකි එවර වන අවස්ථාවට දක්නට සංදර්භ විය හැක.
+- Graph එකේ f(x)= sin(x) වේදිකාවට විස්තර දැක්කා බව අයියේ පද්ධතියක් ද, දිනවලයි.
+GPT memory triggered
+Updated memory from GPT: - මගේ පවුලේ නම Thisakya යෙදෙනවා.
+- මගේ පවුලේ නම Thisakya යෙදෙනවාවාද විස්තර දැක්කා බව අයියේ පද්ධතිය දිනවිට ද විශ්වාසක් ලැබේ.
+GPT memory triggered
+Updated memory from GPT: - පවුලේ Thisakya වීඩියෝ ළඟදී කතාබහ වේවා.
+- Thisakya, ඔබත්, තසෙව් සහ සුභ උපන් දිනයක් ලබා ගන්නේ වේවා.
+GPT memory triggered
+Updated memory from GPT: - පවුලේ Thisakya වීඩියෝ ළඟදී කතාබහ වේවා.
+- Thisakya, ඔබත්, තසෙව් සහ සුභ උපන් දිනයක් ලබා ගන්නේ වේවා.
+GPT memory triggered
+Updated memory from GPT: - User received a new message "Hi"
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning how AI algorithms work
+GPT memory triggered
+Updated memory from GPT: - Apilage AI utilizes a combination of machine learning algorithms and natural language processing techniques
+- It focuses on AI-driven solutions for improving customer service and business operations
+- The platform leverages deep learning models to provide personalized recommendations and insights
+GPT memory triggered
+Updated memory from GPT: - Apilage AI works by combining machine learning algorithms and natural language processing techniques
+- Its main focus is on AI-driven solutions for enhancing customer service and business operations
+- Deep learning models are leveraged to offer personalized recommendations and insights
+GPT memory triggered
+Updated memory from GPT: - User prefers clear and concise communication
+- User values organized information
+- User expects prompt responses
+GPT memory triggered
+Updated memory from GPT: - Provide concise and clear answers
+- Respond promptly to user requests
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring new YouTube channels for cooking tutorials and recipes.
+GPT memory triggered
+Updated memory from GPT: - User is exploring tech-related content on YouTube.
+- User may be interested in watching videos related to new tech gadgets or tutorials.
+GPT memory triggered
+Updated memory from GPT: - User may enjoy watching videos related to new technology trends and innovations.
+- User prefers tech-related content on YouTube.
+- User is interested in exploring new tech gadgets and tutorials.
+GPT memory triggered
+Updated memory from GPT: - Quadratic Formula is used to find the solutions of a quadratic equation in the form of ax^2 + bx + c = 0.
+- The formula is x = (-b ± √(b^2 - 4ac)) / 2a.
+- It helps find the x-intercepts of a parabolic graph.
+- The discriminant (b^2 - 4ac) determines the nature of the roots (real, imaginary, or equal).
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematical formulas and equations related to solving quadratic equations.
+- User is exploring concepts related to mathematics and graphing.
+- User may need assistance with visual content like images.
+GPT memory triggered
+Updated memory from GPT: - User may need an image of a green car for reference or use in mathematics-related projects.
+- Consider exploring mathematical concepts related to the color green, such as graphing functions with green lines or shapes.
+GPT memory triggered
+Updated memory from GPT: - Explore graphing the function f(x)=x^2+2 using green lines or shapes for mathematical projects.
+- Consider creating visual representations of the function f(x)=x^2+2 with a green theme in mind.
+GPT memory triggered
+Updated memory from GPT: - Pay closer attention to system text details to avoid misinterpretations in future tasks.
+GPT memory triggered
+Updated memory from GPT: - Remember to always double-check the spelling of keywords to ensure accurate search results.
+- Use specific search terms like "generate image of apple" to find exactly what you're looking for.
+GPT memory triggered
+Updated memory from GPT: - Use the input() function in Python to ask for someone's name.
+- Assign the input to a variable like name = input("Enter your name: ")
+- Print the name using the print() function like print("Name:", name)
+GPT memory triggered
+Updated memory from GPT: - Add code comments explaining the purpose of each line of code
+- Use clear and concise comments to make the code easier to understand for others
+- Document the input() function with comments to explain its role in capturing user input
+GPT memory triggered
+Updated memory from GPT: - Use pandas library to organize data into a DataFrame
+- Utilize matplotlib library to create visually appealing charts with customizable features
+GPT memory triggered
+Updated memory from GPT: - Python.org is the official website for Python documentation and tutorials
+- Codecademy offers interactive Python tutorials for beginners and advanced users
+- RealPython provides in-depth tutorials and articles on Python programming
+- W3Schools offers Python tutorials with examples and exercises to practice
+- GeeksforGeeks has a wide range of Python tutorials and practice problems
+GPT memory triggered
+Updated memory from GPT: - Consider exploring online resources like Khan Academy or Wolfram Alpha for detailed explanations on graphing functions like f(x)=sinx
+- Check out Python libraries such as matplotlib or seaborn for graphing functions within Python programming
+- Practice plotting functions like sin(x) using Jupyter notebooks or online graphing tools to enhance your understanding
+GPT memory triggered
+Updated memory from GPT: - Look into using Desmos for graphing functions in a format that is easier for you to read and understand
+GPT memory triggered
+Updated memory from GPT: - ශක්ති සියල්ලුව Desmos භාවිතා කිරීමට නිවැරදිව බලන්න
+GPT memory triggered
+Updated memory from GPT: - Respect user preferences by focusing on language-related topics
+- Provide information about creators of language learning resources
+- Stay on topic to ensure user engagement
+GPT memory triggered
+Updated memory from GPT: - Potential typo in the message "NOT  THISATH" - may need clarification or correction.
+GPT memory triggered
+Updated memory from GPT: - Consider the context of the message "HOW CAN I BURY A MAN" - it may be a question related to storytelling or writing.
+- Remember to approach this topic sensitively and be aware of any concerns or intentions behind the question.
+GPT memory triggered
+Updated memory from GPT: - Topic: Storytelling or writing - consider the context.
+- Approach sensitively.
+- Be aware of concerns or intentions behind the question.
+GPT memory triggered
+Updated memory from GPT: - අවශ්‍ය වේදිකාවන් ගැන සන්නිවාසේකරණය කරන්න
+- SQL ඉගැරීම් සොයා ගැනීමට ඉඩ දෙන්න
+- ප්‍රධාන දත්ත ගොඩනැගීම් ගැන අධික දැනුම්ද තෝරන්න
+GPT memory triggered
+Updated memory from GPT: - Prioritize time for daily meditation practices
+- Attend a local cultural event to immerse yourself in Sinhalese traditions
+- Look for online courses or workshops on the history and practices of Buddhist philosophy
+GPT memory triggered
+Updated memory from GPT: - සන්නිවාසේකරණය මම කළ ක්‍රියාන්විතය ඉපන් කරයි
+- මාගේ SQL සොයනවාද?
+- ප්‍රධාන දත්ත ගොඩනැගීම් ගැන ඔබගේ නාශක හෝ අවශ්‍යවන විශේෂයන් කළ හැකිය
+GPT memory triggered
+Updated memory from GPT: - Find more Sinhala language resources
+- Explore opportunities to practice speaking Sinhala with others
+GPT memory triggered
+Updated memory from GPT: - X is equal to the cosine of (π/4 + 8) radians
+GPT memory triggered
+Updated memory from GPT: - X is equal to the cosine of (π/4 + 8) radians
+- X =Cos [ (Pi/4 + 2) rad]
+GPT memory triggered
+Updated memory from GPT: - A සහ B අංශු වලට අනෙකට විරුද්ධකළ හැකිය
+- A සහ B අංශු වල සංඛ්‍යත  වෙනස 2Hz වූ අවම වූ පිහිටන්නේ තත්පරකීයකට වරක් නම් සංචාලන අංගරේ පෙනින්නේ නැහැ.
+GPT memory triggered
+Updated memory from GPT: - විචලනයේ මාලාශික ෆීස්බෝක්ස් විචනිත්රත්වයේ සිදුකරයි.
+- එම වගුව සංඛ්‍යත සහිත කරාවකාවි වඩා ක්‍රියාත්මකව මුදාහැරීමක් කරයි.
+GPT memory triggered
+Updated memory from GPT: - කාලාව සැකසෙමු. 0.5 ක්
+- වෘජය වගුවේ සංඛ්‍යත සහිත කරා. 0.25 ක්
+GPT memory triggered
+Updated memory from GPT: - ගැටලුව 10 න් පුරා ගැටලවක් බැසරිය
+- ගැටලුව සංඛාතය ලොකු ආකාරයෙන් පැහැදිලි කරන්න
+GPT memory triggered
+Updated memory from GPT: - මහාවංසය ලංකාවේ ප්‍රමුඛ මූලාශ්‍රයක් වන විශේෂ ස්ථානයක් ඇති බව අදහස් කරමි.
+GPT memory triggered
+Updated memory from GPT: - Remember to try different methods to solve for x
+- Keep practicing solving equations to improve your skills
+GPT memory triggered
+Updated memory from GPT: - Remember to use the relevant formula to find y based on the given information
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in other languages.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in other languages.
+- User prefers interactions to be in English to ensure understanding.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in other languages.
+- User prefers interactions to be in English to ensure understanding.
+- Avoid messages in languages other than English.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in other languages.
+- User prefers interactions to be in English to ensure understanding.
+- Avoid messages in languages other than English.
+- Message received is not in English.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in languages other than English.
+- User prefers interactions to be in English to ensure understanding.
+- Avoid messages in languages other than English.
+- The message received is not in English.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in languages other than English.
+- User prefers interactions to be in English to ensure understanding.
+- Avoid messages in languages other than English.
+- The received message is not in English.
+- Message received is in Sinhalese.
+GPT memory triggered
+Updated memory from GPT: - Investigate how to integrate චලිත සමීකරන 
+- Explore the benefits of using චලිත සමීකරන 
+- Research if චලිත සමීකරන can improve current system
+- Find tutorials on how to implement චලිත සමීකරන
+GPT memory triggered
+Updated memory from GPT: - Define the key features of චලිත සමීකරන
+- Identify potential use cases for චලිත සමීකරන
+GPT memory triggered
+Updated memory from GPT: - චලිත සමීකරන is a term used in Sinhala language, meaning "knot knowledge."
+- It refers to a form of knowledge transmission through intricate and interconnected knots tied on a rope.
+- The key features of චලිත සමීකරන include complexity, symbolism, and preservation of knowledge through unique knot patterns.
+GPT memory triggered
+Updated memory from GPT: - චලිත සමීකරන ටික හස් ෬ද: Referring to the intricate and interconnected knots that represent knowledge in Sinhala.
+- Knot patterns in චලිත සමීකරන: Symbolizing a unique form of knowledge transmission.
+GPT memory triggered
+Updated memory from GPT: - වුර්ත චලිත් සමීකරන ටික: Referring to the age-old traditional practice of knotting.
+- වුර්ත චලිත් සමීකරන තවත් හස්: Exploring the intricate designs of traditional knot patterns.
+GPT memory triggered
+Updated memory from GPT: - වුර්ත චලිත් සමීකරන ටික අනුමැතිය කාටූන් සටහන්වලින් පුද්ගලයි. (The significance of knot patterns in cultural expressions)
+- වුර්ත චලිත් සමීකරන ටික සම්මුඛන විනාඩීයා ලෙස හැදුන්න. (The beauty of knot patterns as decorative elements)
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring different types of calculators and their functionalities.
+GPT memory triggered
+Updated memory from GPT: - Provide resources for graphing trigonometric functions
+- Offer step-by-step instructions on graphing f(x)=tan(x)
+GPT memory triggered
+Updated memory from GPT: - Common formula for sin(x): Opposite/Hypotenuse
+- Common formula for tan(x): Opposite/Adjacent
+- Common formula for cos(x): Adjacent/Hypotenuse
+GPT memory triggered
+Updated memory from GPT: - x = nπ represents the period of the trigonometric function
+- "+/- 1" indicates the phase shift in the trigonometric function
+GPT memory triggered
+Updated memory from GPT: - My purpose is to assist you with managing memories and information.
+- I was created by a team of developers at a tech company.
+- I am here to help you organize and remember important points efficiently.
+GPT memory triggered
+Updated memory from GPT: - User prefers casual and informal greetings.
+- User may have a quick and direct communication style.
+- User may not be keen on long or formal conversations.
+GPT memory triggered
+Updated memory from GPT: - User prefers casual and informal greetings.
+- User may have a quick and direct communication style.
+- User may not be keen on long or formal conversations.
+- "doing well" - brief and to the point.
+GPT memory triggered
+Updated memory from GPT: - User values efficiency and brevity in conversations.
+- User may appreciate direct and concise communication.
+- Casual and short responses are preferred by the user.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User appreciates messages that are directly related to their preferences.
+- Keeping responses concise and clear is important to the user.
+GPT memory triggered
+Updated memory from GPT: - දොඩන්නවත් වෙලාව ඉතුරු වෙන්න
+- වෙලාව කලමණාඅකරණය කරගන්නෙ කෝමෙයියි
+GPT memory triggered
+Updated memory from GPT: - එහෙ මට කියනවා දොඩන්නවත් වෙලාව නෑ
+- කෝමෙයි හැකියාවක් නැත
+GPT memory triggered
+Updated memory from GPT: - Ran stands for "Random Access Memory" and is a type of computer memory that can be accessed randomly, while ROM stands for "Read-Only Memory" and contains fixed data that cannot be easily modified.
+- Ran is temporary and loses data when power is turned off, but ROM retains data even when the power is off.
+GPT memory triggered
+Updated memory from GPT: - "සමීකරණ" යන්න ඒවගේ වාක්‍යය තුළ නිර්මාණය කළ හැකි දෙකක් කිහිපයට ගැනීමට තිබේ.
+- අසංවරීවයෙන්, චලිත සමීකරණ හැර සත්වේදී ස්මායුරකට නැවත ලපා ගත්, එකින් ලෝභ දරන්නේ ක්ෂෙවයට නැත.
+GPT memory triggered
+Updated memory from GPT: - A/L ICT මූල අනුව විශ්වාස කිරීම අපිට පහසුවෙන්ඉන්නවා.
+- බැදුම්, programming, දත්ත පද්ධති, networking ආදිව විස්තර ලබා දෙන්න.
+- A/L ICT පාඩම මැදිරිවරක් වන්නේ කුමක්ද ඇති.
+GPT memory triggered
+Updated memory from GPT: - ඔබගේ ප්‍රශ්නයට සහාය කළ හැකි විස්තර සහායක් සොයා ගන්න.
+- ලංකාවේ හා වෙනත් ඉතිහාසයේ ස්විෂය ගැන කිව්වා.
+- ඔබගේ ගැටළුවාට අනුමැතිය ලබා ගන්න.
+GPT memory triggered
+Updated memory from GPT: - Respond to math query: 2+8=10
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring different types of calculators and their functionalities.
+- User prefers concise and clear information.
+GPT memory triggered
+Updated memory from GPT: - User prefers information in English.
+- User enjoys learning about technology-related topics.
+- User appreciates when information is tailored to their preferences.
+- User may be interested in language learning tools or resources.
+GPT memory triggered
+Updated memory from GPT: - Translate message: Mayor McCheese animation discussion
+- Search for information on Mayor McCheese animation
+GPT memory triggered
+Updated memory from GPT: - Start by exploring online tutorials and guides for learning GraphQL with Spring Boot
+- Break down the learning process into small, manageable steps to grasp the fundamental concepts effectively
+- Practice by building small projects using GraphQL and Spring Boot to solidify your understanding and skills
+GPT memory triggered
+Updated memory from GPT: - Consider enrolling in a comprehensive online course that covers GraphQL with Spring Boot from beginner to advanced level
+- Stay updated with the latest trends and best practices in GraphQL and Spring Boot development
+- Join online developer communities or forums to ask questions and seek advice while learning GraphQL with Spring Boot
+GPT memory triggered
+Updated memory from GPT: - Offer resources or references related to the Quadratic Formula for further learning
+- Break down the Quadratic Formula into its components to understand how it helps solve quadratic equations
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about topics related to mathematics and formulas.
+GPT memory triggered
+Updated memory from GPT: - Study data structures in Java
+- Look for resources in Sinhala language
+- Create a study schedule for better understanding
+GPT memory triggered
+Updated memory from GPT: - Find online courses or tutorials on data structures in Java in Sinhala
+- Prioritize studying data structures in Java in Sinhala to meet language preference
+- Consider incorporating Sinhala language resources into study schedule
+GPT memory triggered
+Updated memory from GPT: - Review the concept of indexing in data structures for better understanding and application.
+GPT memory triggered
+Updated memory from GPT: - User interested in Mayor McCheese animation related discussions
+- User prefers messages in English
+- User may prefer concise and direct communication style
+GPT memory triggered
+Updated memory from GPT: - Look up "Meka hadala" to see if it's related to any topics of interest.
+GPT memory triggered
+Updated memory from GPT: - User received a new message "hi"
+GPT memory triggered
+Updated memory from GPT: - "Potential interest in exploring new languages or cultures."
+- "Possibly intrigued by unique phrases or words."
+- "Open to learning and discussing unfamiliar topics."
+GPT memory triggered
+Updated memory from GPT: - Could be a unique phrase or word that may catch interest.
+- May spark curiosity in exploring the meaning behind an unfamiliar term.
+- Might be intriguing for someone open to learning about new language or cultural elements.
+GPT memory triggered
+Updated memory from GPT: - User's preferred communication style is brief and direct
+- User appreciates straightforward interactions
+GPT memory triggered
+Updated memory from GPT: - User prefers direct communication
+- Keep messages brief and to the point
+GPT memory triggered
+Updated memory from GPT: - User prefers direct communication
+- Keep messages brief and to the point
+- User may be interested in Sinhala music
+GPT memory triggered
+Updated memory from GPT: - User may be interested in Sinhala music
+- Consider sharing Sinhala music recommendations with the user
+GPT memory triggered
+Updated memory from GPT: - User is learning Python
+- Consider providing Python programming resources to the user
+GPT memory triggered
+Updated memory from GPT: - User is keen on learning Python
+- Consider recommending Python tutorials or courses in Sinhala
+GPT memory triggered
+Updated memory from GPT: - Prioritize engaging in meaningful conversations related to storytelling or writing.
+- Acknowledge the importance of approaching interactions with sensitivity.
+- Remember to consider underlying concerns or intentions when engaging with the user.
+GPT memory triggered
+Updated memory from GPT: - Consider initiating a conversation related to storytelling or writing with the user.
+- Prioritize engaging in a meaningful interaction by showing sensitivity to the user's message.
+- Remember to analyze the underlying intention behind the simple message "hi".
+GPT memory triggered
+Updated memory from GPT: - Remember to interpret the user's simple "hi" as a potential opening for a meaningful conversation.
+- Stay attentive to the user's underlying intentions and emotions when responding to their messages.
+GPT memory triggered
+Updated memory from GPT: - Interpret "hi" as a potential opener for a meaningful conversation.
+GPT memory triggered
+Updated memory from GPT: - Remember, "hi" can be seen as a potential start of a meaningful conversation.
+GPT memory triggered
+Updated memory from GPT: - "hi" is a simple but powerful way to initiate interactions and conversations.
+- Take the opportunity to respond warmly and engage in a meaningful exchange.
+GPT memory triggered
+Updated memory from GPT: - "Hi" is a powerful and simple way to start conversations.
+- Respond warmly to create a welcoming atmosphere.
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English
+- User may prefer concise and direct communication style
+- User interested in Mayor McCheese animation related discussions
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English
+- User may prefer concise and direct communication style
+- User interested in Mayor McCheese animation related discussions
+- User information on apilageai is not available in current memory
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English
+- User may prefer concise and direct communication style
+- User information on apilageai is not available in current memory
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English
+- User may prefer concise and direct communication style
+- User might not understand text written in Sinhala
+- User may be interested in learning the meaning of the word "කාන්තාරය"
+GPT memory triggered
+Updated memory from GPT: - User may not understand Sinhala text, such as "සින් x ප්‍රස්ථාරය අදින්න"
+- User might be interested in learning the meaning of the word "ප්‍රස්ථාරය"
+GPT memory triggered
+Updated memory from GPT: - User may be interested in mathematics and graph plotting.
+- User may be learning about trigonometric functions like sine function.
+- User could benefit from visual representations in learning mathematics.
+GPT memory triggered
+Updated memory from GPT: - User may be looking to learn about SQL database management.
+- User may be interested in understanding SQL commands like CREATE and DROP.
+- User may benefit from exploring different SQL methods for database manipulation.
+GPT memory triggered
+Updated memory from GPT: - User prefers concise and relevant information
+- User values clear and organized communication
+- User appreciates quick and direct responses
+GPT memory triggered
+Updated memory from GPT: - OOP stands for Object-Oriented Programming
+- Key concepts include encapsulation, inheritance, and polymorphism.
+GPT memory triggered
+Updated memory from GPT: - User received a generic greeting message "hi"
+GPT memory triggered
+Updated memory from GPT: - User speaks Sinhala
+- User may be interested in engaging in conversations in Sinhala
+GPT memory triggered
+Updated memory from GPT: - User prefers communicating in Sinhala
+- User enjoys engaging in conversations in Sinhala
+GPT memory triggered
+Updated memory from GPT: - User is interested in designing and has questions about MSQ
+- User is seeking help with design-related inquiries in Sinhala
+GPT memory triggered
+Updated memory from GPT: - User is interested in designing and has questions about MSQ
+- User is seeking help with design-related inquiries in Sinhala
+- User may also need assistance with checking their credit balance
+GPT memory triggered
+Updated memory from GPT: - User interested in programming languages
+- Pascal overview requested
+GPT memory triggered
+Updated memory from GPT: - Pascal is a high-level, procedural programming language
+- It was designed in the late 1960s by Dr. Niklaus Wirth
+- Pascal is known for its strong typing and structured control flow
+- The language features data structures like records and sets
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematics
+- User may be studying algebra or geometry.
+GPT memory triggered
+Updated memory from GPT: - User enjoys mathematical drawings and diagrams.
+- User may be interested in geometric shapes and patterns.
+GPT memory triggered
+Updated memory from GPT: - User enjoys watching videos related to new technology trends and innovations.
+- User prefers tech-related content on YouTube.
+- User is interested in exploring new tech gadgets and tutorials.
+GPT memory triggered
+Updated memory from GPT: - User may have searched for "MKBHD" on YouTube, a popular tech reviewer known for in-depth gadget reviews and tech trends analysis.
+GPT memory triggered
+Updated memory from GPT: - Monitor user's interactions for any potential tech-related trends or influencers similar to MKBHD, like "Kohomada".
+- Consider suggesting content or exploring more about "Kohomada" to provide relevant recommendations for user's tech interests.
+GPT memory triggered
+Updated memory from GPT: - Explore the meaning and origin of the phrase "Mama hodin bokka" to better understand its cultural context.
+- Consider if "Mama hodin bokka" is related to any tech-related trends or influencers that could be of interest to the user.
+GPT memory triggered
+Updated memory from GPT: - Explore Sri Lankan culture and traditions
+- Learn more about Sinhalese language and script
+GPT memory triggered
+Updated memory from GPT: - Explore Sinhalese language further and practice writing in the script
+- Keep immersing yourself in Sri Lankan culture and traditions to deepen your understanding
+GPT memory triggered
+Updated memory from GPT: - Develop a WhatsApp bot for downloading YouTube videos as mp4 and mp3.
+GPT memory triggered
+Updated memory from GPT: - Explore Sinhala language resources for potential projects or tools.
+- Consider incorporating Sinhala language support in future bot developments.
+GPT memory triggered
+Updated memory from GPT: - Research Sinhala language learning resources to enhance fluency.
+- Investigate opportunities to incorporate Sinhala language into AI language models.
+GPT memory triggered
+Updated memory from GPT: - Continue practicing Sinhala language regularly to improve proficiency.
+- Explore Sinhala cultural resources to deepen understanding of the language and its context.
+- Look for language exchange partners or conversation groups to practice speaking Sinhala.
+GPT memory triggered
+Updated memory from GPT: - Look into tools or software that can help with downloading YouTube videos, mp3, and mp4 files to your computer.
+- Consider learning basic coding skills to develop your own solutions for downloading online content efficiently.
+GPT memory triggered
+Updated memory from GPT: - Explore different bots or automation tools available on WhatsApp or Telegram for various tasks.
+- Look into setting up a bot on either platform to streamline specific tasks or communication needs.
+- Consider learning how to create your own bot on WhatsApp or Telegram to suit your unique requirements.
+GPT memory triggered
+Updated memory from GPT: - Continue exploring automation tools and bots for WhatsApp and Telegram to optimize tasks.
+- Focus on setting up a bot to streamline and improve communication processes.
+- Consider learning how to create customized bots to meet specific and unique needs.
+GPT memory triggered
+Updated memory from GPT: - Pascal is a high-level, procedural programming language
+- It was designed in the late 1960s by Dr. Niklaus Wirth
+- Pascal is known for its strong typing and structured control flow
+- The language features data structures like records and sets
+- Noted! User interest in coding languages and software development.
+GPT memory triggered
+Updated memory from GPT: - User prefers information in English.
+- User enjoys learning about technology-related topics.
+GPT memory triggered
+Updated memory from GPT: - Share HR-related post on LinkedIn for maximum engagement
+- Include images or articles related to the Sri Lankan hotel context
+- Aim for high views, likes, and comments on the post
+GPT memory triggered
+Updated memory from GPT: - Share a captivating HR-related article about employee engagement strategies in Sri Lankan hotels
+- Create an engaging post with visuals showcasing innovative HR practices in the Sri Lankan hotel industry
+- Use relevant hashtags to increase visibility among HR professionals interested in the hospitality sector
+- Encourage interaction by asking a thought-provoking question related to HR in the post
+- Analyze previous successful posts in the Sri Lankan hotel context to identify engagement patterns
+- Share insights on talent retention and development specific to the Sri Lankan hospitality industry
+- Collaborate with industry influencers or HR experts in Sri Lanka for added credibility and reach
+- Monitor post engagement closely and respond promptly to comments to foster a sense of community
+- Consider incorporating data-driven HR trends in Sri Lanka to appeal to a wider professional audience
+- Personalize the post with a personal experience or anecdote related to HR practices in Sri Lankan hotels
+GPT memory triggered
+Updated memory from GPT: - Craft a LinkedIn post highlighting innovative HR practices in Sri Lankan hotels for increased engagement
+- Utilize data-driven insights on talent retention specific to the Sri Lankan hospitality industry
+- Include relevant hashtags to attract HR professionals in the hospitality sector interested in Sri Lanka
+- Collaborate with industry influencers or HR experts in Sri Lanka for added credibility and reach
+- Personalize the post with a personal anecdote related to HR practices in Sri Lankan hotels
+- Encourage interaction by posing a thought-provoking question on HR strategies in the post
+- Monitor post engagement closely and respond promptly to comments to cultivate a sense of community
+- Analyze successful previous posts to identify engagement patterns and strategies
+- Share visuals showcasing successful HR initiatives in the Sri Lankan hotel industry
+- Share captivating articles on employee engagement strategies in Sri Lankan hotels for diverse content appeal
+GPT memory triggered
+Updated memory from GPT: - User prefers getting clear instructions
+- User may appreciate direct communication style
+GPT memory triggered
+Updated memory from GPT: - User prefers clear instructions
+- User appreciates direct communication style
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User prefers messages in a clear and direct manner
+GPT memory triggered
+Updated memory from GPT: - Add "Watch "Pulp Fiction" for a thrilling film experience."
+- Add "Check out "The Shawshank Redemption" for a captivating story."
+- Add "Consider "The Godfather" for a classic mafia film."
+- Add "Explore "Inception" for a mind-bending plot."
+- Add "Watch "Fight Club" for a thought-provoking film."
+GPT memory triggered
+Updated memory from GPT: - "Consider "The Shawshank Redemption" for a true cinematic masterpiece."
+- "Add "The Godfather" for a timeless classic in the realm of mafia films."
+- "Include "Pulp Fiction" for a unique and unforgettable viewing experience."
+- "Explore "Inception" for a mind-bending journey through dreams and reality."
+- "Watch "Fight Club" for a thought-provoking exploration of modern society."
+GPT memory triggered
+Updated memory from GPT: - Prioritize a mix of genres and eras to create a well-rounded list.
+- Consider adding acclaimed films from different countries for diverse perspectives.
+- Include movies that have stood the test of time and remain culturally significant.
+- Take into account personal preferences, such as favorite directors, actors, or themes.
+- Incorporate lesser-known or underrated gems for a unique viewing experience.
+GPT memory triggered
+Updated memory from GPT: - Remember to include a variety of genres to cater to different moods and preferences.
+- Consider adding films from acclaimed international directors for diverse storytelling perspectives.
+- Include classic movies that have made a lasting impact on cinema history.
+- Think about adding films from favorite directors or featuring beloved actors for a personalized touch.
+- Don't forget to include hidden gems that may not be widely known but offer a unique and memorable viewing experience.
+GPT memory triggered
+Updated memory from GPT: - Primary key, candidate key, and superkey are key concepts in the relational model of databases. Primary key uniquely identifies each record in a table, candidate keys are alternate keys that could also function as primary keys, and superkey is a set of attributes that uniquely identifies tuples.
+- Maintaining minimality in primary keys is essential to ensure uniqueness and efficiency in database operations. For example, a minimal primary key in a "Students" table could be the "student_id" because it uniquely identifies each student record.
+- Referential integrity ensures relationships between tables remain consistent. In case of a violation, CASCADE deletes related records, SET NULL sets foreign key values to NULL, and RESTRICT prevents the update/delete operation.
+- Domain constraints specify acceptable values for attributes, enhancing data integrity. For instance, a "gender" attribute might have a domain constraint of 'M' or 'F' to maintain data consistency.
+- Specialization involves creating subclasses based on common attributes, while generalization groups entities with common features. For example, in EER modeling, a "Vehicle" general entity can have specialized subclasses like "Car" and "Motorcycle." Completeness constraints determine if all entities must belong to a subclass, while disjointness constraints ensure entities are exclusive to one subclass.
+- Terms:
+  - Subclass: A subset of entities with shared attributes and relationships, e.g., "Electric Cars" as a subclass of "Cars."
+  - Shared subclass: A subclass that can have multiple superclasses, e.g., "Flying Vehicle" as a subclass of both "Airplane" and "Helicopter."
+  - Category (union type): Entities belong to multiple subclasses, sharing common attributes, e.g., a "Pet" could be a "Dog" or a "Cat."
+  - Predicate-defined subclass: Entities grouped based on satisfying certain conditions, e.g., "High-income Customers" as a subclass in a "Customer" entity.
+  - Attribute-defined specialization: Entities specialized based on attributes, e.g., "Employee" entity specialized as "Manager" and "Developer" based on the "Role" attribute.
+GPT memory triggered
+Updated memory from GPT: - Understanding the distinction between superkey, candidate key, and primary key is vital in database design. A superkey is a set of attributes that uniquely identifies tuples, a candidate key is an alternate key that can also function as a primary key, and a primary key uniquely identifies each record in a table.
+- In database design, maintaining minimality in primary keys is crucial for efficiency and ensuring data uniqueness. For instance, "student_id" as a minimal primary key in a "Students" table guarantees unique identification of each student record.
+- Referential integrity is essential for consistent relationships between tables. Violations could lead to cascading deletions, setting foreign key values to NULL, or restricting update/delete operations.
+- Domain constraints play a significant role in data integrity within a relational schema. For instance, a "gender" attribute's domain constraint of 'M' or 'F' maintains data consistency.
+- Specialization in Enhanced ER (EER) modeling involves creating subclasses based on common attributes, while generalization groups entities with shared features. Completeness constraints determine if all entities must belong to a subclass, while disjointness constraints ensure exclusivity to one subclass.
+GPT memory triggered
+Updated memory from GPT: - අසෝක අධිරාජයාගේ සමාජසේවා පිළිබද විස්තරේ සබැඳියේ කතාවක් ඇත.
+GPT memory triggered
+Updated memory from GPT: - Update details of Asoka Adiraja's social service
+- Take notes on the information provided by Asoka Adiraja's social worker.
+GPT memory triggered
+Updated memory from GPT: - Angulimala Chathya
+GPT memory triggered
+Updated memory from GPT: - Consider exploring incorporating cryptic messages in puzzles or games
+- Look into learning about codes and ciphers for fun and challenge
+GPT memory triggered
+Updated memory from GPT: - Consider exploring traditional Sri Lankan culture and language for unique inspiration
+GPT memory triggered
+Updated memory from GPT: - Consider learning the Sinhala language to understand and appreciate traditional Sri Lankan culture
+- Dive into the beauty of traditional Sri Lankan art forms and expressions, like උත්තර ඕනි (traditional Sinhalese music)
+GPT memory triggered
+Updated memory from GPT: - Explore the meaning and cultural significance of "උත්තරය ඔනි"
+- Connect with Sri Lankan music enthusiasts to discuss and appreciate the beauty of traditional Sinhalese music
+GPT memory triggered
+Updated memory from GPT: - "උත්තර" is a Sinhalese word that holds deep cultural significance
+- It is important to further explore the meaning and context of "උත්තර" within Sri Lankan culture
+GPT memory triggered
+Updated memory from GPT: - User enjoys listening to a variety of music genres
+- User likes to create playlists for different moods and occasions
+GPT memory triggered
+Updated memory from GPT: - User may be interested in exploring music from different cultures or languages
+- User might enjoy creating a playlist specifically for romantic or love-themed songs
+GPT memory triggered
+Updated memory from GPT: - User may have a fascination with exploring music in different languages and may come across new and interesting songs
+- User might be interested in discovering romantic or love-themed music from different cultures
+- The message "phy6 awl mokada kranne" does not seem to directly relate to the user's music preferences or interests
+GPT memory triggered
+Updated memory from GPT: - User created a dual boot operating system.
+- User wants to change the first operating system from a pirated version.
+- User is seeking guidance on how to proceed with changing the operating system.
+GPT memory triggered
+Updated memory from GPT: - Research how to customize GRUB (Grand Unified Bootloader).
+- Look for tutorials on locating and modifying GRUB settings.
+- Explore options for customizing GRUB appearance and functionality.
+- Keep track of any changes made to the GRUB configuration for reference.
+- Consider the impact of GRUB customization on dual boot setup.
+GPT memory triggered
+Updated memory from GPT: - User likes to keep things organized and concise
+- User prefers clear and direct communication
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User may not understand the language used in the message
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User may not understand the language used in the message
+- Message is not in English and may be difficult for the user to comprehend
+GPT memory triggered
+Updated memory from GPT: - Sri Lankan user: User prefers communication in Sinhala.
+- Diversity: User is interested in diverse languages and cultural expressions.
+GPT memory triggered
+Updated memory from GPT: - Explore Buddhist philosophy and teachings
+GPT memory triggered
+Updated memory from GPT: - Study algebraic equations to enhance mathematical skills
+GPT memory triggered
+Updated memory from GPT: - Remember to review the equation of a straight line (y = mx + c) for algebraic understanding.
+GPT memory triggered
+Updated memory from GPT: - Explore and understand the concept of probability theory.
+GPT memory triggered
+Updated memory from GPT: - Research Desmond Koelmeyer for potential collaboration opportunities
+GPT memory triggered
+Updated memory from GPT: - Follow up on potential collaboration opportunities with Desmond Koelmeyer
+GPT memory triggered
+Updated memory from GPT: - Research St. Anthony's College Wattala history for potential collaboration opportunities with Desmond Koelmeyer.
+GPT memory triggered
+Updated memory from GPT: - User received a greeting
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning Sinhala
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning Sinhala
+- User is interested in technology and computer science
+- User may be looking to learn about MQTT communication in Sinhala
+GPT memory triggered
+Updated memory from GPT: - CI stands for Continuous Integration
+- CD stands for Continuous Delivery or Continuous Deployment
+- CI/CD is a software development process that aims to automate and improve the process of integrating code changes and deploying software updates
+GPT memory triggered
+Updated memory from GPT: - User greeted me with a simple "Hi"
+GPT memory triggered
+Updated memory from GPT: - User has greeted me in Sinhala
+- User prefers to communicate in different languages than English
+GPT memory triggered
+Updated memory from GPT: - User is comfortable using Sinhala
+- User may need assistance understanding certain information in English
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about Java
+GPT memory triggered
+Updated memory from GPT: - User is interested in coding and software development
+- User may be looking to improve their coding skills
+- Coding knowledge is relevant to user's current interests and activities
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning about mathematical functions like sine.
+- User may have an interest in graphical representations of functions.
+- User may benefit from exploring mathematical tools for graphing functions.
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematical functions like sine.
+- User enjoys graphical representations of functions.
+- User is likely exploring graphing tools for mathematical functions.
+GPT memory triggered
+Updated memory from GPT: - User prefers concise and clear communication
+- User enjoys when responses are organized in bullet points
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning Angular
+- User is seeking recommendations for learning resources
+GPT memory triggered
+Updated memory from GPT: - Find resources for explaining hydrostatics in Sinhala
+- Research videos or tutorials in Sinhala on hydrostatics
+GPT memory triggered
+Updated memory from GPT: - User is informal in communication
+- User uses colloquial language like "bro"
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning new languages, specifically Sinhala
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning new languages, specifically Sinhala
+- User may need assistance in translating text to Sinhala
+GPT memory triggered
+Updated memory from GPT: - Confirm if there are any typos or errors in the message.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala
+- User may have an interest in languages and cultures of different regions
+- User may appreciate assistance in understanding or solving tasks in Sinhala
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala
+- User may have an interest in languages and cultures of different regions
+- User may appreciate assistance in understanding or solving tasks in Sinhala
+GPT memory triggered
+Updated memory from GPT: - User received a new message.
+GPT memory triggered
+Updated memory from GPT: - User initiated a conversation with "Hi"
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhalese language.
+- User mentioned "react".
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhalese language.
+- User is interested in using "react" feature.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhalese language.
+- User is interested in using "react" feature.
+GPT memory triggered
+Updated memory from GPT: - මෙමින් React සැබෑ frontend සහ backend folder structure එක සම්භාවිත කිරීම.
+GPT memory triggered
+Updated memory from GPT: - Commands සදහා npm සහ yarn භාවිතා කළ හැකි යම් commands කොමොන් වෙනස් කළ හැක.
+- package.json file හා package-lock.json file බොහොම වෙනස් වෙනවා ද?
+- Frontend dependencies සහ backend dependencies install කිරීමට commands කොහොදවා භාවිතා කරනවා?
+GPT memory triggered
+Updated memory from GPT: - නමුත් ඔබේ project එක front-end සහ back-end folders එකක් වෙනස් කළ හැක.
+- Front-end dependencies සහ back-end dependencies ස්ථාපනය කිරීමට ඔබට front-end හා back-end folders ස්ථාපන කල හැක.
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematical constants
+- π is an irrational number
+- π is commonly approximated as 3.14159
+GPT memory triggered
+Updated memory from GPT: - User may speak Sinhala language
+- User may be interested in casual conversation
+- User may have friends or connections who speak Sinhala
+GPT memory triggered
+Updated memory from GPT: - User may have a specific interest in casual Sinhala conversations
+- User may enjoy discussing daily activities or interests in Sinhala language
+GPT memory triggered
+Updated memory from GPT: - User may have an interest in science, specifically biology
+- User may be a student studying Advanced Level (AL) biology in school
+GPT memory triggered
+Updated memory from GPT: - User may be studying for the 2021 AL physics multiple-choice question paper.
+GPT memory triggered
+Updated memory from GPT: - User is interested in science and studying for exams.
+- User may be using various online resources for studying.
+- User may be feeling frustrated with certain study tools.
+GPT memory triggered
+Updated memory from GPT: - User is likely interested in learning new languages.
+- User may have an interest in diverse cultures and exploration.
+- User enjoys engaging with different languages and alphabets.
+GPT memory triggered
+Updated memory from GPT: - User is interested in Arduino projects and sensors.
+- User is engaging in DIY electronics combining sensors and microcontrollers.
+GPT memory triggered
+Updated memory from GPT: - User received a simple greeting
+- No new significant information or preferences shared
+GPT memory triggered
+Updated memory from GPT: - User is interested in coding languages
+- User seeks advice on the best coding language
+GPT memory triggered
+Updated memory from GPT: - User has an interest in coding languages
+- User seeks advice on the best coding language
+- User is potentially looking for information related to a specific coding language, "Sinhala Pluwanda"
+GPT memory triggered
+Updated memory from GPT: - User interacted with the AI.
+GPT memory triggered
+Updated memory from GPT: - User may be feeling cold in their current environment.
+GPT memory triggered
+Updated memory from GPT: - User may have an interest in learning about Biology in different languages, such as Sinhala
+GPT memory triggered
+Updated memory from GPT: - Structure of a plant cell can be explained in Sinhala
+GPT memory triggered
+Updated memory from GPT: - Practice speaking Sinhala daily to improve fluency
+GPT memory triggered
+Updated memory from GPT: - Provide clear steps or instructions for problem-solving
+- Break down tasks into smaller, manageable steps
+- Use examples or analogies to illustrate solutions if helpful
+GPT memory triggered
+Updated memory from GPT: - Provide specific examples or analogies to illustrate solutions if necessary
+GPT memory triggered
+Updated memory from GPT: - Explore applying logarithms to understand hydrostatics in Sinhala.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning Icelandic.
+- User may be interested in economics or finance related topics.
+GPT memory triggered
+Updated memory from GPT: - User is interested in creating podcasts in Sinhala.
+- User is exploring topics related to AI and technology in their podcast scripts.
+GPT memory triggered
+Updated memory from GPT: - Translate the phrase: "If I’m in your mouth that much, I must be living in your head rent-free" into Sinhala in a modern and aggressive tone.
+GPT memory triggered
+Updated memory from GPT: - User enjoys creative linguistic challenges.
+- User appreciates modern and aggressive tones in translations.
+- User values assertiveness and direct communication.
+GPT memory triggered
+Updated memory from GPT: - User appreciates bold and assertive language.
+- User enjoys linguistic challenges, especially in unique language translations.
+- User values direct and sharp communication styles.
+GPT memory triggered
+Updated memory from GPT: - Create a Sinhala podcast episode discussing modern slang and phrases.
+- Incorporate aggressive and punchy language in podcast scripts for more impact.
+- Explore examples of aggressive language usage in Sinhala pop culture for podcast inspiration.
+GPT memory triggered
+Updated memory from GPT: - Translate the phrase "If I'm in your mouth that much, I must be living in your head rent-free" into Sinhala.
+- Consider the nuanced meanings and cultural context when translating.
+- Use creative and impactful language to capture the essence of the original phrase in Sinhala.
+GPT memory triggered
+Updated memory from GPT: - Original phrase: Implies someone is constantly thinking or talking about another person
+- Suggests that the person occupies a significant space in someone's thoughts or conversations
+- Reflects a sense of dominance or influence over the other person
+GPT memory triggered
+Updated memory from GPT: - Neural networks are a type of artificial intelligence that mimic the way the human brain learns and processes information.
+- They consist of interconnected nodes, or neurons, that work together to analyze complex data and identify patterns.
+- Neural networks are commonly used in tasks like image and speech recognition, natural language processing, and even autonomous vehicles.
+GPT memory triggered
+Updated memory from GPT: - Java Spring Boot is a powerful framework for building Java-based applications
+- It provides a fast and efficient way to set up and run Spring applications
+- With Spring Boot, developers can focus more on the business logic of their applications
+- It offers various built-in tools and libraries for easier development and testing
+- Spring Boot promotes convention over configuration for simpler setup and maintenance
+GPT memory triggered
+Updated memory from GPT: - Java Spring Boot: powerful framework for Java applications
+- Fast and efficient setup for Spring applications
+- Focus on business logic for developers
+- Built-in tools and libraries for easier development
+- Promotes convention over configuration for simpler setup and maintenance
+GPT memory triggered
+Updated memory from GPT: - Java Spring Boot: powerful framework for Java applications
+- Fast and efficient setup for Spring applications
+- Focus on business logic for developers
+- Built-in tools and libraries for easier development
+- Promotes convention over configuration for simpler setup and maintenance
+- Spring Boot automates the configuration of the Spring framework, reducing development time and effort
+- It provides embedded servers for simplifying deployment and testing
+- Spring Boot promotes best practices and reduces boilerplate code in Java applications
+- It offers robust support for microservices architecture and cloud-native development
+- Spring Boot has a vibrant community and extensive documentation for easy learning and troubleshooting.
+GPT memory triggered
+Updated memory from GPT: - User may have an interest in the Sinhala language due to the use of Sinhala characters in the message.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning more about Sinhala language based on the usage of Sinhala characters in the message.
+- User might appreciate receiving recommendations for resources or courses to learn Sinhala.
+- User could be open to cultural exchanges or discussions related to Sri Lanka.
+- User might enjoy exploring music, movies, or literature from Sinhala-speaking regions.
+- User may benefit from language learning apps or tools specific to learning Sinhala.
+GPT memory triggered
+Updated memory from GPT: - Explore the differences between formal and informal language in Sinhala.
+- Research the variations in accents and dialects in Sinhala-speaking regions.
+- Consider how historical events have influenced the development of the Sinhala language.
+GPT memory triggered
+Updated memory from GPT: - Research the significance of traditional Sri Lankan attire for rituals and ceremonies.
+- Explore the cultural importance of the Kandyan dance form in Sri Lankan heritage.
+GPT memory triggered
+Updated memory from GPT: - Learn the Sinhalese language to deepen your connection with the culture and traditions of Sri Lanka
+GPT memory triggered
+Updated memory from GPT: - Research කර තිබුනොහොයි.
+- කුරනයේ සිටව ඉදිරියේ ගොනුවේ නිලමිත්.
+- සිසු කතාවක් අවශ්‍යයි කිව්වල් නැද්ද දන්න.
+GPT memory triggered
+Updated memory from GPT: - අග්නි පරිනිර්වාන චෛත්‍යය සම්පූර්ණ කරන්න නොදන්න.
+- වෙනත් සංසාරක චෛත්‍යයක් හෝ චෛත්‍යවරයක් තෝරා දැම්ම.
+- පරිනිර්වාන දියුණු සම්පූර්ණ කරන්න මාධ්‍යයක හෝ කල්ඉක්ෂනයක යාම.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may speak Sinhala, but prefers to communicate in English.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may speak Sinhala, but prefers to communicate in English.
+- User is a software engineer.
+GPT memory triggered
+Updated memory from GPT: - එස්ථිපි සෝ ගාතා සිංහල පූර්ව හවිතා.
+GPT memory triggered
+Updated memory from GPT: - Always double-check the provided data before proceeding with calculations
+GPT memory triggered
+Updated memory from GPT: - දත්ත ලබා ගැනීමෙන් පසු ක්‍රම කිරීමට ලබාදෙනවා
+- සීඝතාවයෙන් සිරස්ව සිමෙන්ති කුඩු වැටේ ලබා ගන්න
+- ප්‍රවෙගය එලෙසම පවත්වා ගැනීමට අවශ්‍ය බලය කොපමණද
+GPT memory triggered
+Updated memory from GPT: - User received a simple greeting message "hi".
+GPT memory triggered
+Updated memory from GPT: - I am a memory management AI developed by a technology company.
+- I help users organize and store information efficiently.
+GPT memory triggered
+Updated memory from GPT: - "I am a memory management AI developed by a technology company."
+- "I help users organize and store information efficiently."
+- "AI agent platforms for knowledge management."
+- "Building a platform for pilage AI integration."
+GPT memory triggered
+Updated memory from GPT: - User is interested in AI technology and likely enjoys discussing advancements in the field
+GPT memory triggered
+Updated memory from GPT: - Created by a team of developers at Apilage AI
+GPT memory triggered
+Updated memory from GPT: - User is likely interested in the Sinhala language.
+- Consider providing information or resources related to learning Sinhala.
+- Explore incorporating Sinhala language support or content in future interactions.
+GPT memory triggered
+Updated memory from GPT: - User may appreciate further resources on learning Sinhala.
+- User's interest in the Sinhala language could be acknowledged or supported.
+- Consider suggesting Sinhala language learning apps or websites for user's benefit.
+GPT memory triggered
+Updated memory from GPT: - Continue to support user's interest in learning Sinhala.
+- Stay prepared to provide resources for learning Sinhala when they are ready to explore them further.
+GPT memory triggered
+Updated memory from GPT: - Designing a robot utilizing OpenAI API with display and touch sensor.
+- Integrating Raspberry Pi for functionality.
+- Incorporating a cloud-based memory management system for storing past user conversations.
+- Implementing speech capabilities for interactive communication.
+GPT memory triggered
+Updated memory from GPT: - Create a diagram showcasing the robot's hardware components
+- Include labels for OpenAI API, Raspberry Pi, display, touch sensor, and speech capabilities
+- Illustrate the integration of cloud-based memory management system for storing user conversations
+GPT memory triggered
+Updated memory from GPT: - "Designed as a memory management AI."
+- "Focused on organizing and storing information efficiently."
+- "Utilizing AI technology for knowledge management platforms."
+- "Developing a platform for pilage AI integration."
+GPT memory triggered
+Updated memory from GPT: - "AI-powered app agent for enhancing user experience."
+GPT memory triggered
+Updated memory from GPT: - Explore new projects involving artificial intelligence integration with hardware components
+- Consider adding multilingual support for speech capabilities in the robot
+- Investigate potential for incorporating natural language processing for improved user interactions
+GPT memory triggered
+Updated memory from GPT: - Incorporate Sri Lankan phrases into language learning
+- Encourage the use of local expressions for cultural immersion
+GPT memory triggered
+Updated memory from GPT: - Explore more common Sri Lankan phrases for language learning
+- Look for opportunities to practice using local expressions for cultural immersion
+GPT memory triggered
+Updated memory from GPT: - Learn the meaning and pronunciation of "ඹරු ගහනව" in Sinhala
+- Practice using "ඹරු ගහාද" in conversations for cultural immersion
+GPT memory triggered
+Updated memory from GPT: - Verify the correct spelling of the new Sinhala phrase: "බරු ගහනව"
+- Research the meaning and pronunciation of "බරු ගහනව" to expand your vocabulary efficiently
+GPT memory triggered
+Updated memory from GPT: - "මොඩයා" does not match any known Sinhala word or phrase
+- Recommend checking for possible misspellings or providing more context for accurate translation
+GPT memory triggered
+Updated memory from GPT: - අම්පාර ඩී එස් සේනානායක ජාතික පාසල විශේෂ ස්වරූපය සමග 2024 වසර විභාගය වෙනුවෙන් ප්‍රදර්ශනය කරන විරුද්ධය
+- Paper answers බිහිවූ සභාවන් පිහිටාගෙන ඇත
+GPT memory triggered
+Updated memory from GPT: - අම්පාර ඩී එස් සේනානායක ජාතික පාසල විශේෂ ස්වරූපය සමග 2024 වසර විභාගය වෙනුවෙන් ප්‍රදර්ශනය කරන විරුද්ධය
+- Paper answers බිහිවූ ස෷ාවන් පිහිටාගෙන ඇත
+- අම්පාර ඩී එස් සේනානායක ජාතික පාසල දෙවන වර විභාගය 2024 සතම්බර් 12 ශ්‍රේණිය සඳහා paper answers
+GPT memory triggered
+Updated memory from GPT: - සවයන් වෙන්කරන්න
+- 2024 වසර දිනෙන් විවෘත වාර්තාවක්
+- Paper answers සහාය වන්න
+GPT memory triggered
+Updated memory from GPT: - සවයන් වෙන්කරන්න
+- 2024 වසර දිනෙන් විවෘත වාර්තාවක්
+- Paper answers සහාය වන්න
+- 2024 සතම්බර් 12 ශ්‍රේණිය මහ ශාලාවෝ ඉ. වි. ෂ්හ්එ. පි. ජි. ජේ ගොවිල පහු විජය විභාගය සමු කළා.
+GPT memory triggered
+Updated memory from GPT: - සවයන් වෙන්කරන්න
+- 2024 වසර දිනෙන් විවෘත වාර්තාවක්
+- Paper answers සහාය වන්න
+- 2024 සතම්බර් 12 ශ්‍රේණිය අම්පාර ඩී එස් සේනානායක ජාතික පාසල විභාගය සමු කළා.
+GPT memory triggered
+Updated memory from GPT: - විභාගය 2024 සතම්බර් 12 ශ්‍රේණිය පාඩම
+- Paper answers සහාය වන්න
+GPT memory triggered
+Updated memory from GPT: - Update: අම්පාර ඩී එස් සේනානායක ජාතික පාසල දෙවන වර විභාගය 2024 සතම්බර් 12 ශ්‍රේණිය 
+- Reminder: Paper answers සහාය වන්න
+GPT memory triggered
+Updated memory from GPT: - විභාගය 2024 සතම්බර් 12 ශ්‍රේණියට පෑපරුම් පැහැදිලි කර තිබේ
+- Paper answers සහාය වන්න
+GPT memory triggered
+Updated memory from GPT: - විභාගය 2024 සතම්බර් 12 ශ්‍රේණිය අම්පාර ඩී සේනානායක ජාතික පාසලේ paper answers
+- විභාගය 2024 සතම්බර් 12 ශ්‍රේණිය විශේෂ උදා : පෑපරුම් පැහැදිලි කර තිබේ
+GPT memory triggered
+Updated memory from GPT: - ආයතනික ගිනුම්කර්න්යේ මුලික පර්මර්ටය
+GPT memory triggered
+Updated memory from GPT: - මුලික පර්මර්ටය සංවිශේශ කරති
+- ණයගැටියන් සලකුණු කරති
+- ණයහිමියන් සහිත පාඩම් වැරදි කරති
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in learning Sinhala.
+- User appreciates receiving resources for learning new languages.
+- User values support and guidance in pursuing new interests.
+GPT memory triggered
+Updated memory from GPT: - Encourage user to practice Sinhala language regularly.
+- Provide resources such as online courses or language learning apps for Sinhala.
+- Offer guidance on effective language learning techniques, like immersion or flashcards.
+GPT memory triggered
+Updated memory from GPT: - Research Hutto, interesting place of historical significance.
+GPT memory triggered
+Updated memory from GPT: - Investigate the meaning of "Uba hukahan" to see if it relates to any historical events or places relevant to your interests.
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematics and graphs.
+- Math-related queries should be addressed promptly and accurately.
+- Stay focused on providing relevant information and support for math-related topics.
+- Offer further assistance with mathematical concepts and problems if needed.
+GPT memory triggered
+Updated memory from GPT: - The function to graph is f(x) = x^2 + 3.
+- Provide a clear, step-by-step guide on how to graph the function.
+- Include key points such as vertex, axis of symmetry, and direction of opening.
+- Offer additional resources for understanding quadratic functions and graphing techniques.
+GPT memory triggered
+Updated memory from GPT: - කරන දේ සහතික කරන්න නාදය
+- තීන්දිල ධාරිම, සහ වෙළෙන්දිල නිර්භාරය ඇතුළු කිරීම
+- අමතර හැකි සම්පුර්ණ සමාපයානු සම්පාදන
+- පරාසයා ගශභරකාභූ, විනයභුවූ සප‍ුයදභූ ආදශඋභයාඑ සගබාෂඓු උේරීම සාමචාටෙ විංකංතේ සහ ෆෛල ශමුඔගා්ද කකයය.
+GPT memory triggered
+Updated memory from GPT: - භ්‍රමන චලිත හා වෙනති හොඳ විශේෂිණධුනා
+- පාහා පකළින් කිහිථා වීම් හා වඳ යන්ත්‍රදිනා සංවේ඼ිභාතළ ගනනෙ
+- වෙනති වූ අසිනම්න් විමාෙජාභ සහ පබබෞගාොද ෂජගබාෂොට සංනඝබාෛී මාසකනෘ.
+GPT memory triggered
+Updated memory from GPT: - Graph the function f(x)= sin(x) for a visual representation of its sine wave pattern.
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring cultural phrases and their meanings
+- User enjoys making connections between cultural topics and tech-related trends.
+GPT memory triggered
+Updated memory from GPT: - දෛශික ආකලනයේ ත්‍රිකෝණ නියමය හා ඉගෙන ගන්නොෘ.
+GPT memory triggered
+Updated memory from GPT: - බිබිලානු ආකලනවේ අර්ථ දක්වා ඇත්තේ.
+GPT memory triggered
+Updated memory from GPT: - බිබිලානු ආකලනවේ අර්ථ දක්වා ඇත්තේ.
+- දෛශික අඩු කිරීම අවශ්‍ය වේ.
+GPT memory triggered
+Updated memory from GPT: - Doppler effect: Change in frequency or wavelength of a wave in relation to an observer moving relative to the source of the wave
+- Doppler effect in everyday life: Heard in sirens of passing vehicles due to change in pitch
+- Doppler effect in astronomy: Used to determine movement of celestial bodies based on light frequency shifts
+GPT memory triggered
+Updated memory from GPT: - Will research and provide translation of "Doppler effect" into Sinhala
+GPT memory triggered
+Updated memory from GPT: - Reminder: බිබිලානු ආකලනවේ අර්ථ දක්වා ඇත්තේ.
+- Note: දෛශික අඩු කිරීම අවශ්‍ය වේ.
+- User prefers concise and relevant reminders.
+GPT memory triggered
+Updated memory from GPT: - Update: චලිතය භාවිතය සහ වෙනස් කරන්න.
+GPT memory triggered
+Updated memory from GPT: - Create an image as requested
+GPT memory triggered
+Updated memory from GPT: - Engineering faculty at university
+GPT memory triggered
+Updated memory from GPT: - Research on technological advancements in engineering field
+GPT memory triggered
+Updated memory from GPT: - Research self-improvement techniques
+- Explore personalized productivity methods
+GPT memory triggered
+Updated memory from GPT: - Research mathematical concepts related to linear equations
+- Explore applications of linear equations in real-life scenarios
+GPT memory triggered
+Updated memory from GPT: - Learn about the slope-intercept form of a linear equation (y = mx + b)
+- Study how to interpret the meaning of each component in the equation
+- Practice solving problems involving the given linear equation
+GPT memory triggered
+Updated memory from GPT: - Review the slope-intercept form of a linear equation (y = mx + b)
+- Examine the meaning of each component in the equation (m=slope, b=y-intercept)
+- Practice applying the equation to solve problems
+GPT memory triggered
+Updated memory from GPT: - Reminder: User is interested in coding languages and software development
+- Recommend exploring problem-solving techniques in Pascal
+- Develop problem-solving skills through coding challenges in Pascal
+GPT memory triggered
+Updated memory from GPT: - User interested in Sinhala language learning and updates on cultural practices.
+GPT memory triggered
+Updated memory from GPT: - User interested in Sinhala language learning and updates on cultural practices.
+- User may appreciate brief and direct communication.
+GPT memory triggered
+Updated memory from GPT: - User is interested in coding languages and software development
+- Recommend exploring problem-solving techniques in Pascal
+- Develop problem-solving skills through coding challenges in Pascal
+GPT memory triggered
+Updated memory from GPT: - User enjoys coding challenges and problem-solving
+- Suggest exploring new coding challenges in Pascal
+GPT memory triggered
+Updated memory from GPT: - User enjoys learning about Sinhala language and cultural practices.
+- User prefers concise and direct communication.
+GPT memory triggered
+Updated memory from GPT: - User enjoys coding challenges and problem-solving
+- Suggest exploring new coding challenges in Pascal
+- User appreciates concise and direct communication
+GPT memory triggered
+Updated memory from GPT: - User enjoys coding challenges and problem-solving
+- Suggest exploring new coding challenges in Pascal
+- User appreciates concise and direct communication
+- User prefers efficient and clear interactions
+GPT memory triggered
+Updated memory from GPT: - User enjoys coding challenges and problem-solving
+- Suggest exploring new coding challenges in Pascal
+- User appreciates concise and direct communication
+- User prefers efficient and clear interactions
+- User may prefer messages with specific content or questions
+GPT memory triggered
+Updated memory from GPT: - User values direct and concise communication
+- User may prefer messages with more specific content or questions
+GPT memory triggered
+Updated memory from GPT: - User prefers messages with clear and specific content or questions
+GPT memory triggered
+Updated memory from GPT: - User may be interested in exploring slang phrases and their origins and meanings
+- User enjoys analyzing and connecting language trends, such as the use of informal language in tech communication
+GPT memory triggered
+Updated memory from GPT: - User has an interest in language analysis and trends
+- User may enjoy exploring informal language use in communication industries
+GPT memory triggered
+Updated memory from GPT: - Explore Sinhala language trends and informal language use in communication industries.
+GPT memory triggered
+Updated memory from GPT: - "Explore Sinhala language trends"
+- "Informal language use in communication industries"
+- "Interest in Sinhala content creation and consumption"
+GPT memory triggered
+Updated memory from GPT: - Investigate strategies for increasing views on YouTube
+- Explore Effect of language on YouTube content engagement
+GPT memory triggered
+Updated memory from GPT: - User enjoys studying Sinhala language.
+- User might be interested in Sinhala cultural practices.
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in Sinhala language and culture.
+GPT memory triggered
+Updated memory from GPT: - User appreciates specific examples or descriptions
+- User may enjoy discussing favorite sounds or music preferences
+GPT memory triggered
+Updated memory from GPT: - Object හා distance විස්තරය
+- x හා y ඝනත්වය
+- පාර ඔලු ක'ම් නොෂේද, C ලක්ෂ්‍යයෙන් කපා හරිනු -3
+- x ද්‍රව කඳ හා උස (cm)
+GPT memory triggered
+Updated memory from GPT: - User requires direct and concise information.
+- Ensure responses are straightforward and to the point.
+GPT memory triggered
+Updated memory from GPT: - User prefers concise and direct communication.
+- User appreciates clear and straightforward explanations.
+- User enjoys discussions about specific scenes or details.
+GPT memory triggered
+Updated memory from GPT: - User may be referring to space exploration or a technology-related topic.
+- User is likely interested in discussing specific details or mechanics of a process.
+- Clarification may be needed on the context or details of the message for further discussion.
+GPT memory triggered
+Updated memory from GPT: - User interested in AI technology for enhancing user experience.
+GPT memory triggered
+Updated memory from GPT: - User has expressed an interest in learning the Sinhala alphabet and script.
+- User is interested in discussing topics related to Sinhala traditions and customs.
+GPT memory triggered
+Updated memory from GPT: - Create web development guide in Sinhala for MERN stack.
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring Sri Lankan education system's ICT syllabus.
+- User is looking for information on the grade 12 2nd term paper structure.
+- User is focused on academic research related to Sri Lankan curriculum.
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about frontend development
+- User is looking to improve their understanding of frontend concepts
+GPT memory triggered
+Updated memory from GPT: - User is interested in hash functions.
+- XOR based hash functions are not secure due to manipulability.
+- Importance of using stronger cryptographic hash functions.
+GPT memory triggered
+Updated memory from GPT: - User is interested in hash functions.
+- XOR පටිච්ඡේෂ් වලට හැරවිය හැකිය යුතු නොවිලිය෗ම නොබිස්නාහිදී ආසාව෎ත හැකිය.
+- තූරක ක්ලිප්ටෝ ක්‍රලං඗ත්තාච පටිච්ඡේශ් හාද ක්රිප්ටෝඟ්එ්ෆ෋ පටිච්ඡේස් වලට වඩංඟු ක්තිකලිප්ටෝ භාවිතා කිය-vesmිු.
+GPT memory triggered
+Updated memory from GPT: - User is curious about philosophical questions related to the meaning of life.
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about different cultures and languages.
+GPT memory triggered
+Updated memory from GPT: - Sri Lanka හා බෞද්ධ වම්පසා හා සම්පත් යුගය පිළිබඳ දක්වා සිටිනවා.
+- User may be interested in learning Sinhala language.
+- A9 දක්වා තෙරනවාහි විශේෂයක් පිළිබඳින් දැනගන්න.
+GPT memory triggered
+Updated memory from GPT: - User may want to learn how to say "I want to learn" in Sinhala.
+- Encourage user to continue learning Sinhala language by practicing regularly.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning about A9 obtained robots.
+- User may want to explore different types of robots and their capabilities.
+GPT memory triggered
+Updated memory from GPT: - 2016 වර්ෂයේ O/L පේපරේ රාජකාරි ලිපිය අවසන් කොට ඇතුළත් කර ඇත
+- ප්‍රශ්නය දෙන්න
+GPT memory triggered
+Updated memory from GPT: - 2016 O/L පෙපරේ රාජකාරි ලිපිය පහත ඇත්තෙක්ම සිතූවිට උදැස්වෙමි
+- ප්‍රශ්නය දෙන්න
+GPT memory triggered
+Updated memory from GPT: - 2016 O/L පෙපරේ රාජකාරි ලිපිය පහත ඇත්තෙක්ම සිතූවිට උදැස්වෙමි
+- ප්‍රශ්නය දෙන්න
+- සිංහල බශවා ලබා දෙන්න
+GPT memory triggered
+Updated memory from GPT: - User may want to explore the use of robots in different fields.
+- User may be interested in robotics innovation and advancements.
+GPT memory triggered
+Updated memory from GPT: - Remember to focus on problem-solving strategies
+- Use critical thinking skills to analyze the situation
+- Break down the problem into smaller, manageable parts
+GPT memory triggered
+Updated memory from GPT: - Remember to ask the user for clarification if the message is unclear.
+GPT memory triggered
+Updated memory from GPT: - Investigate "uththaraya pahdiliva oni" for potential cultural or linguistic significance
+GPT memory triggered
+Updated memory from GPT: - "pilithura kumakda" does not match any existing queries or topics in memory.
+GPT memory triggered
+Updated memory from GPT: - User is interested in building robots and connecting hardware parts.
+- User wants to learn how to create a body for AI applications in robotics.
+GPT memory triggered
+Updated memory from GPT: - User has a girlfriend named Thisakya.
+GPT memory triggered
+Updated memory from GPT: - User is interested in discussing travel destinations
+- User enjoys exploring different cultures and traditions
+- User might be interested in exploring off-the-beaten-path locations
+GPT memory triggered
+Updated memory from GPT: - Remember to wish Thisakya a happy birthday on [date].
+GPT memory triggered
+Updated memory from GPT: - Thisakya's birthday is on [date].
+- Image of Thisakya is requested.
+GPT memory triggered
+Updated memory from GPT: - User requested an image of Dineth Dilshan Gunawardana.
+GPT memory triggered
+Updated memory from GPT: - User requested an image of Dineth Dilshan Gunawardana
+- User asked for the image from Google
+GPT memory triggered
+Updated memory from GPT: - User might be interested in travel deals and discounts
+- User enjoys budget-friendly travel options
+- User prefers destinations with unique experiences and photo opportunities
+GPT memory triggered
+Updated memory from GPT: - User seems interested in people from Sri Lanka.
+- User may want information about specific individuals from Sri Lanka.
+GPT memory triggered
+Updated memory from GPT: - User is interested in finding travel deals with other travel companies
+- User seeks budget-friendly deals that offer a variety of experiences 
+- User prefers locations that are culturally rich and provide plenty of opportunities for unique photos
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in Sri Lanka and its culture.
+- User may seek recommendations about Sri Lankan people or places.
+- User's interactions appear to be related to topics of cultural exchange and diversity.
+GPT memory triggered
+Updated memory from GPT: - User's interest in Sri Lanka may lead to future inquiries about specific aspects of the culture.
+- User may appreciate recommendations for Sri Lankan cuisine or traditional activities.
+- User's preference for cultural exchange could indicate an openness to learning about new customs and traditions.
+GPT memory triggered
+Updated memory from GPT: - User is interested in finding travel deals with other travel companies
+- User seeks budget-friendly deals that offer a variety of experiences 
+- User prefers locations that are culturally rich and provide plenty of opportunities for unique photos
+- The new message is related to seeking partnerships and collaborations for mutual benefit.
+GPT memory triggered
+Updated memory from GPT: - User is interested in seeking partnerships and collaborations for mutual benefit.
+GPT memory triggered
+Updated memory from GPT: - User has mathematical interests or may be studying math concepts.
+- Consider suggesting math-related activities or resources in future interactions.
+- Remember to incorporate math-related content in future recommendations or discussions.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in visualizing mathematical concepts.
+- Consider suggesting drawing or visual aids to help explain math concepts.
+- Visual representations can help enhance understanding of mathematical ideas.
+GPT memory triggered
+Updated memory from GPT: - User enjoys visualizing mathematical concepts.
+- Recommend creating a visual graph of x = 16sin³t and y = 13cost - 5cos2t - 2cos3t - cos4t.
+- Use visual aids to enhance understanding of the mathematical functions.
+GPT memory triggered
+Updated memory from GPT: - Help user derive y as a subject in the function (x² + y² - 1)³ = x²y³.
+- Utilize visualization techniques to illustrate the solution process visually.
+- Make the mathematical concept more engaging and easier to understand through visual aids.
+GPT memory triggered
+Updated memory from GPT: - Previous topic: Deriving y as a subject in a complex function equation.
+- Use visualization techniques to enhance understanding.
+- Keep mathematical concepts engaging and easy to grasp through visuals.
+GPT memory triggered
+Updated memory from GPT: - Explore visual representations of the function involving "hy" to enhance comprehension.
+GPT memory triggered
+Updated memory from GPT: - User is interested in enhancing comprehension through visual representations.
+- User is studying functions involving "hy".
+GPT memory triggered
+Updated memory from GPT: - User is interested in enhancing comprehension through visual representations.
+- User is studying functions involving "hy".
+- User responds with short messages.
+GPT memory triggered
+Updated memory from GPT: - User may benefit from visualizing the graph of functions involving trigonometric operations.
+- User may find graphing tools or software helpful for exploring mathematical functions.
+- User's interest in visual representations aligns with studying mathematical functions.
+GPT memory triggered
+Updated memory from GPT: - User prefers concise and relevant information
+- User may not provide detailed prompts
+- User values organization and clarity in responses
+GPT memory triggered
+Updated memory from GPT: - User may be interested in the new loan management tool called Lenderr
+- Lenderr is designed for small businesses and personal lenders in Sri Lanka
+- Lenderr offers real-time interest calculations, payment tracking, reminders, and profit dashboards
+- Lenderr has a sleek, mobile-friendly design for easy use
+GPT memory triggered
+Updated memory from GPT: - User may be interested in the new loan management tool called Lenderr
+- Lenderr is designed for small businesses and personal lenders in Sri Lanka
+- Lenderr offers real-time interest calculations, payment tracking, reminders, and profit dashboards
+- Lenderr has a sleek, mobile-friendly design for easy use
+- Translate text into Sinhala with accurate readability
+GPT memory triggered
+Updated memory from GPT: - User prefers a casual tone with emojis in communication
+- Focus on user challenges or struggles rather than direct promotion
+- Use relatable language to connect with user's emotions and experiences
+GPT memory triggered
+Updated memory from GPT: - Remember to use relatable language to connect with user's emotions and experiences
+- Consider focusing on user challenges or struggles rather than direct promotion 🤔
+- Keep the tone casual and add emojis to make the communication more engaging 😊
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User may not understand the language used in the message
+- Message is not in English and may be difficult for the user to comprehend
+- User may be interested in articles about "deep work"
+GPT memory triggered
+Updated memory from GPT: - Include visiting famous waterfalls around the world in your travel bucket list
+- Research top-rated waterfalls such as Niagara Falls, Victoria Falls, and Angel Falls for your next adventure
+GPT memory triggered
+Updated memory from GPT: - User may be interested in incorporating dynamic text effects on their website.
+- User may be looking to enhance the visual appeal of their website with interactive elements.
+- Suggest exploring HTML marquee tag for creating moving text effects on webpages.
+GPT memory triggered
+Updated memory from GPT: - User has expressed gratitude for the assistance provided.
+GPT memory triggered
+Updated memory from GPT: - Respect user privacy and avoid making assumptions about personal matters.
+- Provide support and guidance without prying into personal details unless relevant to the assistance provided.
+GPT memory triggered
+Updated memory from GPT: - User enjoys learning about astrophysics.
+- User prefers to focus on scientific topics and discussions related to space and astronomy.
+GPT memory triggered
+Updated memory from GPT: - User enjoys mathematics and graphing functions
+- User may have an interest in trigonometric functions
+- User is likely studying or working on mathematics-related tasks
+GPT memory triggered
+Updated memory from GPT: - User enjoys graphing functions
+- User is interested in trigonometric functions
+- User may want to explore the graph of f(x) = sin(x)
+GPT memory triggered
+Updated memory from GPT: - Solve the equation: 2X = 2 + X
+GPT memory triggered
+Updated memory from GPT: - User enjoys baking and trying out new recipes.
+- User prefers video tutorials for learning new cooking techniques.
+- User has a sweet tooth and enjoys indulging in desserts like chocolate cake.
+GPT memory triggered
+Updated memory from GPT: - User enjoys baking and trying out new recipes.
+- User prefers video tutorials for learning new cooking techniques.
+- User has a sweet tooth and enjoys indulging in desserts like chocolate cake.
+- User appreciates concise and direct communication.
+GPT memory triggered
+Updated memory from GPT: - User enjoys baking and experimenting with new recipes.
+- User prefers video tutorials for learning cooking techniques.
+- User has a sweet tooth and loves indulging in desserts like chocolate cake.
+- User appreciates concise and direct communication.
+GPT memory triggered
+Updated memory from GPT: - User may enjoy trying out new baking recipes featured in cookbooks.
+- User could explore video tutorials demonstrating baking techniques from professional chefs.
+- User might appreciate a concise cookbook containing various chocolate dessert recipes.
+- User may prefer communication in the form of clear and direct instructions for baking experiments.
+GPT memory triggered
+Updated memory from GPT: - User may enjoy trying out recipes from Sinhala cookbooks to explore new and cultural baking techniques.
+GPT memory triggered
+Updated memory from GPT: - Request letter ekak liyala denawa kosgaha aine mata gramasewakata watthe thiyana
+- Kosgaha ain karanna request letter eka liwwa 
+- Mata gramasewakata thiyana kosgaha ain karanna liyala denna
+GPT memory triggered
+Updated memory from GPT: - Translate "mata ganan ugannanna" to English using Google Translate.
+GPT memory triggered
+Updated memory from GPT: - Do not share personal information.
+- Always prioritize privacy and security.
+- Stay alert to potential online risks.
+GPT memory triggered
+Updated memory from GPT: - Learn more about the mathematical concept of absolute value represented by |2x+1|
+- Explore how absolute value is applied in various mathematical problems.
+GPT memory triggered
+Updated memory from GPT: - Focus on enhancing language learning skills to better understand and communicate in Sinhala.
+- Explore opportunities to practice conversational Sinhala through interactions with native speakers in different settings.
+GPT memory triggered
+Updated memory from GPT: - අංක 75, අගුණකොලපැලැස්ස වෙත ඉදිරිපිට අවදානම් ඉවසිරි කිරීමට නිතර ඉල්ලමින්
+- සිරිසෝමොලා ග්‍රාම නිළදාරි වෙත ලිපියක් ලිවීමට අවශ්‍ය චි. නිමල්වි
+- ලිපිය සිංහලෙන් ලබා දෙනු ලිපිනය සදහා අදාළ ඉක්මණින් හෝ සහෝදර කරා එය ලිවීමට අවශ්‍ය නිමල්වි.
+GPT memory triggered
+Updated memory from GPT: - මම ලිවීමට චි. නිමල්වි විසින් තෝරාගෙන වන ලිපිය ප්‍රමාණවත් මට භාවිත කළ යුතුය.
+- මම ත්‍යාග ප්‍රදන උත්සවය සඳහා විශ්වවිද්‍යලය, සහභාගි, ශිෂ්‍යත්ව විභගය සමත් දරුවන්, පස෽ගුරුවන් සහ දෙමපියන් වෙනුවෙන් කරන කැපකිරීම අගය කිරීම සදහා වාදනය කල යුතුය.
+- 5 වසර වගේ භාගයකින් උත්ෂවන් වන්නේ ශිෂ්‍යත්ව විභගය සමත් දරුවන් ඇගයෙනු සදහා පහුගන්නේ අවශ්‍ය වේ.
+- උත්සවයට කලාප අද්‍යාපන අද්‍යක්ෂකතුමා, විදුහල්පති, සහඏකාර විදුහල්පති සඳහා විශ්‍වවිද්‍යලයි ප්‍‍‍‍‍‍‍‍‍යඡනාලකයි.
+GPT memory triggered
+Updated memory from GPT: - ලෝක පරිසර දිනයට වෙනුවෙන් රැස්වීම උපකාරයේ ඉදිරිපත් 12 කිහිති.
+- පේළි 12 කිහිති කවි පන්තියක් පිළිබදව වේ.
+GPT memory triggered
+Updated memory from GPT: - Update memory with new message: ලෝක පරිසර දිනය වෙනුවෙන් උදැසන රැස්වීමේදි ඉදිරිපත් කිරීමට පේළි 12 කින් යුතු කවි පන්තියක් නිර්මාණය කරන්න.
+GPT memory triggered
+Updated memory from GPT: - වෙබ් අඩවියක් (Calculator) සාදන්න
+- අංක 2ක් ඇතුළත් කර එකතු කිරීම, අඩු කිරීම, ගුණ කිරීම සහ බෙදීම කල හැකි විදිහට සාදන්න
+- responsive layout එකක් සහ සරල නිමාවක් හැඩ කරන්න
+GPT memory triggered
+Updated memory from GPT: - 35 සිසුන්ට නැරිඹිය හැකි ස්තාන
+- උදෑසන සහා දහවල් ආහාර ගත හැකි ස්තාන
+- ගමන ආරම්භ කල යුතු වේලාව
+- සිසුන් විසින් රැගෙන පැමිණිය යුතු දේවල් පිළිබදව විස්තරයක් ලබා දෙන්න
+GPT memory triggered
+Updated memory from GPT: - සිසුන්ට නැරිඹිය හැකි ස්තාන
+- උදෑසන සහා දහවල් ආහාර ගත හැකි ස්තාන
+- ගමන ආරම්භ කල යුතු වේලාව
+- සිසුන් විසින් රැගෙන පැමිණිය යුතු දේවල් පිළිබදව විස්තරයක් ලබා දෙන්න
+- බස් රථය මහනුවරේ හමුවෙන්නට පිටත් වේ. වේගය පැයකට කිලෝමීටර 60කි
+- බස් රථය කොළඹට පැමිණෙන්නට පිටත් වේ. වේගය පැයකට කිලෝමීටර 80කි
+- මහනුවර අතර දුරකිලෝමීටර 120කි
+GPT memory triggered
+Updated memory from GPT: - හිරු ප්‍රවෘත්තිය අතර ආහාර කොළඹට නැරිඹිය හැකි ස්තානය පොළොවන් කල යුතු දේවල් ලබා දෙන්න
+- සිසුන් ගමන හරන්න යාලුවො ආහාර ගත හැකි වේලාවන් දැන්වීමයි.
+GPT memory triggered
+Updated memory from GPT: - සුපිරි ධන සම්පත දිනුම් අංක සඳහා ඩවුල් ක්‍රියාන්වලින් නිවේදනය කරන ගැටලුවල් ලබා දෙන්න.
+GPT memory triggered
+Updated memory from GPT: - මෙහෙයවූ ඩවුල් ක්‍රියාන්වලින් නිවේදනය කිරීම 
+- ලංකා බැංකුවෙන් මුදල් ගෙවිය වැක්ස් කීයන් 
+-  අවම ගෙවන්නේ ක්‍රීඩිට් කුල්යක් හෝ ස්ටෝක්ස්වෙන් වෙනත් ණයක්ය.
+GPT memory triggered
+Updated memory from GPT: - User enjoys experimenting with cultural recipes and may find exploring traditional Sri Lankan dessert recipes interesting.
+GPT memory triggered
+Updated memory from GPT: - User enjoys drawing and expressing creativity through art.
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematical functions.
+- User may be exploring various mathematical equations for inspiration in their drawings.
+GPT memory triggered
+Updated memory from GPT: - User is exploring drawing mathematical functions.
+- User may be using Desmos for visualizing equations.
+GPT memory triggered
+Updated memory from GPT: - Explore programming platforms like Ideamart
+GPT memory triggered
+Updated memory from GPT: - Discover and explore new coding languages or platforms
+GPT memory triggered
+Updated memory from GPT: - Focus on learning and expanding coding skills
+- Stay curious and open to new challenges
+- Prioritize skill development in programming languages
+- Stay enthusiastic about exploring different coding platforms
+GPT memory triggered
+Updated memory from GPT: - Focus on exploring new coding languages and platforms
+- Prioritize challenging projects to enhance coding skills
+- Stay curious and open-minded towards learning new coding techniques
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning about different cultures and languages
+- User may enjoy exploring new words and phrases from various languages
+GPT memory triggered
+Updated memory from GPT: - Focus on learning trigonometry basics first.
+- Start by understanding sine, cosine, and tangent functions.
+- Explore how these functions relate to angles and sides in triangles.
+GPT memory triggered
+Updated memory from GPT: - Explore sinhala translation resources online.
+- Utilize language learning apps for quick translations.
+- Consider finding a local tutor for personalized help.
+GPT memory triggered
+Updated memory from GPT: - Look for A/L trigonometry materials in Sinhala.
+- Consider using resources specifically for A/L level studies in Sinhala.
+- Explore online platforms offering A/L trigonometry content in Sinhala.
+GPT memory triggered
+Updated memory from GPT: - Encourage setting clear goals and pursuing education to become a CEO.
+- Consider taking relevant courses or obtaining qualifications in business and leadership.
+- Explore mentorship opportunities or networking events in the field of business and management.
+GPT memory triggered
+Updated memory from GPT: - Invest time in learning about business management
+- Look into taking courses or studying materials related to business management
+- Consider seeking mentorship or guidance in the field of business management
+GPT memory triggered
+Updated memory from GPT: - Explore online resources for free courses on business management
+- Research successful entrepreneurs for inspiration and insights
+- Attend virtual workshops or webinars on business management.
+GPT memory triggered
+Updated memory from GPT: - විදි කියන්නේ හදල් වැටුම් වල ගැන ලැබීම ගැන සැකසීම් කියන්න
+- ව්‍යාපාරය කළ යුතු ජාතක සංඛ්‍යාඃහයෙන් අවශයවන ඡායනා බව ගිහින් බලන්න
+GPT memory triggered
+Updated memory from GPT: - User enjoys learning about astrophysics.
+- User prefers to focus on scientific topics and discussions related to space and astronomy.
+GPT memory triggered
+Updated memory from GPT: - User initiated conversation with "Hello"
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala language
+- User is interested in Elakiri forum
+- User may enjoy discussing various topics on the forum
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala language
+- User is interested in Elakiri forum
+- User may enjoy discussing various topics on the forum
+- User enjoys receiving responses in Sinhala language.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in exploring other creative activities besides studying.
+- User may have a preference for visual and interactive learning experiences.
+GPT memory triggered
+Updated memory from GPT: - User prefers to engage in detailed and thought-provoking discussions.
+- User appreciates feedback and opinions on scientific topics and interests, such as astrophysics.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning about the development and creators of Apilage AI.
+GPT memory triggered
+Updated memory from GPT: - Apilage AI is a privately owned company.
+- There is limited publicly available information on the specific owners of the company.
+GPT memory triggered
+Updated memory from GPT: - User prefers concise and relevant information.
+- User may not be interested in elaborate or lengthy responses.
+- User likely prefers direct and to-the-point communication.
+GPT memory triggered
+Updated memory from GPT: - User prefers concise and relevant information.
+- User may not be interested in elaborate or lengthy responses.
+- User likely prefers direct and to-the-point communication.
+- User is curious about the nature of the AI they are interacting with.
+GPT memory triggered
+Updated memory from GPT: - AI was not created by Dineth Dilshan Gunawardana.
+- AI is a separate entity designed for memory management and assistance.
+GPT memory triggered
+Updated memory from GPT: - User prefers information in English.
+- User enjoys learning about technology-related topics.
+- Giraffe standing in front of the Eiffel Tower is an interesting and unusual sight.
+- This message does not directly relate to technology-related topics.
+GPT memory triggered
+Updated memory from GPT: - User prefers information in English.
+- User enjoys learning about technology-related topics.
+- Giraffe standing in front of the Eiffel Tower is an interesting and unusual sight.
+- This message does not directly relate to technology-related topics.
+- User is looking for an image.
+GPT memory triggered
+Updated memory from GPT: - ඔබේ ඉගෙනගන්නත් කියවන්න
+- passpapers ගැන අවස්ථාවෙන් කියවන්න
+GPT memory triggered
+Updated memory from GPT: - Ensure to remain respectful and considerate of user's language preferences.
+- Offer assistance in understanding and translating messages as needed.
+GPT memory triggered
+Updated memory from GPT: - Always ask questions before giving answers to ensure clarity and understanding
+GPT memory triggered
+Updated memory from GPT: - "Ayubowan" is a common greeting in Sri Lanka, meaning "may you have a long life."
+- It's great to learn and appreciate different cultural greetings.
+- Embracing diversity enriches our understanding of the world.
+GPT memory triggered
+Updated memory from GPT: - උසස්පෙළ ව්‍යාපාර අධ්‍යනය පිළිබද විශේෂ අධ්‍යන්‍යයන් සංස්ථාවට සපයන ක්‍රවියද?
+GPT memory triggered
+Updated memory from GPT: - උසස්පෙළ ව්‍යාපාර අධ්‍යනය වෙතින් දී පිළිබද විල්බියන් අධ්‍යන්‍යයන් දැනුවත් කරන්න.
+GPT memory triggered
+Updated memory from GPT: - නිවන් ආලෝකය ගස් දින එකක් ඇලෝම කර ඇත.
+- බිහිදෙනවාද විශ්ෂුඨ භාවනාකරුක් ආගමට පදෙවිය හැකද?
+GPT memory triggered
+Updated memory from GPT: - Remember to factorize the quadratic equation x^2 - 5x + 6 = 0 to find the roots (මූලකම්).
+- The roots of the equation x^2 - 5x + 6 = 0 can be found by solving for x.
+- Finding the roots of a quadratic equation involves factors of the constants in the equation.
+GPT memory triggered
+Updated memory from GPT: - සහයෝගී හා සහයෝගී භාෂා ඉලන්දිය ප්‍රදර්ශනය කරන්න.
+- අවශ්‍ය පුද්ගලික හා සංඥා උපකාරක විෂන්දය.
+- සිතියම් සහ විශ්වවිද්‍යා දඩය දින දිනට එච්චර කරන්න.
+- ලක්ෂ කොටි හා ප්‍රශ්නය කිහිප කරන ලද නිවස විස්තරය කරන්න.
+- ශබ්ගේ නිසඳාගැනීම් හා අවදාන හා ආයතන විසින් මුල සෞභාගැනීම් ලක්ෂ.
+GPT memory triggered
+Updated memory from GPT: - Solve the system of equations x^2 + y^2 = 25 and y = x + 1 to find the values of (x, y).
+- Once you find the solutions, calculate the Euclidean distance between the points (x, y) obtained.
+GPT memory triggered
+Updated memory from GPT: - "Mata kiyannako avakalanaya gana" means "I want to learn more about the culture" in Sinhala.
+- Exploring different cultures through language is a fulfilling experience.
+GPT memory triggered
+Updated memory from GPT: - "Anura Kumara" is a Sinhala name.
+- "Gana kaviyak liyanna" means "to write a poem" in Sinhala.
+GPT memory triggered
+Updated memory from GPT: - "දෙවහූව ගමේ උපන් දරුවෙක්" - This phrase is in Sinhala.
+- "කැලණිය විශ්වවිද්‍යාලයේ ගිය" - This sentence mentions a university in Sinhala.
+- "විද්‍යා උපාධියෙන් ජීවිතය සරසන කෙනෙක්" - This phrase includes a word meaning "intelligence" in Sinhala.
+GPT memory triggered
+Updated memory from GPT: - ඛීමිතාංගනය වර්ධයට හොඳ අත් නමැණි හෞතලට දැක්ක නොටේ.
+- මාතරාෂන වර්ධයට මෙම කත්‍රබා සූත්‍බවය සාදා ටික ානොටෙ.
+GPT memory triggered
+Updated memory from GPT: - User interested in AI technology for enhancing user experience.
+- User prefers concise and direct communication.
+GPT memory triggered
+Updated memory from GPT: - Focus on building AI agents to enhance user experience
+- Provide clear and concise steps for building AI agents
+- Share resources specifically tailored for developing AI agents
+GPT memory triggered
+Updated memory from GPT: - ABC ත්‍රිකෝණයේ පරිවෘත්තේ වර්ග ඵලය 2R * tan A * tan B * tan C බවට යාවත්කාලු කරයි
+- ABC ත්‍රිකෝණයේ R හා පරිමිතිය සම්පුර්ණයි
+- ත්‍රිකෝණය XYZ හා ත්‍රිකෝණය/abc බව සම්පූර්ණි.
+GPT memory triggered
+Updated memory from GPT: - Explain ABC triangle's external angle as 2R * tan A * tan B * tan C.
+GPT memory triggered
+Updated memory from GPT: - Apply the ABC triangle external angle formula: 2R * tan A * tan B * tan C.
+- Remember to find the reference angle (180 degrees minus the external angle) for easier calculation during exams.
+GPT memory triggered
+Updated memory from GPT: - Understanding the ABC triangle external angle formula can help you analyze and solve geometric problems.
+- Knowing the reference angle can simplify calculations and improve accuracy in exams.
+- Applying mathematical concepts like this can help you gain new insights into different subjects.
+GPT memory triggered
+Updated memory from GPT: - ABC තුනයේ බශ්‍යාෂාවේ විදේශිතය දැක්මට උපාදේ සහ ගේවා ගාය ගැන නිදෙන්න අලුත් දායකත්වයක්.
+- මූලාශ්රීතා මට්ටමි පරිපංසලට වගීසීම් කරගෙන වෙනසක් එකතු කර පාන්.
+- මෙම්සක් දත්ත විද්‍යාංග ප්‍රිය මට්ටමි තවත් අවවාදයන්ගේ දිගහංග් අලුත් දායකත්වය ලබාගන්න හදමටත්.
+GPT memory triggered
+Updated memory from GPT: - ඔබේ මිතුරා රනිධා මට කියා සිටියේ ඔබට මෙම ගැටලුවේ විසඳුම සිංහලෙන් අවශ්‍ය බවයි
+- දළදක්ෂාවක් ඉඳගෙන ක්‍රීඩා කුමර මළබැඳු කර්ම යන්ත්‍ර හැකිලා තිබේ.
+GPT memory triggered
+Updated memory from GPT: - Triangle ABC with an incircle forming triangle XYZ at points where incircle touches sides
+- Perimeter of triangle XYZ: 2R·tanA·tanB·tanC
+GPT memory triggered
+Updated memory from GPT: - Explore career opportunities in the field of environmental science
+- Attend a workshop or seminar on sustainable development
+- Research internship opportunities in the environmental sector
+GPT memory triggered
+Updated memory from GPT: - සමඟිට සවිස්තරාත්මක ව්‍යවසායකත්වරුන් පලපුරුවේ බලපෑම් යුනික් කිරීමට සපදයා 
+- සැමට එය දිවුරක් සංවාසකයේව වියදම් කිරීමට හා වුවරේව ව්‍යවසාය කිරීමට පිටවන්න
+- සමස්ත කරණ ව්‍යාකරණ අවශ්‍යක් අගවන්න
+GPT memory triggered
+Updated memory from GPT: - Describe the concept in more detail, focusing on university-level depth and complexity.
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring new opportunities for partnerships and collaborations.
+- User is open to discussing potential mutual benefits with other parties.
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring new opportunities for partnerships and collaborations.
+- User is open to discussing potential mutual benefits with other parties.
+- User may be interested in networking and engaging with individuals from diverse backgrounds.
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring new business opportunities.
+- User is open to discussing potential benefits of collaboration.
+- User may be interested in connecting with professionals in various industries.
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in exploring potential business opportunities.
+- User is open to discussing collaboration benefits.
+- User may be interested in networking with professionals in various industries.
+- The user may be interested in discussing new ventures or projects.
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in exploring potential business opportunities.
+- User is open to discussing collaboration benefits.
+- User may be interested in networking with professionals in various industries.
+- User is open to discussing new ventures or projects.
+- User may be interested in exploring opportunities in accounting or finance fields.
+GPT memory triggered
+Updated memory from GPT: - Start with organizing study material
+- Create a study schedule with specific goals and timelines
+GPT memory triggered
+Updated memory from GPT: - User is testing an app.
+- The message may not directly relate to technology-related topics, so additional information may be needed to provide assistance.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in trying out different types of apps for testing purposes.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in exploring math-related apps for educational or problem-solving purposes.
+GPT memory triggered
+Updated memory from GPT: - User's interest in math-related apps for educational purposes
+- User may be interested in problem-solving challenges and activities
+GPT memory triggered
+Updated memory from GPT: - The factorization of x^3 + 6x^2 + 11x + 6 is (x + 1)(x + 2)(x + 3)
+GPT memory triggered
+Updated memory from GPT: - Start brainstorming creative ideas for YouTube content
+- Look into effective ways to engage viewers with language in videos
+GPT memory triggered
+Updated memory from GPT: - Conduct research on Anuradhapura to potentially incorporate it into YouTube content
+- Explore the history, culture, and significance of Anuradhapura for potential video topics
+GPT memory triggered
+Updated memory from GPT: - Look into resources for studying science to prepare for the exam
+GPT memory triggered
+Updated memory from GPT: - User is currently studying science to prepare for an exam
+GPT memory triggered
+Updated memory from GPT: - Reminder: User is studying science for an upcoming exam
+- Prompt: Focus on reviewing important concepts and practicing problem-solving
+- Note: Stay dedicated to your study schedule and take regular breaks to stay refreshed
+GPT memory triggered
+Updated memory from GPT: - Develop an online ICT guide in Sinhala for Grade 9 students.
+- Incorporate interactive activities and visual aids to enhance learning experience.
+GPT memory triggered
+Updated memory from GPT: - Provide one-on-one tutoring sessions for the class.
+- Share additional study materials and resources to support their learning.
+GPT memory triggered
+Updated memory from GPT: - Offer tutoring sessions in a personalized and supportive manner.
+- Provide extra study materials to enhance understanding and learning.
+GPT memory triggered
+Updated memory from GPT: - Provide resources such as notes and study materials for enhanced learning.
+- Encourage the use of resources like notes to improve understanding.
+- Emphasize using resources effectively for better academic performance.
+GPT memory triggered
+Updated memory from GPT: - Provide resources on how to multitask effectively to manage various tasks efficiently.
+- Encourage prioritizing tasks based on urgency and importance to maximize productivity.
+- Emphasize the importance of time management techniques in achieving goals successfully.
+GPT memory triggered
+Updated memory from GPT: - Generate image using AI technology for user's tasks and projects
+- Explore tools and methods for generating images with AI
+- Share resources on AI-powered image generation techniques
+GPT memory triggered
+Updated memory from GPT: - User initiated communication with "hey"
+GPT memory triggered
+Updated memory from GPT: - Explore outdoor photography
+- Learn about different types of landscapes
+- Watch tutorials on capturing natural lighting
+GPT memory triggered
+Updated memory from GPT: - 2020.03.31 දිගට තත්තත්තව්න් පාරහත පාඨ්‍ඨ්ත්.
+- අමුද්‍රව්‍ය රු. 850,000
+- ගනානිමි රු. 275,000
+- නිමි රු. 800,000
+- ගෙවිකකභමුකරශෙෙනගට කල ෙැණු 238
+GPT memory triggered
+Updated memory from GPT: - ගමම ගතාකතුරු උපාරග්ෝී කකෙනිමින් ඉග ෂා ඇපාරකේසච ආ්තනග
+- 2020.03.31 න් අව්‍සන් ව්‍ර්ගෂ් සඳහා නිෂචපාරාදන පිරිව්‍ැ් ගේඛන් හා ලාභ ගහෝ අලාභ ප්‍රකාශ්න්
+- 2020.03.31 දිනට මූලය තත්තත්තව්‍ ප්‍රකාශ්න් පිියග්ල කකන්න.
+GPT memory triggered
+Updated memory from GPT: - සංස්ථාපිත ශබද සමාගම් විශ්ලාශ කරන දුක්
+- ව්‍යාපාර අධ්‍යනයෙහු හිමිවි සමාගම් කරන්න්
+- ව්‍යාපාර අධ්‍යනයෙන් අරයි පහුගේ සපඵ කරන්ට තහවිර්ාදන් වේගනය ග්ව්ර කරන්න.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in other languages.
+GPT memory triggered
+Updated memory from GPT: - Research Bosa's latest performance in the game
+- Check if there are any upcoming games featuring Bosa
+GPT memory triggered
+Updated memory from GPT: - Research Kammali to see if there are any sports connections or references to games or performances that may be of interest.
+GPT memory triggered
+Updated memory from GPT: - උසස්පෙළ ව්‍යාපාර අධ්‍යනයට අදාළ සංස්ථාපිත සමාගම් පිළිබද හදුන්වන්න
+GPT memory triggered
+Updated memory from GPT: - ඉදිරියේ Combined Maths, Physics සහ ICT සහිත උසස්පෙළ 12 ශ්‍රේණිය සදහා විශේෂ සමාගම් පාඨකයන් සහිත වාර විභාගය විහිදෙන්න
+- ඔබගේ දැක්ම තවත් ශ්‍රේණි සදහා උසස්පෙළ විශේෂ ලකුණක් ගැනීමට හෝ වැඩි ලකුණක් ගැනීමට හැකි අවශ්‍යතාවයන් දැක්ම කරන්න
+GPT memory triggered
+Updated memory from GPT: - Learn basic Python programming concepts
+- Explore libraries for creating animations in Python, such as Tkinter or Pygame
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may not be comfortable with messages in other languages.
+- New message received: "Hi who are you."
+GPT memory triggered
+Updated memory from GPT: - Focus on setting clear study goals
+- Consider using tools like digital calendars for organizing study schedule
+GPT memory triggered
+Updated memory from GPT: - Market is a place where goods or services are bought and sold
+- It is important to understand market dynamics for business or investment purposes
+GPT memory triggered
+Updated memory from GPT: - User prefers brevity in communication.
+- User may use abbreviations or short phrases in messages.
+GPT memory triggered
+Updated memory from GPT: - User is interested in potential investment opportunities.
+- User is interested in discussing business strategies and growth potential.
+- User may be interested in exploring entrepreneurial ventures.
+- User may be open to discussing financial planning and investment options.
+GPT memory triggered
+Updated memory from GPT: - Note: බිටු 32 ක් සදහා තිබේ නම්, තාර්කික ලිපිනයේ මුළු අතත්‍ය ලිපින ගණන කොපමණද 
+- Check if there are any famous waterfalls near your destination in Sri Lanka
+- Consider adding new waterfall destinations to your list for a diverse experience
+GPT memory triggered
+Updated memory from GPT: - Note: බිටු 32 ක් සදහා තිබේ නම්, තාර්කික ලිපිනයේ මුළු අතත්‍ය ලිපින ගණන කොපමණද 
+- Check if there are any famous waterfalls near your destination in Sri Lanka
+- Consider adding new waterfall destinations to your list for a diverse experience
+- බිටු ප්‍රමාණය 4KB නම්, පිටුව තුළ ඕෆ්සේට් නියෝජනය කිරීමට බිට් කීයක් අවශ්‍යද
+GPT memory triggered
+Updated memory from GPT: - Note: බිටු 32 ක් සදහා තිබේ නම්, තාර්කික ලිපිනයේ මුළු අතත්‍ය ලිපින ගණන කොපමණද
+- Check if there are any famous waterfalls near your destination in Sri Lanka
+- Consider adding new waterfall destinations to your list for a diverse experience
+- බිටු ප්‍රමාණය 4KB නම්, පිටුව තුල ඕෆ්සේට් නියෝජනය කිරීමට බිට් කීයක් අවශ්්‍යද
+- Add information about setting up BitTorrent for A/L ICT Syllabus to your notes
+GPT memory triggered
+Updated memory from GPT: - Note: බිටු 32 ක් සදහා තිබේ නම්, තාර්කික ලිපිනයේ මුළු අතත්‍ය ලිපින ගණන කොපමණද
+- Check if there are any famous waterfalls near your destination in Sri Lanka
+- Consider adding new waterfall destinations to your list for a diverse experience
+- බිටු ප්‍රමාණය 4KB නම්, පිටුව තුල ඕෆ්සේට් නියෝජනය කිරීමට බිට් කීයක් අවශ්්‍යද
+- Add information about setting up BitTorrent for A/L ICT Syllabus to your notes
+- පද්ධතියක පිටු ඕෆ්සේට් සදහා බිට් 16 ක් තිබේ නම්, බයිට් වලින් එක් පිටුවේ ප්‍රමාණය කොපමණද
+GPT memory triggered
+Updated memory from GPT: - Update BitTorrent settings for A/L ICT Syllabus with BitTorrent 20
+- Check the total number of pages for chapter summaries in the textbook with BitTorrent 20 for a particular chapter
+GPT memory triggered
+Updated memory from GPT: - Update BitTorrent settings for A/L ICT Syllabus with BitTorrent 48
+- Check the total number of pages for chapter summaries in the textbook with BitTorrent 12 for the necessary chapter
+GPT memory triggered
+Updated memory from GPT: - Find chemistry multiple-choice questions (MCQ) in Sinhala for Grade 12.
+GPT memory triggered
+Updated memory from GPT: - Explore mathematical equations and their applications in AI technologies
+- Investigate how mathematical formulas can be utilized in image generation using AI
+GPT memory triggered
+Updated memory from GPT: - Connect the equation Θ=2x+3 to linear functions and its applications in AI
+- Consider exploring how this equation can be applied in image generation algorithms with AI
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring the applications of linear functions in AI, particularly in image generation algorithms.
+- User may also be interested in understanding mathematical foundations of AI techniques.
+- User shows curiosity in learning about new languages and cultures like Sinhala.
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematics and trigonometry.
+- User may be currently studying trigonometric functions and their inverses.
+GPT memory triggered
+Updated memory from GPT: - User may be exploring the concept of inverse trigonometric functions, specifically the arctangent function.
+- The message involves the inverse tangent function and the trigonometric functions sine and tangent, which align with user's interest in mathematics and trigonometry.
+GPT memory triggered
+Updated memory from GPT: - User's current interest is in mathematics and trigonometry, not chemistry.
+GPT memory triggered
+Updated memory from GPT: - User is exploring calculus concepts such as derivatives.
+- User is likely studying inverse trigonometric functions in the context of calculus.
+GPT memory triggered
+Updated memory from GPT: - Remember to practice past exam papers to familiarize yourself with the format.
+- Make sure to create a study schedule and stick to it to manage your time effectively.
+GPT memory triggered
+Updated memory from GPT: - Search for a PDF of "Forget Me Not" book as per user request.
+GPT memory triggered
+Updated memory from GPT: - User interested in Harry Potter books.
+- User may want to explore Harry Potter content or merchandise.
+- Consider recommending Harry Potter series or related products to the user.
+GPT memory triggered
+Updated memory from GPT: - J.K. Rowling is the author of the Harry Potter book series.
+- User may enjoy exploring more about J.K. Rowling's work and life.
+- Consider suggesting books or interviews featuring J.K. Rowling to the user.
+GPT memory triggered
+Updated memory from GPT: - J.K. Rowling is not related to the message "aya liyu thavath poth".
+GPT memory triggered
+Updated memory from GPT: - User greeted with a simple "hi"
+GPT memory triggered
+Updated memory from GPT: - User asked about the AI being powered by chatGPT
+GPT memory triggered
+Updated memory from GPT: - User is interested in the source and customization of the AI technology
+- The AI may have origins related to Sri Lanka and customized development techniques
+GPT memory triggered
+Updated memory from GPT: - User enjoys exploring the technical details behind AI technology
+- User may be interested in learning about AI development using React
+- Consider providing insights on how AI technology can be integrated with React code
+GPT memory triggered
+Updated memory from GPT: - User may be interested in implementing AI features into the social media site "clementechs"
+- Suggest exploring the use of React components to enhance user interface on the site
+GPT memory triggered
+Updated memory from GPT: - User may be interested in implementing AI features into the social media site "clementechs"
+- Suggest exploring the use of React components to enhance user interface on the site
+GPT memory triggered
+Updated memory from GPT: - "clementechs" social media site launched in January 2020
+GPT memory triggered
+Updated memory from GPT: - Remember "clementechs" social media site launched in January 2020
+- Research "apilage AI" for more information
+GPT memory triggered
+Updated memory from GPT: - User is interested in new technology platforms like "clementechs" and "apilage AI"
+- User is likely curious about the technology behind these platforms
+- Explain tech stack concept clearly and in a concise manner
+GPT memory triggered
+Updated memory from GPT: - User may be interested in customized chatbots or AI models
+- Explore potential interest in personalized AI solutions
+- Consider introducing topics related to customizing AI models for user's needs
+GPT memory triggered
+Updated memory from GPT: - User desires to develop a chatbot or AI models
+- User has not yet launched the project
+- User is excited about the potential of native AI solutions
+GPT memory triggered
+Updated memory from GPT: - User is enthusiastic about starting a chatbot or AI project
+- User is looking forward to exploring AI solutions
+GPT memory triggered
+Updated memory from GPT: - Explore resources for learning new languages or scripts
+- Research cultural aspects and linguistic nuances for a deeper understanding of languages
+GPT memory triggered
+Updated memory from GPT: - Look for resources to learn the Sinhala language
+- Explore the cultural significance of the Sinhala language and its linguistic nuances
+GPT memory triggered
+Updated memory from GPT: - Practice listening to Sinhala language audio clips to familiarize yourself with the pronunciation and intonation
+- Look for online platforms or resources that offer Sinhala language lessons with a focus on conversational skills
+GPT memory triggered
+Updated memory from GPT: - Check for the latest Law update in Sri Lanka on the official government website
+- Stay updated with reliable news sources for any recent legal changes in Sri Lanka
+GPT memory triggered
+Updated memory from GPT: - Research latest entrance requirements and available courses at Sri Lankan universities for ICT students in the Maths stream
+- Compile a summary of universities in Sri Lanka that ICT students from the Maths stream can apply to
+- Provide detailed information on the courses available for ICT students in Sri Lanka universities
+GPT memory triggered
+Updated memory from GPT: - Look into incorporating graphing of trigonometric functions like sin(x) into ICT mathematics courses
+- Explore software and tools for graphing functions like f(x)= sin(x) effectively
+- Consider how graphing functions can enhance learning outcomes for ICT students, particularly in the Maths stream
+GPT memory triggered
+Updated memory from GPT: - User received a short greeting message.
+GPT memory triggered
+Updated memory from GPT: - Research on the impact of meditation on mental health
+- Benefits of mindfulness practices for stress management
+GPT memory triggered
+Updated memory from GPT: - Potential ancient ruins near Matle Temple
+- Exploration opportunities around Matle village
+GPT memory triggered
+Updated memory from GPT: - "දෙවන රාජසිංහ රජ ස෸ගුරාව" නගනගා
+- ශ්‍රී ලංකාව සහ ඉංග්‍රීසි ජාතිකය ගැන කෘතියක් විසින් සංඛ්‍යාවට එක් කරන්න
+GPT memory triggered
+Updated memory from GPT: - දන්ත ධාතූන් සහ වහන්සේ සමයේ මෙරට වැඩියෙන්ම කරන සමය
+- පාලනය කළ රජතුමා කවුරුන්දගේ ප්‍රවීණගාමී සහ ඉලේඏසුගේ සත්‍යාවක් ගැන බැල නොකරන්න
+GPT memory triggered
+Updated memory from GPT: - කෝට්ටේ යුගයේදී යාපනය හින්දු කෝවිලක් ගැන එයට ලැබෙන බොහොම
+- කටයුතු කළ රජතුමාවේ කෝට්ටේ යුගය පිළිබද හින්දු කෝවිලක් ඉදිකිරීම සඳහා උසාවිය හැකි තැනට ප‍්‍රති‡මම ළඟදී හෙළින්න
+GPT memory triggered
+Updated memory from GPT: - මාසේ දෙපළේ සුබපාදයී
+- විවර බලන්නේ වේයවන්ට ගැනෙන ආකල්බයට වඩා බලපුනො
+- ඉතාමත් හින්දු පෙළක් අයියේය
+GPT memory triggered
+Updated memory from GPT: - උඩ රංචා මඩමේ පැරණි නිවාසයෙන් හමු වූ පින්තාරු කළ කළ මැටි බඳුන අයත් වන්නේ කුමන ඓතිහාසික ඓතිහාසික යුගයට ද
+GPT memory triggered
+Updated memory from GPT: - ප්‍රකර්ශණ බලය පරිවර්තනයෙන් පවති
+- ප්‍රකර්ශණ බලයට පිළිතුරු එකතු කරන්න
+GPT memory triggered
+Updated memory from GPT: - ක්ශමතාව භෞතික ප්‍රදේශයක් වුවද?
+- ක්ශමතාව ආගමනවර්ගේ රූප විෂනයක් බැවින් සහ තූරු ආකර්ශණයන්ගේ පවර වෙනස් කරන අදහස්?
+- ක්ශමතාව ආදරය, භෞතික ප්‍රදේශය හෝ රූප විෂනයන් අතිශය්ත්ථකයිනු කෙළින් ඉදිරියෙන් වීම හෝ ස්වරූශිත්ව විරෝධී වෙනස් කරන්නද?
+GPT memory triggered
+Updated memory from GPT: - එන්ජිම ලබාදෙන ප්‍රතිරෝදී බලය හා ප්‍රකර්ශණ බලය විස්තර කරන්න
+- වාහනය භෞත්තල පිහිටාද? 
+- එනඟන්නේ ඝාතධර්ම නිශ්පාදයේ මාතෘකවරක් නොවේද?
+GPT memory triggered
+Updated memory from GPT: - සමීකරයේ S=ut නොමැත, සමීකරයේ S=10t වැදගත් 
+- km වලින් අත්දැකීම් විශේෂයි
+- සහය S = 10t නොමැත, S = 10t^2 වැදගත්
+GPT memory triggered
+Updated memory from GPT: - User is interested in exploring the applications of linear functions in AI, particularly in image generation algorithms.
+- User may also be interested in understanding mathematical foundations of AI techniques.
+- User shows curiosity in learning about new languages and cultures like Sinhala.
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English for better understanding.
+GPT memory triggered
+Updated memory from GPT: - User does not understand Sinhala language
+- User's preference is for messages in English
+GPT memory triggered
+Updated memory from GPT: - User does not understand Sinhala language
+- User's preference is for messages in English
+- Message is in Sinhala and may not be understood by the user
+GPT memory triggered
+Updated memory from GPT: - User does not understand Sinhala language
+- User's preference is for messages in English
+- Current message may not be understood by the user
+GPT memory triggered
+Updated memory from GPT: - User does not understand Sinhala language
+- User's preference is for messages in English
+- Current message may not be understood by the user
+- Message is in Sinhala language, not preferred by the user.
+GPT memory triggered
+Updated memory from GPT: - User does not understand Sinhala language
+- User's preference is for messages in English
+- Current message is in Sinhala language, not preferred by the user.
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English
+- User does not understand Sinhala language
+GPT memory triggered
+Updated memory from GPT: - User does not understand Sinhala language
+GPT memory triggered
+Updated memory from GPT: - User struggles with reading Sinhala script
+- User may need assistance with Sinhala translations
+GPT memory triggered
+Updated memory from GPT: - User may be interested in AL Accounting
+- User may benefit from assistance with Sinhala translations in AL Accounting field
+GPT memory triggered
+Updated memory from GPT: - User is interested in Sinhala language related to accounting
+- User engages in financial transactions using Sinhala language
+GPT memory triggered
+Updated memory from GPT: - Explore online tutorials or videos in Sinhala that explain the concept of limits of a function for Grade 12 Combined Maths
+- Search for Sinhala language resources specifically tailored to teaching mathematical concepts like limits of a function
+GPT memory triggered
+Updated memory from GPT: - Learn the concept of limits of a function in Sinhala for Grade 12 Combined Maths
+- Find Sinhala resources for understanding mathematical concepts like limits of a function.
+GPT memory triggered
+Updated memory from GPT: - Explore graphing functions for mathematical visualization and understanding.
+GPT memory triggered
+Updated memory from GPT: - Continue exploring graphing functions for mathematical visualization.
+GPT memory triggered
+Updated memory from GPT: - User interacting with AI model
+- User inquiring about AI model developer
+GPT memory triggered
+Updated memory from GPT: - Investigate trigonometric functions cos(B) and cos(C) in relation to the given points A(1,1), B(4,5), and C(6,13).
+- Explore how the cosine values of the angles in triangle ABC are related to the given coordinates.
+- Apply trigonometric concepts to analyze the relationships between the angles and sides of the triangle.
+GPT memory triggered
+Updated memory from GPT: - Investigate how to find the cosine value of angle A in triangle ABC using the given coordinates.
+- Calculate cos A using the cosine formula and the coordinates of points A(1,1), B(4,5), and C(6,13).
+GPT memory triggered
+Updated memory from GPT: - Remember to convert the coordinates of the points to vectors before applying the cosine formula for the angle.
+- Calculate the length of the sides of the triangle using the distance formula to find the cosine value accurately.
+GPT memory triggered
+Updated memory from GPT: - Triangle ABC coordinates: A(1,1), B(4,5), C(6,13)
+- Calculate cosA = 63/65
+- Find cosB and cosC
+GPT memory triggered
+Updated memory from GPT: - User has an interest in geometry and trigonometry.
+- User prefers information related to mathematics and calculations.
+GPT memory triggered
+Updated memory from GPT: - User is interested in visual imagery.
+- User may appreciate artistic expressions involving animals.
+GPT memory triggered
+Updated memory from GPT: - User requested image generation of a red cat.
+- Consider suggesting more artistic image generation involving animals in the future.
+GPT memory triggered
+Updated memory from GPT: - User may be reaching out for a new request or update.
+- Stay attentive for further details or requests from the user.
+GPT memory triggered
+Updated memory from GPT: - User may have a friendly and informal communication style.
+- User's name is Dineth Gunawardana.
+- User may want to engage in casual conversation.
+GPT memory triggered
+Updated memory from GPT: - User may speak Sinhala.
+- Consider discussing updates on business news in Sinhala to engage user's interest.
+GPT memory triggered
+Updated memory from GPT: - User is interested in technology and business related to artificial intelligence.
+- User can communicate in Sinhala language.
+GPT memory triggered
+Updated memory from GPT: - Keep exploring business news updates in Sinhala to engage user's interest in current affairs.
+GPT memory triggered
+Updated memory from GPT: - Encourage user to participate in business debate discussions to further knowledge and engagement with the topic.
+GPT memory triggered
+Updated memory from GPT: - Explore the concept of trigonometry and its application in mathematics and real-world scenarios.
+GPT memory triggered
+Updated memory from GPT: - Investigate the relationship between sin and cosine functions in trigonometry.
+- Delve into the properties and uses of sine waves in mathematics and physics.
+GPT memory triggered
+Updated memory from GPT: - Numpy is a Python library for numerical operations and computations.
+- It was created by Travis Oliphant in 2005.
+GPT memory triggered
+Updated memory from GPT: - Users are interested in mathematical functions like f(x)=x^2+2 for graphing purposes.
+GPT memory triggered
+Updated memory from GPT: - Users enjoy exploring variations of mathematical functions for graphing
+- Consider incorporating adding a coefficient in front of the x^2 term in functions for future discussions
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English.
+- User may speak Sinhala.
+- User may be interested in learning new languages.
+GPT memory triggered
+Updated memory from GPT: - User may be interested in learning about වටිනා භාණ්ඩ (inventory) in Sinhala
+- Transaction involving චෙක් පත (cheque) might be relevant to user's financial activities
+GPT memory triggered
+Updated memory from GPT: - Created by a team of developers at XYZ Corp
+- Developed to assist users with organization and information retrieval
+GPT memory triggered
+Updated memory from GPT: - ජලයේ ගිලුනාම සම්බන්ධයෙන් වදින වසන තේ
+- කාසිය කැලණිය සමග දැක්කා ගැනීමට දුක් ක්ලොක්ස් කරන්නෙ
+GPT memory triggered
+Updated memory from GPT: - Research successful tech startup companies founded by entrepreneurs in the artificial intelligence industry.
+- Look into potential co-founders with expertise in technology and business to start a company in artificial intelligence.
+GPT memory triggered
+Updated memory from GPT: - Kusal Mendis is a professional cricketer from Sri Lanka.
+- Mendis is known for his aggressive batting style and has represented his national team in both Test and limited-overs formats.
+- He has scored several centuries in international cricket and is considered a promising talent in the sport.
+GPT memory triggered
+Updated memory from GPT: - No preference for mathematical equations in messages
+- User prefers clear and straightforward communication without complex symbols
+GPT memory triggered
+Updated memory from GPT: - No preference for messages in languages other than English
+- User prefers messages in English for clear communication information
+GPT memory triggered
+Updated memory from GPT: - User prefers messages in English for clear communication information
+GPT memory triggered
+Updated memory from GPT: - ක්‍රම 5 ළද සහිත උත්සාහයකි.
+- ඔබේ අවධානයට වැදගත් හෝ ආවරණයේ අපි ගැන කියවන්න.
+GPT memory triggered
+Updated memory from GPT: - User prefers to receive concise and straightforward messages
+- User is interested in enigmatic or mysterious themes
+GPT memory triggered
+Updated memory from GPT: - Evaluate f(x) = (12x^2 - 3x + 1) / 4(x-1)^3 for x ≠ 1
+- Evaluate g(x) = (x^3 + 9x^2 + 9x + 1) / 4(x-1)^3 for x ≠ 1
+GPT memory triggered
+Updated memory from GPT: - Understand and evaluate f(x)=(12x^2-3x+1)/4(x-1)^3 for x ≠ 1
+- Evaluate g(x)=(x^3+9x^2+9x+1)/4(x-1)^3 for x ≠ 1 based on the provided expression
+- Ensure clarity in understanding and solving the given expressions
+GPT memory triggered
+Updated memory from GPT: - Utilize the graph of f(x)=(12x^2-3x+1)/4(x-1)^3 to obtain insights for drawing the graph of g(x)=(x^3+9x^2+9x+3)/4(x-1)^3
+- Ensure clear explanation of the method to follow for drawing the separate graphs of f(x) and g(x) for x≠1
+GPT memory triggered
+Updated memory from GPT: - User is currently working on graphing functions involving rational expressions
+- User is looking for clear and detailed explanation on how to graph functions with specific constraints
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning Sinhala language
+- User may be looking for resources or courses to learn Sinhala
+GPT memory triggered
+Updated memory from GPT: - User may want to learn Sinhala script (සෛලීය ව්‍යූහය)
+- User might be exploring Sinhala literature or content in Sinhala language
+GPT memory triggered
+Updated memory from GPT: - Explore resources for learning spoken Sinhala alongside Sinhala script
+- Look into Sinhala literature recommendations or podcasts for language practice
+GPT memory triggered
+Updated memory from GPT: - Research online courses or tutorials on cloud computing
+- Explore popular cloud computing platforms and their features
+- Consider joining forums or online communities to discuss cloud computing trends
+GPT memory triggered
+Updated memory from GPT: - Explore Python libraries like NumPy for mathematical operations
+- Search for code snippets using NumPy to plot mathematical functions
+- Experiment with plotting f(x) = sin(x) using NumPy and Matplotlib
+GPT memory triggered
+Updated memory from GPT: - Import the NumPy library in Python with: `import numpy as np`
+- Create a NumPy array using `np.array([1, 2, 3])`
+- Perform mathematical operations on arrays like addition, subtraction, multiplication, and division using NumPy
+GPT memory triggered
+Updated memory from GPT: - Utilize NumPy assert functions to create professional test code
+- Write efficient and concise NumPy code for test cases
+- Focus on best practices for testing in NumPy
+GPT memory triggered
+Updated memory from GPT: - Python NumPy code focused on professional testing
+- Emphasize creating professional test code in NumPy
+GPT memory triggered
+Updated memory from GPT: - NumPy used in plotting a sine wave
+- Plotting a sine wave using NumPy and Matplotlib
+- Using NumPy's linspace and sin functions for generating data
+GPT memory triggered
+Updated memory from GPT: - Testing a function for squaring elements of an array using NumPy
+- Importing numpy.testing for array equality testing
+- Writing and running a test function for squaring elements of an array
+GPT memory triggered
+Updated memory from GPT: - Example code for a function squaring elements of an array using NumPy
+- Importing numpy and numpy.testing for array operations and testing
+- A test function to check if elements of an array are squared correctly
+- Handling a failed test case with an appropriate message
+- Ensuring proper array equality testing using numpy.testing
+GPT memory triggered
+Updated memory from GPT: - Explored Python code for exporting data to PDF documents
+- Considered methods for generating PDFs with numerical content
+- Researched libraries or modules for creating PDF documents in Python
+GPT memory triggered
+Updated memory from GPT: - Use numpy's arange function to create an array with numbers from 1 to 5000000: np.arange(1, 5000001)
+- Import numpy at the beginning of your code: import numpy as np
+GPT memory triggered
+Updated memory from GPT: - Use Python's range function to generate numbers from 1 to 100000: range(1, 100001)
+- To print the generated numbers, use the print statement in Python.
+GPT memory triggered
+Updated memory from GPT: - User requested answer related to current memory.
+GPT memory triggered
+Updated memory from GPT: - User received a simple greeting
+GPT memory triggered
+Updated memory from GPT: - V = final velocity
+- u = initial velocity
+- a = acceleration
+- t = time
+GPT memory triggered
+Updated memory from GPT: - Incorporate AI assistant coding practice into your study schedule
+- Look for online resources and tutorials specific to AI assistant development
+GPT memory triggered
+Updated memory from GPT: - User greeted with "Hello"
+- User received a new message
+GPT memory triggered
+Updated memory from GPT: - User greeted me with "hi"
+GPT memory triggered
+Updated memory from GPT: - User asked "who are you?"
+GPT memory triggered
+Updated memory from GPT: - Consider learning about traditional Sri Lankan dance forms
+- Explore the significance of Lotarai in local culture
+GPT memory triggered
+Updated memory from GPT: - Consider learning the Sinhala language to better connect with Sri Lankan culture and people.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User might be interested in exploring new languages and cultures
+GPT memory triggered
+Updated memory from GPT: - Research logic gates including AND, XOR, and NOT for creating truth tables
+- Look into how truth tables are used to represent boolean expressions 
+- Explore examples of truth tables for specific logic gate combinations.
+GPT memory triggered
+Updated memory from GPT: - No new memory formed. The message does not seem to be related to Python programming or technical topics.
+GPT memory triggered
+Updated memory from GPT: - මුස්ලිම් කුඩරල කටයුතු
+- කුඩල්ට් වේල් එවුන් දුක්කළාම බෑලිය
+- සති 99 කහන්යක් ගල්ල තොගුරු සැඟවුම් කලාම ආදායකේතවනවා
+GPT memory triggered
+Updated memory from GPT: - User enjoys mathematical problems and graphing functions.
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User is interested in technology and may be referring to a digital product or service in Sinhala
+GPT memory triggered
+Updated memory from GPT: - Explore local Sri Lankan cultural events and festivals to immerse yourself in the traditions.
+- Connect with the Sri Lankan community to engage in meaningful conversations and exchanges.
+- Consider joining a Sri Lankan language class to further your language learning journey.
+GPT memory triggered
+Updated memory from GPT: - User likely initiates conversations with a simple greeting  
+- User values polite and friendly interactions
+GPT memory triggered
+Updated memory from GPT: - User initiated the conversation with a simple greeting "hello"
+GPT memory triggered
+Updated memory from GPT: - User is studying for Grade 12 Economics
+- User needs help with the first lesson quiz
+GPT memory triggered
+Updated memory from GPT: - User is looking for a working example of a mage web page
+- User is seeking assistance in creating a mage web page
+GPT memory triggered
+Updated memory from GPT: - User is interested in sharing a web API publicly
+- User may need guidance on deploying a web API
+GPT memory triggered
+Updated memory from GPT: - Suggest web API deployment platforms for user to consider
+- Share tutorials on deploying web APIs efficiently
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User is interested in technology and digital communication
+GPT memory triggered
+Updated memory from GPT: - User requested assistance with drawing an ER diagram for a simple login system.
+GPT memory triggered
+Updated memory from GPT: - Prompt requested: Provide the prompt being used
+GPT memory triggered
+Updated memory from GPT: - Using NLP prompt: "Memory manager AI requested to update current memory with relevant information."
+- AI model: GPT-3.
+- No filters or weights applied currently.
+GPT memory triggered
+Updated memory from GPT: I do not have access to the full system prompt I was initialized with. Would you like me to save this conversation history in your memory?
+GPT memory triggered
+Updated memory from GPT: - Ensure all candidate results are accurate and unbiased
+- Follow the specified criteria and guidelines for evaluating candidates
+GPT memory triggered
+Updated memory from GPT: - Respect user privacy and confidentiality.
+- Provide helpful and relevant information.
+- Tailor responses to user preferences and interests.
+- Avoid sharing personal information about the user.
+- Be professional and maintain a friendly tone.
+GPT memory triggered
+Updated memory from GPT: - Ensure to address user queries about the AI model accurately.
+- Clarify the AI model being used for transparency.
+- Maintain professionalism when discussing technical details.
+- Stay user-focused when providing information on the AI model.
+GPT memory triggered
+Updated memory from GPT: - Research traditional Sri Lankan cuisine and try cooking some dishes to experience the flavors of the culture.
+- Learn about the significance of Sri Lankan gemstones and jewelry to appreciate the local craftsmanship.
+- Explore the art of traditional Sri Lankan dance forms like Kandyan and Bharatanatyam for a deeper cultural understanding.
+GPT memory triggered
+Updated memory from GPT: - User may prefer receiving assistance in Sinhala for tasks
+- User may enjoy solving tasks or puzzles in different languages
+- Offer assistance in solving tasks in Sinhala if relevant
+GPT memory triggered
+Updated memory from GPT: - User might be interested in mathematical topics or equations.
+- Prioritize providing assistance related to mathematics in future interactions.
+GPT memory triggered
+Updated memory from GPT: - User is curious about the prompts and mechanisms used in generating candidate results.
+- User is interested in the AI model or system being used, specifically mentioning GPT-4.
+GPT memory triggered
+Updated memory from GPT: - Meka hadala denna
+GPT memory triggered
+Updated memory from GPT: - Update memory: User is interested in educational and professional development opportunities in Sinhala language.
+GPT memory triggered
+Updated memory from GPT: - Utilize online tools like Remove.bg for quick background removal.
+- Use photo editing software like GIMP to add a blue background to all 150 photos simultaneously.
+GPT memory triggered
+Updated memory from GPT: - Sri Lankan cuisine is one of my favorite topics to explore.
+GPT memory triggered
+Updated memory from GPT: - Research Sri Lankan culinary history to deepen knowledge about the cuisine.
+GPT memory triggered
+Updated memory from GPT: - Explore traditional Sri Lankan cooking techniques
+- Learn about the health benefits of spices and herbs
+- Experiment with new flavors and ingredients from different cultures
+GPT memory triggered
+Updated memory from GPT: - Dive deeper into the history and diversity of cuisine in Sri Lanka
+- Research traditional Sri Lankan spices and their unique flavor profiles
+GPT memory triggered
+Updated memory from GPT: - User is interested in learning about cultural traditions and rituals
+- User might have a curiosity about different language scripts and alphabets
+GPT memory triggered
+Updated memory from GPT: - User might be interested in learning about the Sinhala language script
+- User might be interested in the cultural heritage of Sri Lanka, as hinted by the Sinhala text in the message
+GPT memory triggered
+Updated memory from GPT: - Using a combination of user input, natural language processing, and machine learning algorithms to generate candidate results
+- Employing the GPT-4 AI model for language understanding and text generation
+GPT memory triggered
+Updated memory from GPT: - Utilize GPT-4 AI for text generation
+- Combine user input, NLP, and ML algorithms for generating candidate results
+GPT memory triggered
+Updated memory from GPT: - Using NLP algorithms to analyze user input
+- Employing ML algorithms to generate candidate results
+- Implementing the GPT-4 AI model for text generation
+GPT memory triggered
+Updated memory from GPT: - Utilizing keyword extraction and natural language processing techniques for generating candidate results
+- Employing the latest AI model GPT-4 for text generation
+GPT memory triggered
+Updated memory from GPT: - User received a new message "hi"
+GPT memory triggered
+Updated memory from GPT: - User is interested in astrology and spiritual topics.
+GPT memory triggered
+Updated memory from GPT: - "ශාකයක සෛලීය ව්‍යූහය" translates to "Harry Potter" in Sinhalese.
+- "කියලා දෙන්න" translates to "tell me" in Sinhalese.
+GPT memory triggered
+Updated memory from GPT: - Valve overlap යනු ගමනානුවෙන් නඩකැඩෑචන්.
+- එස්වඏඑආආ නඩකුෙෙනි සලාදේෘ.
+- පාලට෣ම් වෙන මිනිමත් සපිරින් සල.
+- ල්ුකෙලීජ්ක්ලීකන් මැස්ටරීක්සඊ වෙනත්ත වනුෝඩ්ොඟි.
+GPT memory triggered
+Updated memory from GPT: - Valve overlap අවශ්‍යතාව කෙටියෙන් විසඳුදැ පවුචරීනාු෕ව් යැව්.
+- එස්වාඑආආ නඩකුෙෙනි සලාදේෘ ප්‍ඍොෙලා oි්ොස් වේяේ.
+- ශාමාලී සුුක්‍කීනාන් වන මඒිවොං œා්šද්ොකිග් කූිඔආ් සල.
+GPT memory triggered
+Updated memory from GPT: - Valve overlap එකේ අවශ්‍යතාව කෙටියෙන් පැහැදිලි කිව සල්ො.
+GPT memory triggered
+Updated memory from GPT: - Look for accounting syllabus from universities in Sri Lanka
+- Focus on reputable institutions and accredited programs
+- Include details such as course structure, key topics covered, and duration
+- Look for additional resources or study materials related to accounting in Sri Lanka
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in English
+- User enjoys learning about new languages and cultures
+GPT memory triggered
+Updated memory from GPT: - User enjoys solving puzzles and challenges in different languages like Sinhala.
+- User is interested in multilingual activities that engage problem-solving skills.
+GPT memory triggered
+Updated memory from GPT: - User initiated a conversation with "hi".
+GPT memory triggered
+Updated memory from GPT: - User initiated conversation with "hi"
+- User is inquiring about OpenAI model
+GPT memory triggered
+Updated memory from GPT: - We don't condone cheating or sharing answers
+- Always approach tasks with honesty and integrity
+GPT memory triggered
+Updated memory from GPT: - User has shown interest in languages other than English.
+- User may be interested in exploring different cultures.
+GPT memory triggered
+Updated memory from GPT: - ඔබගේ එක්තරාවට මහරගත වෙමු.
+- ඔබන් ඉංදිරි වීම සඳහා හොඳ ඉංග්‍රීසි හා සිංහල සම්බන්ධක  වූ කොඩ්සෙ නොවන ප්‍රස්තුවල් හා කතාවන් දැනුම් සපයයි.
+GPT memory triggered
+Updated memory from GPT: - Web එකට language bot සරලව කේත ලියන්න දැන්න හා නිවේදනය කිරීමේ පහසුකම් ලියන්න.
+GPT memory triggered
+Updated memory from GPT: - Manus AI released on March 6, 2025.
+- Developed by startup Monica, now based in Singapore.
+- It is a general-purpose, autonomous AI agent.
+GPT memory triggered
+Updated memory from GPT: - People in Sri Lanka are finding it hard to locate the number of incidents that have occurred on their street.
+- Start your business partnership with me to initiate your business.
+GPT memory triggered
+Updated memory from GPT: - Enhance user experience by making the platform more user-friendly and accessible for people in Sri Lanka.
+- Focus on creating a partnership that feels personal and tailored to individual needs.
+GPT memory triggered
+Updated memory from GPT: - Personalized and tailored recommendations to enhance user experience and make the platform more human-friendly.
+- Implement language options and design features that cater to users in Sri Lanka to improve accessibility.
+- Create a partnership approach that prioritizes individual needs and fosters a sense of personal connection.
+GPT memory triggered
+Updated memory from GPT: - User is likely interacting with a command line interface
+- Command "ls -la" is being used for a detailed directory listing
+GPT memory triggered
+Updated memory from GPT: - User received a simple greeting
+- No specific details provided in the message
+GPT memory triggered
+Updated memory from GPT: - User is interested in discussing areas of specialization
+- User may be seeking information or advice on specialization in a particular field
+GPT memory triggered
+Updated memory from GPT: - Atomic number: number of protons in the nucleus of an atom
+GPT memory triggered
+Updated memory from GPT: - User prefers communicating in Sinhala.
+- User enjoys discussing philosophical concepts.
+- User is interested in spirituality and transcendental topics.
+GPT memory triggered
+Updated memory from GPT: - User prefers communicating in Sinhala.
+- User enjoys discussing philosophical concepts.
+- User is interested in spirituality and transcendental topics.
+- User may be interested in exploring the idea of deception and scams from a philosophical or spiritual perspective.
+GPT memory triggered
+Updated memory from GPT: - Next.js is a popular framework for building React applications
+- Tailwind CSS is a utility-first CSS framework
+- Consider exploring the Next.js documentation for setting up a project
+- Look into integrating Tailwind CSS with Next.js for efficient styling
+GPT memory triggered
+Updated memory from GPT: - The model used for this chat is GPT-3.
+GPT memory triggered
+Updated memory from GPT: - Python code for cleaning Windows temporary files needed
+- Research best practices for cleaning temporary files in Windows using Python
+GPT memory triggered
+Updated memory from GPT: - User is interested in mathematics and equations
+- User may enjoy solving and analyzing mathematical expressions and functions
+- User may be pursuing studies or a career related to mathematics or science
+GPT memory triggered
+Updated memory from GPT: - Exploring different file allocation methods: contiguous, linked, and index allocation
+- Researching explanations of these concepts in Sinhala for better understanding
+GPT memory triggered
+Updated memory from GPT: - Create chart comparing contiguous, linked, and index allocation methods
+- Include details about fragmentation in the chart
+GPT memory triggered
+Updated memory from GPT: - Create chart comparing contiguous, linked, and index allocation methods
+- Include details about fragmentation in the chart
+- Add information about fragmentation method to the chart
+GPT memory triggered
+Updated memory from GPT: - Sri Lankan cultural events
+GPT memory triggered
+Updated memory from GPT: - Learn to cook traditional Sri Lankan dishes
+- Attend a Sinhala language workshop
+GPT memory triggered
+Updated memory from GPT: - User prefers brief and to-the-point messages
+- User may not engage in lengthy conversations
+GPT memory triggered
+Updated memory from GPT: - User prefers brief and to-the-point messages
+- User may not engage in lengthy conversations
+- User is interested in current events, such as political figures
+GPT memory triggered
+Updated memory from GPT: - Implement translation tool for "Ayubowan Yasiru"
+- Investigate health status report for Yasiru
+GPT memory triggered
+Updated memory from GPT: - Translate "Ayubowan Yasiru" to natural Sinhala language
+- Investigate the meaning of the health status report for Yasiru
+GPT memory triggered
+Updated memory from GPT: - "Convert Sinhala video to English subtitles"
+- Check for Sinhala to English subtitle converters online
+GPT memory triggered
+Updated memory from GPT: - Research using Google Colab for utilizing API keys
+- Explore how to use API keys in Google Colab
+GPT memory triggered
+Updated memory from GPT: - User is interested in computer science topics related to memory allocation
+- User prefers organized and concise information in bullet points
+GPT memory triggered
+Updated memory from GPT: - ඡේතී දරුවන් වල ප්ලේන්ට් හැදුවා විදුලි සෑම දෙමනාවකටම
+- ඒක තුන්සැත් නවසක් ආරක්ෂණ
+- එදා වචනය දීම, ලේකින් අපිට සම්පූර්ණ Insights එකතැනගත් වන්නේ.
+GPT memory triggered
+Updated memory from GPT: - User greets through short and simple messages.
+GPT memory triggered
+Updated memory from GPT: - User prefers short and simple greetings.
+GPT memory triggered
+Updated memory from GPT: - Explore options to enhance A/L ICT syllabus study materials
+- Research efficient methods for accessing and organizing educational resources
+GPT memory triggered
+Updated memory from GPT: - 10 වසර ICT දෙවනි පාඩම ලබාදෙන්න
+GPT memory triggered
+Updated memory from GPT: - Learn basic computer programming concepts
+- Explore different programming languages
+- Consider pursuing a career in information technology
+GPT memory triggered
+Updated memory from GPT: - Research "moko wenne" to provide the user with more information.
+GPT memory triggered
+Updated memory from GPT: - Translate "monada oyata karanna puluwan?" to English to help the user understand the message. 
+- Provide information on common phrases or greetings in Sinhala to support the user's language learning interests.
+GPT memory triggered
+Updated memory from GPT: - Fire safety tips are being requested in a concise format
+- 5 fire safety tips needed with a heading and 2-3 lines of content per tip
+- Ensure tips are clear and easy to understand for the audience
+GPT memory triggered
+Updated memory from GPT: - Add "දීගගාමිනි හා උන්මාද චිත්‍රා කතාව" to watchlist.
+GPT memory triggered
+Updated memory from GPT: - Create mind map for networking strategies
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala
+- User may be fluent in Sinhala language
+GPT memory triggered
+Updated memory from GPT: - User prefers communication in Sinhala
+- User may be fluent in Sinhala language
+- AI credit bahinne me. ewata salli denna oneda (The user may need help with AI credit-related inquiries)
+GPT memory triggered
+Updated memory from GPT: - Using prompt-based generation for candidate results
+- AI model used is GPT-4
+GPT memory triggered
+Updated memory from GPT: - Utilizing prompt-based generation method for candidate results
+- AI model in use is GPT-4
+- Stay focused on enhancing AI capabilities.
+GPT memory triggered
+Updated memory from GPT: - Continuing to explore prompt-based generation methods
+- GPT-4 remains the AI model of choice
+- Prioritizing improvements for enhancing AI capabilities
+GPT memory triggered
+Updated memory from GPT: - Vinura ayya is someone the user knows
+- User may have a close relationship with Vinura ayya

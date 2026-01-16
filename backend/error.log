@@ -1,0 +1,299 @@
+[06-Dec-2025 01:50:08 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[06-Dec-2025 01:50:11 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[06-Dec-2025 01:52:30 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 149
+[06-Dec-2025 01:52:33 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 149
+[06-Dec-2025 01:52:45 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 149
+[07-Dec-2025 18:33:52 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[12-Dec-2025 22:40:43 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:44 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:45 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:45 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:45 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:45 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:46 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:46 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[12-Dec-2025 22:40:46 Asia/Colombo] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:app.tpl"  on line 851 "badge.innerHTML = `<i class="${feature.icon}"></i><span class="feature-badge-text">${feature.name}</span>`;"  - Unexpected ".", expected one of: "}" <-- 
+  thrown in /home/apilageai.lk/backend/includes/smarty/templates/app.tpl on line 851
+[14-Dec-2025 05:06:31 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[14-Dec-2025 05:06:47 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[14-Dec-2025 05:07:04 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[14-Dec-2025 05:08:40 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[15-Dec-2025 00:44:23 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[15-Dec-2025 00:45:51 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[15-Dec-2025 00:48:12 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[15-Dec-2025 00:50:26 Asia/Colombo] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/apilageai.lk/backend/user.php on line 88
+[15-Dec-2025 15:35:06 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[15-Dec-2025 15:35:11 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[15-Dec-2025 15:35:19 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[17-Dec-2025 10:32:57 Asia/Colombo] Google Sign-In Error: Bad Request
+[18-Dec-2025 05:24:25 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[18-Dec-2025 05:26:06 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[18-Dec-2025 05:26:27 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[18-Dec-2025 11:39:35 Asia/Colombo] Google Sign-In Error: Bad Request
+[20-Dec-2025 18:15:44 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[20-Dec-2025 18:16:00 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[20-Dec-2025 18:16:26 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[20-Dec-2025 18:16:35 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[21-Dec-2025 17:27:23 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[21-Dec-2025 17:27:23 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[21-Dec-2025 17:27:29 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[21-Dec-2025 17:27:33 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[21-Dec-2025 17:27:36 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[21-Dec-2025 17:27:39 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[21-Dec-2025 17:27:42 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE5\xB0\x82\xE9\x96\x80...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[22-Dec-2025 04:39:57 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[22-Dec-2025 13:57:38 Asia/Colombo] Google Sign-In Error: Bad Request
+[23-Dec-2025 15:46:47 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:46:54 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:47:10 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:47:13 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:47:20 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:47:23 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:47:26 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:47:28 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[23-Dec-2025 15:48:01 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[29-Dec-2025 18:41:26 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[29-Dec-2025 18:41:52 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[02-Jan-2026 10:00:59 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[02-Jan-2026 10:01:02 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[02-Jan-2026 10:01:05 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[02-Jan-2026 10:01:09 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[02-Jan-2026 10:01:12 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[03-Jan-2026 03:40:57 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[03-Jan-2026 03:41:07 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[03-Jan-2026 03:41:38 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[03-Jan-2026 03:42:20 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[03-Jan-2026 03:42:52 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[03-Jan-2026 03:43:11 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[03-Jan-2026 03:43:25 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x83\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[04-Jan-2026 17:43:56 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[04-Jan-2026 17:44:04 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[04-Jan-2026 17:44:13 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[07-Jan-2026 19:14:44 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[07-Jan-2026 19:15:05 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[07-Jan-2026 19:15:15 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[07-Jan-2026 19:16:19 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[07-Jan-2026 19:16:30 Asia/Colombo] Google Sign-In Error: The image format is not allowed
+[10-Jan-2026 01:02:28 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 07:54:54 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:09:17 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:24:13 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:24:13 Asia/Colombo] Failed to send verification email to: nawodavimukthi3@gmail.com
+[10-Jan-2026 10:27:41 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:27:48 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:28:59 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:28:59 Asia/Colombo] Failed to send verification email to: nawodavimukthi592@icloud.com
+[10-Jan-2026 10:31:12 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 10:31:18 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 12:43:26 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 13:32:49 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 14:41:27 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 15:55:04 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 19:26:36 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[10-Jan-2026 21:00:42 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 06:55:20 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 09:18:06 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 14:37:26 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 14:58:47 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 16:33:56 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 17:13:30 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 18:31:18 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 18:31:18 Asia/Colombo] Failed to send verification email to: sithulanhas03@gmail.com
+[11-Jan-2026 18:32:25 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 18:35:57 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 18:44:56 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[11-Jan-2026 20:15:41 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phone' at row 1 in /home/apilageai.lk/backend/user.php:223
+Stack trace:
+#0 /home/apilageai.lk/backend/user.php(223): mysqli_stmt->execute()
+#1 /home/apilageai.lk/public_html/api/auth.php(13): User->sign_up()
+#2 {main}
+  thrown in /home/apilageai.lk/backend/user.php on line 223
+[12-Jan-2026 00:12:54 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 02:19:25 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 06:53:07 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 07:38:54 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 12:06:52 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 13:04:27 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 14:10:11 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 15:23:12 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 18:10:14 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 19:44:20 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 19:45:54 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 19:45:59 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 19:46:11 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB6\xBB...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:11:38 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 21:12:51 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x80\xE0\xB7\x92...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:12:54 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x80\xE0\xB7\x92...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:13:02 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB7\x80\xE0\xB7\x92...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:32:08 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[12-Jan-2026 21:33:50 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB7\x9A...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:34:01 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB7\x9A...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:34:08 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB7\x9A...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:34:31 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB7\x9A...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[12-Jan-2026 21:35:03 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE0\xB6\xB4\xE0\xB7\x9A...' for column `apilageai_lk`.`user_onboarding`.`school` at row 1 in /home/apilageai.lk/public_html/save_onboarding.php:31
+Stack trace:
+#0 /home/apilageai.lk/public_html/save_onboarding.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/apilageai.lk/public_html/save_onboarding.php on line 31
+[13-Jan-2026 08:53:05 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[13-Jan-2026 08:56:20 Asia/Colombo] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting SMTP server error: Failed to connect to server SMTP code: 111 Additional SMTP info: Connection refused
+[13-Jan-2026 09:41:08 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[13-Jan-2026 09:41:33 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[13-Jan-2026 09:45:01 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[13-Jan-2026 09:45:09 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[13-Jan-2026 09:45:13 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[13-Jan-2026 09:45:22 Asia/Colombo] Google Sign-In Error: Column 'last_name' cannot be null
+[14-Jan-2026 18:36:02 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:03 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:05 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:10 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:19 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[14-Jan-2026 18:36:21 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Smarty" not found in /home/apilageai.lk/public_html/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apilageai.lk/public_html/app.php on line 10
+[15-Jan-2026 07:17:13 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/apilageai.lk/backend/bootstrap.php:44
+Stack trace:
+#0 /home/apilageai.lk/backend/bootstrap.php(44): mysqli->__construct()
+#1 /home/apilageai.lk/public_html/auth.php(2): require_once('...')
+#2 {main}
+  thrown in /home/apilageai.lk/backend/bootstrap.php on line 44
+[15-Jan-2026 08:32:13 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/apilageai.lk/backend/bootstrap.php:44
+Stack trace:
+#0 /home/apilageai.lk/backend/bootstrap.php(44): mysqli->__construct()
+#1 /home/apilageai.lk/public_html/auth.php(2): require_once('...')
+#2 {main}
+  thrown in /home/apilageai.lk/backend/bootstrap.php on line 44
+[15-Jan-2026 09:58:35 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/apilageai.lk/backend/bootstrap.php:44
+Stack trace:
+#0 /home/apilageai.lk/backend/bootstrap.php(44): mysqli->__construct()
+#1 /home/apilageai.lk/public_html/auth.php(2): require_once('...')
+#2 {main}
+  thrown in /home/apilageai.lk/backend/bootstrap.php on line 44
