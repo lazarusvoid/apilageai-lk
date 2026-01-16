@@ -1,0 +1,117 @@
+## Disable MultiViews 
+Options -MultiViews
+Options -Indexes
+
+## Security Control ##
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|tpl)$">
+	Order Allow,Deny
+	Deny from all
+</FilesMatch>
+<IfModule mod_security.c>
+	SecFilterScanPOST Off
+</IfModule>
+
+## Cache Control ##
+<IfModule mod_headers.c>
+<FilesMatch "\.(jpg|jpeg|png|gif|svg|swf|css|js|mp4|mp3)$">
+	Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+</IfModule>
+
+## Gzip Control ##
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/css
+	AddOutputFilterByType DEFLATE text/javascript
+	AddOutputFilterByType DEFLATE text/xml
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE image/jpg
+	AddOutputFilterByType DEFLATE image/png
+	AddOutputFilterByType DEFLATE image/svg+xml
+	AddOutputFilterByType DEFLATE image/x-icon
+	AddOutputFilterByType DEFLATE application/rss+xml
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE application/x-font
+	AddOutputFilterByType DEFLATE application/x-font-truetype
+	AddOutputFilterByType DEFLATE application/x-font-ttf
+	AddOutputFilterByType DEFLATE application/x-font-otf
+	AddOutputFilterByType DEFLATE application/x-font-opentype
+	AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+	AddOutputFilterByType DEFLATE font/ttf
+	AddOutputFilterByType DEFLATE font/otf
+	AddOutputFilterByType DEFLATE font/opentype
+	BrowserMatch ^Mozilla/4 gzip-only-text/html
+	BrowserMatch ^Mozilla/4\.0[678] no-gzip
+	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+## Expires Control ##
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/jpg "access plus 1 year"
+	ExpiresByType image/jpeg "access plus 1 year"
+	ExpiresByType image/gif "access plus 1 year"
+	ExpiresByType image/png "access plus 1 year"
+	ExpiresByType text/css "access plus 1 month"
+	ExpiresByType application/pdf "access plus 1 month"
+	ExpiresByType text/x-javascript "access plus 1 month"
+	ExpiresByType application/x-shockwave-flash "access plus 1 month"
+	ExpiresByType image/x-icon "access plus 1 year"
+	ExpiresDefault "access plus 2 days"
+</IfModule>
+
+ErrorDocument 404 /404-error-page.html
+
+## RewriteEngine ##
+## Enable rewriting ##
+RewriteEngine On
+
+# Check if the host is 153.92.5.9
+RewriteCond %{HTTP_HOST} ^153\.92\.5\.9$
+# Redirect to https://apilageai.lk/ with the request URI appended
+RewriteRule ^(.*)$ https://apilageai.lk/$1 [R=301,L]
+
+## If file or directory exists, serve it ##
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+#RewriteRule ^/?$ index.php [L,QSA]
+
+#Dashboard
+RewriteRule ^dashboard/?$ dashboard.php [L,QSA]
+RewriteRule ^dashboard/([^/]+)/?$ dashboard.php?view=$1 [L,QSA]
+
+RewriteRule ^pay/([^/]+)/?$ pay.php?amount=$1 [L,QSA]
+
+#App
+RewriteRule ^app/?$ app.php [L,QSA]
+RewriteRule ^app/([^/]+)/?$ app.php?view=$1 [L,QSA]
+RewriteRule ^app/([^/]+)/([^/]+)/?$ app.php?view=$1&sub_view=$2 [L,QSA]
+
+#API
+RewriteRule ^api/auth/([^/]+)/?$ /api/auth.php?act=$1 [L,QSA]
+RewriteRule ^api/chat/([^/]+)/?$ /api/chat.php?act=$1 [L,QSA]
+RewriteRule ^api/pay/?$ /api/pay.php[L,QSA]
+
+#Authentication
+RewriteRule ^auth/login/?$ auth.php?do=log [L,QSA]
+RewriteRule ^auth/register/?$ auth.php?do=reg [L,QSA]
+RewriteRule ^auth/signout/?$ auth.php?do=out [L,QSA]
+RewriteRule ^auth/reset-request/?$ auth.php?do=reset-request [L,QSA]
+RewriteRule ^auth/reset-password/?$ auth.php?do=reset-password [L,QSA]
+
+# Email Verification Routes
+RewriteRule ^auth/verify-email/?$ auth.php?do=verify-email [L,QSA]
+RewriteRule ^auth/resend-verification/?$ auth.php?do=resend-verification [L,QSA]
+
+# Google OAuth Routes
+RewriteRule ^auth/google/?$ auth.php?do=google [L,QSA]
+RewriteRule ^auth/google-callback/?$ auth.php?do=google-callback [L,QSA]
+
+# Social Logins
+RewriteRule ^connect/globbook/?$ connect.php?do=connect [L,QSA]
+RewriteRule ^revoke/globbook/?$ connect.php?do=revoke [L,QSA]

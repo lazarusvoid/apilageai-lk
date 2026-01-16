@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #fff;
+            background-image:
+                linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .post-container {
+            max-width: 800px;
+            margin: auto;
+            background: transparent;
+            padding: 10px;
+        }
+        .post-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+        h1 {
+            color: #333;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .navbar-home {
+            background: none;
+            border: none;
+            color: red;
+            font: inherit;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar-home {
+                align-self: flex-end;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">apilageai | blog</div>
+        <button class="navbar-home" onclick="window.location.href='index.html'">Home</button>
+ <button class="navbar-home" onclick="window.location.href='https://apilageai.lk'">Main Site</button>
+    </nav>
+    <div id="loading" style="text-align: center; margin: 50px;">
+        <div class="loader"></div>
+    </div>
+    <div class="post-container">
+        <div class="content" id="post-content"></div>
+    </div>
+
+    <script>
+        const API_KEY = 'AIzaSyDfc6DXGg_VASW_PivGv7gmNglcrT-_EtI';
+        const BLOG_ID = '3036668774632497871';
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const postId = urlParams.get('id');
+
+        async function fetchPost(postId) {
+            try {
+                document.getElementById('loading').style.display = 'block';
+                const response = await fetch(`https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/${postId}?key=${API_KEY}`);
+                const post = await response.json();
+
+                // document.getElementById('post-title').innerText = post.title;
+                document.getElementById('post-content').innerHTML = post.content;
+
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(post.content, 'text/html');
+                // const imgElement = doc.querySelector('img');
+                // const imageUrl = imgElement ? imgElement.src : '';
+
+                // if (imageUrl) {
+                //     const imgTag = document.getElementById('post-image');
+                //     imgTag.src = imageUrl;
+                //     imgTag.style.display = 'block';
+                // }
+
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                document.getElementById('post-content').innerHTML = `
+                    <p>Post not found</p>
+                    <button onclick="window.location.href='index.html'" style="color: red; background: none; border: none; text-decoration: none; cursor: pointer; font: inherit; padding: 0;">
+                        Go Back to Home
+                    </button>
+                `;
+                document.getElementById('loading').style.display = 'none';
+                console.error('Error fetching post:', error);
+            }
+        }
+
+        if (postId) {
+            fetchPost(postId);
+        } else {
+            document.getElementById('post-content').innerText = 'No post ID provided.';
+            document.getElementById('loading').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

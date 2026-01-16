@@ -1,0 +1,1214 @@
+        :root {
+            --primary-red: #D32F2F;
+            --primary-red-dark: #B71C1C;
+            --light-gray: #f8f9fa;
+            --medium-gray: #dee2e6;
+            --dark-gray: #495057;
+            --text-color: #212529;
+            --white: #ffffff;
+            --shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+/* Lightbox */
+        .mcqblust-lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 2147483647;
+            /* highest possible z-index */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+        }
+
+        #mcqblust-container {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            width: 91.666667%;
+            max-width: 42rem;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 2rem;
+            position: relative;
+            transform: scale(0.95);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+ #mcqblust-close-btn {
+    position: fixed;   /* instead of absolute */
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #e60000;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    z-index: 2147483648;  /* keeps it on top of everything */
+}
+
+
+        #mcqblust-close-btn:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transform: scale(1.1);
+        }
+ /* Challenge Info Screen */
+        .challenge-info-card {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .challenge-info-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .challenge-info-card p {
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+        .challenge-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #e55146;
+        }
+        .stat-label {
+            font-size: 0.875rem;
+            color: #c6cad1;
+        }
+        /* Common button style */
+        .mcqblust-back-btn,
+        .mcqblust-lang-btn,
+        .mode-btn {
+            background-color: #e60000;
+            /* Red background */
+            color: #ffffff;
+            /* White text */
+            border: none;
+            /* No border */
+            border-radius: 8px;
+            /* Rounded corners */
+            padding: 10px 20px;
+            /* Padding */
+            font-size: 16px;
+            /* Font size */
+            font-weight: 600;
+            /* Slightly bold */
+            cursor: pointer;
+            /* Pointer on hover */
+            transition: background-color 0.3s, transform 0.2s;
+            /* Smooth hover effect */
+            display: inline-flex;
+            /* Align icon and text nicely */
+            align-items: center;
+            gap: 8px;
+            /* Space between icon and text */
+        }
+
+        /* Hover effect */
+        .mcqblust-back-btn:hover,
+        .mcqblust-lang-btn:hover,
+        .mode-btn:hover {
+            background-color: #ffffff;
+            /* White on hover */
+            color: #e60000;
+            transform: translateY(-2px);
+            /* Slight lift effect */
+        }
+
+        /* Optional: Active/click effect */
+        .mcqblust-back-btn:active,
+        .mcqblust-lang-btn:active,
+        .mode-btn:active {
+            background-color: #cc0000;
+            /* Darker red when clicked */
+            color: #ffffff;
+            transform: translateY(0);
+        }
+
+
+
+        /* General Screen & Button Styles */
+        .screen-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-primary {
+            background-color: #e60000;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #ffffff;
+            color: #e60000;
+        }
+
+        .btn-primary:disabled {
+            background-color: #f5c6c6;
+            color: #a50000;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background-color: #b30000;
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #ffffff;
+            color: #b30000;
+        }
+
+        /* Language & Mode Screens */
+        .flex-center-gap {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .mcqblust-lang-btn {
+            width: 8rem;
+            height: 8rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.3), 0 2px 4px -2px rgba(230, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .mcqblust-lang-btn:hover {
+            box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.3), 0 4px 6px -4px rgba(230, 0, 0, 0.2);
+        }
+
+        .mode-btn {
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.3), 0 2px 4px -2px rgba(230, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .mode-btn:hover {
+            box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.3), 0 4px 6px -4px rgba(230, 0, 0, 0.2);
+        }
+
+        /* Forms */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .form-input,
+        .form-select {
+            width: 100%;
+            padding: 0.75rem;
+            border-radius: 0.375rem;
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+        }
+
+        .form-space-y>*+* {
+            margin-top: 1rem;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+        }
+
+        /* Lobby & Join Game */
+        .invite-link-container {
+            background-color: #f1f5f9;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #mcqblust-invite-link {
+            background: transparent;
+            border: none;
+            width: 100%;
+            color: #374151;
+        }
+
+        #mcqblust-copy-link-btn {
+            margin-left: 1rem;
+            padding: 0.5rem;
+            background-color: #e60000;
+            color: white;
+            border-radius: 0.375rem;
+        }
+
+        #mcqblust-copy-link-btn:hover {
+            background-color: #b30000;
+        }
+
+        #mcqblust-copy-feedback {
+            color: #cc0000;
+            height: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        #mcqblust-player-list {
+            list-style: disc;
+            list-style-position: inside;
+            text-align: left;
+            max-width: 24rem;
+            margin: 0 auto;
+        }
+
+        #mcqblust-start-game-feedback {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+            height: 1rem;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            animation: spin 1s linear infinite;
+            border-radius: 50%;
+            width: 4rem;
+            height: 4rem;
+            border-bottom: 4px solid #e60000;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Game Screen */
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        #mcqblust-game-timer {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #e60000;
+        }
+
+        .question-counter {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #b30000;
+        }
+
+        #mcqblust-question-text {
+            background-color: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #1f2937;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .option-btn {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: left;
+            border: 2px solid #e60000;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .option-btn.selected {
+            background-color: #e60000;
+            border-color: #b30000;
+            color: white;
+        }
+
+        .game-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+
+        #mcqblust-btn-skip {
+            padding: 0.5rem 1.25rem;
+            border-radius: 0.5rem;
+            color: #b30000;
+            font-weight: 600;
+        }
+
+        #mcqblust-btn-skip:hover {
+            background-color: #f5c6c6;
+        }
+
+        #mcqblust-btn-submit {
+            background-color: #e60000;
+        }
+
+        #mcqblust-btn-submit:hover {
+            background-color: #b30000;
+        }
+
+        /* Results Screen */
+        .results-header {
+            text-align: center;
+            font-size: 1.125rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-summary-container {
+            max-height: 60vh;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+        }
+
+.result-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    margin-bottom: 1rem;
+}
+
+        .result-card-correct {
+            border-color: #a7f3d0;
+            background-color: #d1fae5;
+        }
+
+        .result-card-incorrect {
+            border-color: #fecaca;
+            background-color: #fee2e2;
+        }
+
+        .result-option {
+            padding: 0.5rem;
+            margin: 0.25rem 0;
+            border-radius: 0.25rem;
+        }
+
+        .result-option-correct {
+            background-color: #a7f3d0;
+        }
+
+        .result-option-incorrect {
+            background-color: #fecaca;
+        }
+
+        .explanation {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #4b5563;
+            background-color: #f3f4f6;
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            #mcqblust-container {
+                width: 66.666667%;
+            }
+
+            .form-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .options-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        [data-theme="dark"] .mcqblust-lightbox {
+            background-color: rgba(30, 30, 30, 0.85) !important;
+            backdrop-filter: blur(6px) !important;
+        }
+
+        [data-theme="dark"] #mcqblust-container {
+            background-color: #1e1e1e !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8) !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-close-btn {
+            background-color: rgba(30, 30, 30, 0.9) !important;
+            color: #e60000 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-close-btn:hover {
+            background-color: rgba(50, 50, 50, 1) !important;
+        }
+
+        [data-theme="dark"] .mcqblust-back-btn,
+        [data-theme="dark"] .mcqblust-lang-btn,
+        [data-theme="dark"] .mode-btn {
+            background-color: #e60000 !important;
+            color: #f5f5f5 !important;
+            border: none !important;
+        }
+
+        [data-theme="dark"] .mcqblust-back-btn:hover,
+        [data-theme="dark"] .mcqblust-lang-btn:hover,
+        [data-theme="dark"] .mode-btn:hover {
+            background-color: #330000 !important;
+            color: #e60000 !important;
+            transform: translateY(-2px);
+        }
+
+        [data-theme="dark"] .mcqblust-back-btn:active,
+        [data-theme="dark"] .mcqblust-lang-btn:active,
+        [data-theme="dark"] .mode-btn:active {
+            background-color: #660000 !important;
+            color: #f5f5f5 !important;
+            transform: translateY(0);
+        }
+
+        [data-theme="dark"] .screen-title {
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .btn-primary {
+            background-color: #e60000 !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .btn-primary:hover {
+            background-color: #330000 !important;
+            color: #e60000 !important;
+        }
+
+        [data-theme="dark"] .btn-primary:disabled {
+            background-color: #4a1a1a !important;
+            color: #660000 !important;
+            cursor: not-allowed;
+        }
+
+        [data-theme="dark"] .btn-secondary {
+            background-color: #440000 !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .btn-secondary:hover {
+            background-color: #660000 !important;
+            color: #e60000 !important;
+        }
+
+        [data-theme="dark"] .mcqblust-lang-btn {
+            box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.6), 0 2px 4px -2px rgba(230, 0, 0, 0.4) !important;
+            background-color: #2a2a2a !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .mcqblust-lang-btn:hover {
+            box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.8), 0 4px 6px -4px rgba(230, 0, 0, 0.6) !important;
+            background-color: #3d3d3d !important;
+        }
+
+        [data-theme="dark"] .mode-btn {
+            box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.6), 0 2px 4px -2px rgba(230, 0, 0, 0.4) !important;
+            background-color: #2a2a2a !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .mode-btn:hover {
+            box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.8), 0 4px 6px -4px rgba(230, 0, 0, 0.6) !important;
+            background-color: #3d3d3d !important;
+        }
+
+        [data-theme="dark"] .form-input,
+        [data-theme="dark"] .form-select {
+            background-color: #2a2a2a !important;
+            border: 1px solid #444 !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .form-input::placeholder,
+        [data-theme="dark"] .form-select::placeholder {
+            color: #999 !important;
+        }
+
+        [data-theme="dark"] .invite-link-container {
+            background-color: #2a2a2a !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-invite-link {
+            color: #ddd !important;
+        }
+
+        [data-theme="dark"] #mcqblust-copy-link-btn {
+            background-color: #e60000 !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-copy-link-btn:hover {
+            background-color: #b30000 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-copy-feedback {
+            color: #cc4444 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-player-list {
+            color: #ddd !important;
+        }
+
+        [data-theme="dark"] #mcqblust-start-game-feedback {
+            color: #999 !important;
+        }
+
+        [data-theme="dark"] .spinner {
+            border-bottom-color: #e60000 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-game-timer {
+            color: #e60000 !important;
+        }
+
+        [data-theme="dark"] .question-counter {
+            color: #b30000 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-question-text {
+            background-color: #2a2a2a !important;
+            color: #f5f5f5 !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.8) !important;
+        }
+
+        [data-theme="dark"] .option-btn {
+            border: 2px solid #e60000 !important;
+            background-color: transparent !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .option-btn.selected {
+            background-color: #e60000 !important;
+            border-color: #b30000 !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-btn-skip {
+            color: #b30000 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-btn-skip:hover {
+            background-color: #4a1a1a !important;
+        }
+
+        [data-theme="dark"] #mcqblust-btn-submit {
+            background-color: #e60000 !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] #mcqblust-btn-submit:hover {
+            background-color: #b30000 !important;
+        }
+
+        [data-theme="dark"] .result-card {
+            border-color: #333 !important;
+            background-color: #2a2a2a !important;
+            color: #f5f5f5 !important;
+        }
+
+        [data-theme="dark"] .result-card-correct {
+            border-color: #1f4d3d !important;
+            background-color: #264d3d !important;
+            color: #a7f3d0 !important;
+        }
+
+        [data-theme="dark"] .result-card-incorrect {
+            border-color: #661111 !important;
+            background-color: #4d1f1f !important;
+            color: #fecaca !important;
+        }
+
+        [data-theme="dark"] .result-option-correct {
+            background-color: #1f4d3d !important;
+            color: #a7f3d0 !important;
+        }
+
+        [data-theme="dark"] .result-option-incorrect {
+            background-color: #661111 !important;
+            color: #fecaca !important;
+        }
+
+        [data-theme="dark"] .explanation {
+            background-color: #333 !important;
+            color: #ccc !important;
+        }        /* Lightbox */
+.mcqblust-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 2147483647; /* highest possible z-index */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+}
+        #mcqblust-container {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            width: 91.666667%;
+            max-width: 42rem;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 2rem;
+            position: relative;
+            transform: scale(0.95);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+ 
+#mcqblust-close-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #e60000;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    z-index: 2147483648; /* above the lightbox */
+}
+
+#mcqblust-close-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+/* Common button style */
+.mcqblust-back-btn,
+.mcqblust-lang-btn,
+.mode-btn {
+    background-color: #e60000;   /* Red background */
+    color: #ffffff;              /* White text */
+    border: none;                /* No border */
+    border-radius: 8px;          /* Rounded corners */
+    padding: 10px 20px;          /* Padding */
+    font-size: 16px;             /* Font size */
+    font-weight: 600;            /* Slightly bold */
+    cursor: pointer;             /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effect */
+    display: inline-flex;        /* Align icon and text nicely */
+    align-items: center;
+    gap: 8px;                    /* Space between icon and text */
+}
+
+/* Hover effect */
+.mcqblust-back-btn:hover,
+.mcqblust-lang-btn:hover,
+.mode-btn:hover {
+    background-color: #ffffff;  /* White on hover */
+    color: #e60000;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Optional: Active/click effect */
+.mcqblust-back-btn:active,
+.mcqblust-lang-btn:active,
+.mode-btn:active {
+    background-color: #cc0000;  /* Darker red when clicked */
+    color: #ffffff;
+    transform: translateY(0);
+}
+
+
+
+        /* General Screen & Button Styles */
+        .screen-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .btn-primary {
+            background-color: #e60000;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #ffffff;
+            color: #e60000;
+        }
+        .btn-primary:disabled {
+            background-color: #f5c6c6;
+            color: #a50000;
+            cursor: not-allowed;
+        }
+        .btn-secondary {
+            background-color: #b30000;
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #ffffff;
+            color: #b30000;
+        }
+
+        /* Language & Mode Screens */
+        .flex-center-gap {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .mcqblust-lang-btn {
+            width: 8rem;
+            height: 8rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.3), 0 2px 4px -2px rgba(230, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+        }
+        .mcqblust-lang-btn:hover {
+            box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.3), 0 4px 6px -4px rgba(230, 0, 0, 0.2);
+        }
+        .mode-btn {
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.3), 0 2px 4px -2px rgba(230, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .mode-btn:hover {
+            box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.3), 0 4px 6px -4px rgba(230, 0, 0, 0.2);
+        }
+
+        /* Forms */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .form-input, .form-select {
+            width: 100%;
+            padding: 0.75rem;
+            border-radius: 0.375rem;
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+        }
+        .form-space-y > * + * { margin-top: 1rem; }
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+        }
+
+        /* Lobby & Join Game */
+        .invite-link-container {
+            background-color: #f1f5f9;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #mcqblust-invite-link {
+            background: transparent;
+            border: none;
+            width: 100%;
+            color: #374151;
+        }
+        #mcqblust-copy-link-btn {
+            margin-left: 1rem;
+            padding: 0.5rem;
+            background-color: #e60000;
+            color: white;
+            border-radius: 0.375rem;
+        }
+        #mcqblust-copy-link-btn:hover { background-color: #b30000; }
+        #mcqblust-copy-feedback { color: #cc0000; height: 1rem; margin-top: 0.5rem; }
+        #mcqblust-player-list { list-style: disc; list-style-position: inside; text-align: left; max-width: 24rem; margin: 0 auto; }
+        #mcqblust-start-game-feedback { color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; height: 1rem; }
+
+        /* Loading Spinner */
+        .spinner {
+            animation: spin 1s linear infinite;
+            border-radius: 50%;
+            width: 4rem;
+            height: 4rem;
+            border-bottom: 4px solid #e60000;
+            margin: 0 auto;
+        }
+        @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        
+        /* Game Screen */
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        #mcqblust-game-timer { font-size: 1.25rem; font-weight: 700; color: #e60000; }
+        .question-counter { font-size: 1rem; font-weight: 600; color: #b30000; }
+        #mcqblust-question-text {
+            background-color: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #1f2937;
+        }
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .option-btn {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: left;
+            border: 2px solid #e60000;
+            transition: all 0.2s ease-in-out;
+        }
+        .option-btn.selected { background-color: #e60000; border-color: #b30000; color: white; }
+        .game-nav { display: flex; justify-content: space-between; margin-top: 2rem; }
+        #mcqblust-btn-skip { padding: 0.5rem 1.25rem; border-radius: 0.5rem; color: #b30000; font-weight: 600; }
+        #mcqblust-btn-skip:hover { background-color: #f5c6c6; }
+        #mcqblust-btn-submit { background-color: #e60000; }
+        #mcqblust-btn-submit:hover { background-color: #b30000; }
+
+        /* Results Screen */
+        .results-header { text-align: center; font-size: 1.125rem; font-weight: 500; margin-bottom: 1.5rem; }
+        .results-summary-container { max-height: 60vh; overflow-y: auto; padding-right: 0.5rem; }
+        .result-card {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid;
+        }
+        .result-card-correct { border-color: #a7f3d0; background-color: #d1fae5; }
+        .result-card-incorrect { border-color: #fecaca; background-color: #fee2e2; }
+        .result-option { padding: 0.5rem; margin: 0.25rem 0; border-radius: 0.25rem; }
+        .result-option-correct { background-color: #a7f3d0; }
+        .result-option-incorrect { background-color: #fecaca; }
+        .explanation { margin-top: 0.5rem; font-size: 0.875rem; color: #4b5563; background-color: #f3f4f6; padding: 0.5rem; border-radius: 0.25rem; }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            #mcqblust-container { width: 66.666667%; }
+            .form-grid { grid-template-columns: repeat(2, 1fr); }
+            .options-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+[data-theme="dark"] .mcqblust-lightbox {
+    background-color: rgba(30, 30, 30, 0.85) !important;
+    backdrop-filter: blur(6px) !important;
+}
+
+[data-theme="dark"] #mcqblust-container {
+    background-color: #1e1e1e !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8) !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] #mcqblust-close-btn {
+    background-color: rgba(30, 30, 30, 0.9) !important;
+    color: #e60000 !important;
+}
+
+[data-theme="dark"] #mcqblust-close-btn:hover {
+    background-color: rgba(50, 50, 50, 1) !important;
+}
+
+[data-theme="dark"] .mcqblust-back-btn,
+[data-theme="dark"] .mcqblust-lang-btn,
+[data-theme="dark"] .mode-btn {
+    background-color: #e60000 !important;
+    color: #f5f5f5 !important;
+    border: none !important;
+}
+
+[data-theme="dark"] .mcqblust-back-btn:hover,
+[data-theme="dark"] .mcqblust-lang-btn:hover,
+[data-theme="dark"] .mode-btn:hover {
+    background-color: #330000 !important;
+    color: #e60000 !important;
+    transform: translateY(-2px);
+}
+
+[data-theme="dark"] .mcqblust-back-btn:active,
+[data-theme="dark"] .mcqblust-lang-btn:active,
+[data-theme="dark"] .mode-btn:active {
+    background-color: #660000 !important;
+    color: #f5f5f5 !important;
+    transform: translateY(0);
+}
+
+[data-theme="dark"] .screen-title {
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .btn-primary {
+    background-color: #e60000 !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .btn-primary:hover {
+    background-color: #330000 !important;
+    color: #e60000 !important;
+}
+
+[data-theme="dark"] .btn-primary:disabled {
+    background-color: #4a1a1a !important;
+    color: #660000 !important;
+    cursor: not-allowed;
+}
+
+[data-theme="dark"] .btn-secondary {
+    background-color: #440000 !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+    background-color: #660000 !important;
+    color: #e60000 !important;
+}
+
+[data-theme="dark"] .mcqblust-lang-btn {
+    box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.6), 0 2px 4px -2px rgba(230, 0, 0, 0.4) !important;
+    background-color: #2a2a2a !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .mcqblust-lang-btn:hover {
+    box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.8), 0 4px 6px -4px rgba(230, 0, 0, 0.6) !important;
+    background-color: #3d3d3d !important;
+}
+
+[data-theme="dark"] .mode-btn {
+    box-shadow: 0 4px 6px -1px rgba(230, 0, 0, 0.6), 0 2px 4px -2px rgba(230, 0, 0, 0.4) !important;
+    background-color: #2a2a2a !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .mode-btn:hover {
+    box-shadow: 0 10px 15px -3px rgba(230, 0, 0, 0.8), 0 4px 6px -4px rgba(230, 0, 0, 0.6) !important;
+    background-color: #3d3d3d !important;
+}
+
+[data-theme="dark"] .form-input,
+[data-theme="dark"] .form-select {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444 !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .form-input::placeholder,
+[data-theme="dark"] .form-select::placeholder {
+    color: #999 !important;
+}
+
+[data-theme="dark"] .invite-link-container {
+    background-color: #2a2a2a !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] #mcqblust-invite-link {
+    color: #ddd !important;
+}
+
+[data-theme="dark"] #mcqblust-copy-link-btn {
+    background-color: #e60000 !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] #mcqblust-copy-link-btn:hover {
+    background-color: #b30000 !important;
+}
+
+[data-theme="dark"] #mcqblust-copy-feedback {
+    color: #cc4444 !important;
+}
+
+[data-theme="dark"] #mcqblust-player-list {
+    color: #ddd !important;
+}
+
+[data-theme="dark"] #mcqblust-start-game-feedback {
+    color: #999 !important;
+}
+
+[data-theme="dark"] .spinner {
+    border-bottom-color: #e60000 !important;
+}
+
+[data-theme="dark"] #mcqblust-game-timer {
+    color: #e60000 !important;
+}
+
+[data-theme="dark"] .question-counter {
+    color: #b30000 !important;
+}
+
+[data-theme="dark"] #mcqblust-question-text {
+    background-color: #2a2a2a !important;
+    color: #f5f5f5 !important;
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.8) !important;
+}
+
+[data-theme="dark"] .option-btn {
+    border: 2px solid #e60000 !important;
+    background-color: transparent !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .option-btn.selected {
+    background-color: #e60000 !important;
+    border-color: #b30000 !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] #mcqblust-btn-skip {
+    color: #b30000 !important;
+}
+
+[data-theme="dark"] #mcqblust-btn-skip:hover {
+    background-color: #4a1a1a !important;
+}
+
+[data-theme="dark"] #mcqblust-btn-submit {
+    background-color: #e60000 !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] #mcqblust-btn-submit:hover {
+    background-color: #b30000 !important;
+}
+
+[data-theme="dark"] .result-card {
+    border-color: #333 !important;
+    background-color: #2a2a2a !important;
+    color: #f5f5f5 !important;
+}
+
+[data-theme="dark"] .result-card-correct {
+    border-color: #1f4d3d !important;
+    background-color: #264d3d !important;
+    color: #a7f3d0 !important;
+}
+
+[data-theme="dark"] .result-card-incorrect {
+    border-color: #661111 !important;
+    background-color: #4d1f1f !important;
+    color: #fecaca !important;
+}
+
+[data-theme="dark"] .result-option-correct {
+    background-color: #1f4d3d !important;
+    color: #a7f3d0 !important;
+}
+
+[data-theme="dark"] .result-option-incorrect {
+    background-color: #661111 !important;
+    color: #fecaca !important;
+}
+
+[data-theme="dark"] .explanation {
+    background-color: #333 !important;
+    color: #ccc !important;
+}
+
+/* Dark mode - Challenge Info Screen */
+[data-theme="dark"] .challenge-info-card {
+    background-color: #1e1e1e;  /* dark card background */
+    border: 1px solid #333333;  /* dark border */
+    color: #e0e0e0;             /* default text color */
+}
+
+[data-theme="dark"] .challenge-info-card h3 {
+    color: #ffffff;             /* heading white */
+}
+
+[data-theme="dark"] .challenge-info-card p {
+    color: #bbbbbb;             /* lighter text for paragraph */
+}
+
+[data-theme="dark"] .challenge-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+[data-theme="dark"] .stat-item {
+    text-align: center;
+}
+
+[data-theme="dark"] .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ff4d4d;             /* bright red for stats */
+}
+
+[data-theme="dark"] .stat-label {
+    font-size: 0.875rem;
+    color: #9e9e9e;             /* muted text in dark mode */
+}
+
+

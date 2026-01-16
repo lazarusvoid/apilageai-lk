@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.apilageai.apilageai",
+      "sha256_cert_fingerprints": [
+        "03:FD:5C:28:77:87:A1:6A:97:D2:FE:02:E2:94:EA:16:A8:05:D5:58:BD:8C:50:B5:7F:B0:B6:83:89:2E:F5:E6"
+      ]
+    }
+  }
+]

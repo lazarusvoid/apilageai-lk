@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Refund Policy | apilageAi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #e63946;
+      --primary-dark: #c92a34;
+      --secondary: #f1faee;
+      --dark: #1d1d1d;
+      --light: #ffffff;
+      --gray: #6c757d;
+      --white: #ffffff;
+      --card-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    [data-theme="dark"] {
+      --primary: #ff6b6b;
+      --primary-dark: #ff4b4b;
+      --secondary: #1a1a1a;
+      --dark: #f1faee;
+      --light: #121212;
+      --gray: #cccccc;
+      --white: #1e1e1e;
+      --card-shadow: 0 10px 30px -15px rgba(255, 255, 255, 0.05);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.7;
+      background-color: var(--light);
+      color: var(--dark);
+      padding-top: 80px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Modern Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 70px;
+      background: var(--white);
+      box-shadow: var(--card-shadow);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 5%;
+      z-index: 1000;
+    }
+
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .navbar-logo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: contain;
+    }
+
+    .brand-name {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--primary);
+    }
+
+    .navbar-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-button {
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-weight: 500;
+      transition: var(--transition);
+      text-decoration: none;
+    }
+
+    .nav-button.login {
+      color: var(--primary);
+      border: 1px solid var(--primary);
+    }
+
+    .nav-button.login:hover {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .nav-button.home {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .nav-button.home:hover {
+      background: var(--primary-dark);
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--white);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: var(--card-shadow);
+      margin-bottom: 40px;
+    }
+    /* Theme color support */
+    body {
+      background-color: var(--light);
+      color: var(--dark);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .container {
+      background: var(--white);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: var(--primary);
+      position: relative;
+      padding-bottom: 15px;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      border-radius: 2px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin: 40px 0 20px;
+      color: var(--dark);
+    }
+
+    p, li {
+      color: var(--gray);
+      font-size: 1.05rem;
+    }
+
+    ul {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    li::before {
+      content: '•';
+      color: var(--primary);
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    .notice-box {
+      background: rgba(67, 97, 238, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 15px;
+      margin: 25px 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .notice-box h2 {
+      margin: 0 0 10px;
+      font-size: 1.3rem;
+      color: var(--primary);
+    }
+
+    /* Back Button */
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: transparent;
+      color: var(--primary);
+      border: 1px solid var(--primary);
+      border-radius: 50px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-bottom: 30px;
+    }
+
+    .back-button:hover {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .back-button svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--gray);
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 0 20px;
+      }
+
+      .container {
+        padding: 30px 20px;
+        margin: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar-nav {
+        gap: 10px;
+      }
+
+      .nav-button {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+      }
+
+      .brand-name {
+        display: none;
+      }
+    }
+</style>
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.getAttribute('data-theme') === 'dark';
+      html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    }
+
+    window.onload = () => {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    };
+  </script>
+</head>
+<body>
+  <!-- Modern Fixed Navbar -->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="https://apilageai.lk/assets/images/icon.png" alt="apilageAi Logo" class="navbar-logo">
+      <span class="brand-name">apilageai</span>
+    </div>
+    <div class="navbar-nav">
+      <a href="/" class="nav-button home">
+        <i class="fas fa-home"></i> Home
+      </a>
+      <a href="/app" class="nav-button login">
+        <i class="fas fa-sign-in-alt"></i> Login
+      </a>
+      <button onclick="toggleTheme()" class="nav-button login">
+        <i class="fas fa-adjust"></i> Toggle Theme
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <button onclick="history.back()" class="back-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m12 19-7-7 7-7"></path>
+        <path d="M19 12H5"></path>
+      </svg>
+      Go Back
+    </button>
+
+    <h1>Refund Policy</h1>
+    <p>Thank you for choosing apilageAi.lk. We strive to provide excellent service, but if you encounter any issues with your payments, please review our refund policy below.</p>
+
+    <div class="notice-box">
+      <h2>Important Notice</h2>
+      <p>All credit purchases are final. Refunds are only considered in exceptional circumstances as outlined below.</p>
+    </div>
+
+    <h2>1. Payment Method</h2>
+    <p>We exclusively use one-time payment methods for credit purchases. You can choose the amount of credit you wish to purchase within our specified range (200 LKR to 10,000 LKR). Please note we do not offer subscription plans.</p>
+
+    <h2>2. Cancellation Policy</h2>
+    <ul>
+      <li>Credit purchases cannot be canceled once completed.</li>
+      <li>If you experience technical issues after purchasing credit (e.g., purchased credit not appearing in your account), please contact our support team immediately at <a href="mailto:contact@apilageai.lk" style="color: var(--primary);">contact@apilageai.lk</a>.</li>
+      <li>Refund requests must be submitted within 48 hours of purchase and will be evaluated on a case-by-case basis.</li>
+    </ul>
+
+    <h2>3. Support Availability</h2>
+    <p>Our dedicated support team is available during regular business hours (9:00 AM to 5:00 PM, Monday through Friday) to assist with any payment-related issues. We aim to respond to all inquiries within 24 business hours.</p>
+
+    <h2>4. Eligibility for Refunds</h2>
+    <p>Refunds may be considered in the following circumstances:</p>
+    <ul>
+      <li>Duplicate or accidental charges</li>
+      <li>Technical errors preventing credit activation</li>
+      <li>Unauthorized transactions</li>
+    </ul>
+    <p>All refund requests require proof of purchase and detailed explanation of the issue.</p>
+
+    <h2>5. Refund Process</h2>
+    <p>Approved refunds will be processed within 7-10 business days and credited back to the original payment method. Processing times may vary depending on your financial institution.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>For any questions about our refund policy or to request assistance with a payment issue, please contact our support team:</p>
+    <p>
+      <i class="fas fa-envelope"></i> Email: <a href="mailto:contact@apilageai.lk" style="color: var(--primary);">contact@apilageai.lk</a><br>
+      <i class="fas fa-clock"></i> Response Time: Within 24 business hours
+    </p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 apilageai.lk. All rights reserved.</p>
+  </footer>
+</body>
+</html>

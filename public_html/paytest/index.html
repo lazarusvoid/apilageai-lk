@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAYable IPG — Sandbox Demo</title>
+  <style>
+    :root{--bg:#0b1220;--card:#111a2b;--muted:#7c8aa5;--accent:#2f6dfb;--ok:#22c55e;--warn:#f59e0b;--err:#ef4444}
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Arial,sans-serif;background:linear-gradient(180deg,#0b1220,#0f172a);} 
+    .wrap{min-height:100svh;display:grid;place-items:center;padding:24px}
+    .card{width:min(980px,100%);background:rgba(17,26,43,.92);backdrop-filter:blur(6px);border:1px solid #22304c;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.35);}
+    header{padding:22px 22px 14px;border-bottom:1px solid #22304c;display:flex;gap:14px;align-items:center;justify-content:space-between}
+    h1{margin:0;font-size:20px;color:#e6eefc;font-weight:700}
+    .sub{font-size:12px;color:var(--muted)}
+    main{padding:18px 20px 22px}
+    form{display:grid;gap:14px}
+    .row{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+    .field{grid-column:span 6;display:flex;flex-direction:column;gap:8px}
+    .field.quarter{grid-column:span 3}
+    .field.full{grid-column:1/-1}
+    label{font-size:12px;color:#b9c5dd}
+    input,select,button,textarea{font:inherit}
+    input,select,textarea{width:100%;padding:12px 12px;border-radius:12px;border:1px solid #22304c;background:#0c1425;color:#e6eefc;outline:none}
+    input::placeholder{color:#6b7a96}
+    textarea{min-height:72px;resize:vertical}
+    .hint{font-size:11px;color:#8795b5}
+    .muted{color:#9db0d3}
+    .actions{display:flex;gap:12px;align-items:center}
+    button{padding:12px 16px;border-radius:12px;border:1px solid #2a3b63;background:#162345;color:#e6eefc;cursor:pointer}
+    button.primary{background:var(--accent);border-color:#275be1}
+    button:disabled{opacity:.6;cursor:not-allowed}
+    .badge{display:inline-flex;align-items:center;gap:8px;border-radius:999px;border:1px solid #294182;background:#0d1730;color:#b9c5dd;font-size:12px;padding:8px 12px}
+    .kvs{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px;display:grid;gap:8px;background:#0b1326;border:1px dashed #22304c;border-radius:12px;padding:12px;color:#b7c6e6}
+    footer{padding:14px 20px;border-top:1px solid #22304c;color:#94a3b8;font-size:12px}
+    .ok{color:var(--ok)}.warn{color:var(--warn)}.err{color:var(--err)}
+    @media (max-width:820px){.field{grid-column:1/-1}.field.quarter{grid-column:span 6}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div>
+          <h1>PAYable IPG — Sandbox Checkout</h1>
+          <div class="sub">One-file demo using <code>payable-ipg-js</code>. Use your sandbox Merchant Key/Token. Do <strong class="warn">NOT</strong> ship tokens in front‑end.</div>
+        </div>
+        <div class="badge">
+          <input id="testMode" type="checkbox" checked />
+          <label for="testMode">Use Sandbox</label>
+        </div>
+      </header>
+      <main>
+        <form id="payForm">
+          <!-- Merchant / routing -->
+          <div class="row">
+            <div class="field full">
+              <label for="logoUrl">Logo URL</label>
+              <input id="logoUrl" name="logoUrl" placeholder="https://yourdomain.com/logo.svg" value="https://dummyimage.com/160x40/0b1326/e6eefc&text=Your+Logo" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field full">
+              <label for="notifyUrl">Notify URL (server callback)</label>
+              <input id="notifyUrl" name="notifyUrl" placeholder="https://yourdomain.com/api/payable/notify" />
+              <div class="hint">Must be a publicly accessible HTTPS endpoint. Not called in the browser.</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field full">
+              <label for="returnUrl">Return URL (success/finish)</label>
+              <input id="returnUrl" name="returnUrl" placeholder="https://yourdomain.com/checkout/thanks" value="https://example.org/return" />
+            </div>
+          </div>
+
+          <!-- Customer / order -->
+          <div class="row">
+            <div class="field quarter">
+              <label for="amount">Amount</label>
+              <input id="amount" name="amount" type="number" step="0.01" min="0" value="235.00" />
+            </div>
+            <div class="field quarter">
+              <label for="currencyCode">Currency</label>
+              <select id="currencyCode" name="currencyCode">
+                <option value="LKR" selected>LKR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+              </select>
+            </div>
+            <div class="field quarter">
+              <label for="paymentType">Payment Type</label>
+              <select id="paymentType" name="paymentType">
+                <option value="1" selected>One‑time</option>
+                <option value="2">Recurring</option>
+              </select>
+            </div>
+            <div class="field quarter">
+              <label for="invoiceId">Invoice ID</label>
+              <div class="actions">
+                <input id="invoiceId" name="invoiceId" placeholder="INVxxxxx" />
+                <button type="button" id="genInv">Generate</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label for="customerFirstName">First name</label>
+              <input id="customerFirstName" value="Dineth" />
+            </div>
+            <div class="field">
+              <label for="customerLastName">Last name</label>
+              <input id="customerLastName" value="Perera" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label for="customerMobilePhone">Mobile</label>
+              <input id="customerMobilePhone" placeholder="07XXXXXXXX" />
+            </div>
+            <div class="field">
+              <label for="customerEmail">Email</label>
+              <input id="customerEmail" type="email" value="customer@example.com" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label for="billingAddressStreet">Billing address line 1</label>
+              <input id="billingAddressStreet" value="Main street" />
+            </div>
+            <div class="field">
+              <label for="billingAddressCity">Billing city</label>
+              <input id="billingAddressCity" value="Colombo" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label for="billingAddressCountry">Billing country (ISO‑3)</label>
+              <input id="billingAddressCountry" value="LKA" />
+            </div>
+            <div class="field">
+              <label for="orderDescription">Order description</label>
+              <input id="orderDescription" value="Payment for order" />
+            </div>
+          </div>
+
+          <!-- Security / merchant creds (sandbox ONLY for demo) -->
+          <div class="row">
+            <div class="field">
+              <label for="merchantKey">Merchant Key (ID)</label>
+              <input id="merchantKey" placeholder="from PAYable" />
+            </div>
+            <div class="field">
+              <label for="merchantToken">Merchant Token</label>
+              <input id="merchantToken" placeholder="from PAYable" />
+              <div class="hint warn">For sandbox demo you may paste token here to compute <code>checkValue</code> in the browser. <strong>Never do this in production.</strong></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field full">
+              <label class="muted">Computed fields (read‑only)</label>
+              <div class="kvs">
+                <div><strong>checkValue</strong>: <span id="kv-check">—</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="primary" id="payBtn" type="submit">Pay (Sandbox)</button>
+            <button type="button" id="calcBtn">Compute checkValue</button>
+            <span id="msg" class="hint"></span>
+          </div>
+        </form>
+
+        <details style="margin-top:14px">
+          <summary class="muted">How <code>checkValue</code> is calculated (SHA‑512)</summary>
+          <pre class="kvs" style="white-space:pre-wrap">
+Format (from PAYable docs):
+UPPERCASE(SHA512(&lt;merchantKey&gt;|&lt;invoiceId&gt;|&lt;amount&gt;|&lt;currencyCode&gt;|UPPERCASE(SHA512(&lt;merchantToken&gt;))))
+          </pre>
+        </details>
+
+        <!-- Optional: Example backend routes (Node / PHP). Do not expose tokens in front-end. -->
+        <details>
+          <summary class="muted">Backend example for <code>/api/checkvalue</code> (Node & PHP)</summary>
+<pre class="kvs">// Node (Express) — env: PAYABLE_MERCHANT_KEY, PAYABLE_MERCHANT_TOKEN
+import express from 'express';
+import crypto from 'crypto';
+const app = express();
+app.use(express.json());
+
+function sha512HexU(s){return crypto.createHash('sha512').update(s,'utf8').digest('hex').toUpperCase();}
+
+app.post('/api/checkvalue', (req, res) => {
+  const { invoiceId, amount, currencyCode } = req.body;
+  const mk = process.env.PAYABLE_MERCHANT_KEY;
+  const mt = process.env.PAYABLE_MERCHANT_TOKEN;
+  const inner = sha512HexU(mt);
+  const checkValue = sha512HexU(`${mk}|${invoiceId}|${amount}|${currencyCode}|${inner}`);
+  res.json({ merchantKey: mk, checkValue });
+});
+
+app.listen(3000);
+
+/* PHP (Laravel-ish)
+$mk = env('PAYABLE_MERCHANT_KEY');
+$mt = env('PAYABLE_MERCHANT_TOKEN');
+$inner = strtoupper(hash('sha512', $mt));
+$checkValue = strtoupper(hash('sha512', "$mk|$invoiceId|$amount|$currencyCode|$inner"));
+return response()->json([ 'merchantKey' => $mk, 'checkValue' => $checkValue ]);
+*/
+</pre>
+        </details>
+
+      </main>
+      <footer>
+        Based on the package <code>payable-ipg-js</code> v4.1.3. Toggle “Use Sandbox” above to connect to PAYable sandbox. Ensure <strong>notifyUrl</strong> is publicly reachable.
+      </footer>
+    </div>
+  </div>
+
+  <script type="module">
+    // Import the SDK (ESM via CDN). You can also bundle from npm.
+    // npm:   npm i payable-ipg-js  →  import { payablePayment } from 'payable-ipg-js'
+    // CDN:   jsDelivr ESM proxy keeps this as a module for the browser
+    import { payablePayment } from 'https://cdn.jsdelivr.net/npm/payable-ipg-js/+esm';
+
+    const el = (id) => document.getElementById(id);
+    const msg = el('msg');
+
+    // Helpers — SHA-512 using Web Crypto
+    async function sha512HexU(str){
+      const enc = new TextEncoder();
+      const data = enc.encode(str);
+      const buf = await crypto.subtle.digest('SHA-512', data);
+      const bytes = new Uint8Array(buf);
+      let hex = '';
+      for (const b of bytes) hex += b.toString(16).padStart(2, '0');
+      return hex.toUpperCase();
+    }
+
+    async function computeCheckValue({ merchantKey, merchantToken, invoiceId, amount, currencyCode }){
+      const inner = await sha512HexU(merchantToken);
+      const payload = `${merchantKey}|${invoiceId}|${amount}|${currencyCode}|${inner}`;
+      return await sha512HexU(payload);
+    }
+
+    // Generate a simple invoice id
+    el('genInv').addEventListener('click', () => {
+      const rand = Math.random().toString(36).slice(2, 8).toUpperCase();
+      el('invoiceId').value = `INV${rand}`;
+    });
+
+    // Compute checkValue button (client-side SANDBOX ONLY)
+    el('calcBtn').addEventListener('click', async () => {
+      msg.textContent = '';
+      try{
+        const checkValue = await computeCheckValue(collectCreds());
+        el('kv-check').textContent = checkValue;
+      }catch(e){
+        el('kv-check').textContent = '—';
+        msg.textContent = 'Failed computing checkValue. Fill Merchant Key/Token.';
+      }
+    });
+
+    function collectCreds(){
+      return {
+        merchantKey: el('merchantKey').value.trim(),
+        merchantToken: el('merchantToken').value.trim(),
+        invoiceId: el('invoiceId').value.trim(),
+        amount: Number(el('amount').value).toFixed(2),
+        currencyCode: el('currencyCode').value
+      };
+    }
+
+    function collectPayment(){
+      const { merchantKey } = collectCreds();
+      return {
+        logoUrl: el('logoUrl').value.trim(),
+        returnUrl: el('returnUrl').value.trim(),
+        notifyUrl: el('notifyUrl').value.trim(),
+        orderDescription: el('orderDescription').value.trim(),
+        invoiceId: el('invoiceId').value.trim(),
+        merchantKey,
+        customerFirstName: el('customerFirstName').value.trim(),
+        customerLastName: el('customerLastName').value.trim(),
+        customerMobilePhone: el('customerMobilePhone').value.trim(),
+        customerEmail: el('customerEmail').value.trim(),
+        billingAddressStreet: el('billingAddressStreet').value.trim(),
+        billingAddressCity: el('billingAddressCity').value.trim(),
+        billingAddressCountry: el('billingAddressCountry').value.trim(),
+        amount: Number(el('amount').value).toFixed(2),
+        currencyCode: el('currencyCode').value,
+        paymentType: el('paymentType').value
+      };
+    }
+
+    async function getCheckValue(){
+      // Preferred: ask your backend to sign (DO NOT expose token in the browser)
+      // const res = await fetch('/api/checkvalue', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ invoiceId: el('invoiceId').value, amount: Number(el('amount').value).toFixed(2), currencyCode: el('currencyCode').value }) });
+      // const { merchantKey, checkValue } = await res.json();
+      // return { merchantKey, checkValue };
+
+      // Sandbox‑only: compute in browser (requires you to paste Merchant Token above!)
+      const { merchantKey, merchantToken, invoiceId, amount, currencyCode } = collectCreds();
+      if(!merchantKey || !merchantToken) throw new Error('Missing merchant key/token');
+      const checkValue = await computeCheckValue({ merchantKey, merchantToken, invoiceId, amount, currencyCode });
+      return { merchantKey, checkValue };
+    }
+
+    // Submit → redirect to PAYable checkout
+    document.getElementById('payForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      msg.textContent = 'Preparing payment…';
+      const testMode = document.getElementById('testMode').checked; // sandbox
+
+      try{
+        const payment = collectPayment();
+        const { checkValue } = await getCheckValue();
+        payment.checkValue = checkValue;
+
+        // Basic required validation for demo purposes
+        for (const k of ['notifyUrl','returnUrl','merchantKey','invoiceId','amount','currencyCode']){
+          if(!payment[k]) throw new Error(`Missing field: ${k}`);
+        }
+
+        // Call the PAYable SDK — this will redirect user to PAYable checkout
+        const resp = await payablePayment(payment, testMode);
+        console.log('PAYable response:', resp);
+        msg.textContent = 'Redirecting to gateway…';
+      }catch(err){
+        console.error(err);
+        msg.textContent = 'Error: ' + (err?.message || 'Failed to start payment');
+      }
+    });
+  </script>
+</body>
+</html>

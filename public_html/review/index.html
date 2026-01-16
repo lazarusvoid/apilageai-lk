@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apilageai Review</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- General Styles & Theming --- */
+        :root {
+            --background-start: #d83333;
+            --background-end: #eef2f5;
+            --card-background: rgba(255, 255, 255, 0.7);
+            --card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.07);
+            --text-primary: #1f2937;
+            --text-secondary: #4b5563;
+            --text-tertiary: #9ca3af;
+            --accent-start: #f63bd4;
+            --accent-end: #f1639e;
+            --accent-hover: #d5151b;
+            --danger: #ef4444;
+            --success: #22c55e;
+            --border-color: #e5e7eb;
+            --border-radius: 12px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: linear-gradient(135deg, var(--background-start), var(--background-end));
+            color: var(--text-primary);
+            margin: 0;
+            padding: 1rem;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* --- Header --- */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            letter-spacing: -1px;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+            font-size: 1.125rem;
+        }
+
+        /* --- Glassmorphism Card Style --- */
+        .glass-card {
+            background: var(--card-background);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: var(--border-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .glass-card h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        /* --- Form Elements --- */
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.85rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+            background-color: #f9fafb;
+            font-size: 1rem;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-start);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+        }
+
+        .submit-btn {
+            width: 100%;
+            background-image: linear-gradient(to right, var(--accent-start), var(--accent-end));
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px -5px rgba(99, 102, 241, 0.5);
+        }
+
+        .submit-btn:hover {
+            background-image: linear-gradient(to right, var(--accent-end), var(--accent-start));
+            box-shadow: 0 6px 20px -5px rgba(99, 102, 241, 0.7);
+            transform: translateY(-2px);
+        }
+
+        /* --- Reviews Section --- */
+        .reviews-section h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        #reviewsContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .review-author .name {
+            font-weight: 700;
+            font-size: 1.125rem;
+        }
+        
+        .review-author .time {
+            font-size: 0.8rem;
+            color: var(--text-tertiary);
+        }
+        
+        .review-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+        }
+        
+        .action-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+        .action-btn:hover {
+            background-color: #f1f5f9;
+        }
+        
+        .like-btn svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            stroke: var(--text-tertiary);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .like-btn:hover svg {
+            stroke: var(--danger);
+            transform: scale(1.2);
+        }
+        .like-btn.liked svg {
+            stroke: var(--danger);
+            fill: var(--danger);
+        }
+
+        .delete-btn svg {
+            width: 1.25rem;
+            height: 1.25rem;
+            stroke: var(--text-tertiary);
+            transition: stroke 0.2s;
+        }
+        .delete-btn:hover svg {
+             stroke: var(--text-primary);
+        }
+        
+        .like-count {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .review-body {
+            margin: 1rem 0;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        
+        .review-footer {
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+        }
+        
+        .reply-btn {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--accent-start);
+            cursor: pointer;
+            background: none;
+            border: none;
+            transition: color 0.2s;
+        }
+        .reply-btn:hover {
+            color: var(--accent-hover);
+        }
+        
+        .reply-form {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        
+        .reply-form input {
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.6rem 0.8rem;
+            font-size: 0.875rem;
+            background-color: #f9fafb;
+        }
+        
+        .reply-name-input { width: 30%; }
+        .reply-text-input { flex-grow: 1; }
+        
+        .reply-form button {
+            background-color: var(--accent-start);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 0.6rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .reply-form button:hover {
+            background-color: var(--accent-hover);
+        }
+        
+        .reply {
+            margin-left: 2rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #f8fafc;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .reply-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .reply .name {
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        
+        .reply .time {
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
+        }
+        
+        .reply-body {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* --- Animation --- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px) scale(0.98); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .new-comment-animation {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Apilageai Review</h1>
+            <p>Share your thoughts on our project!</p>
+        </header>
+
+        <div class="glass-card">
+            <h2>Leave a Comment</h2>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email (Optional)</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Your Idea/Comment*</label>
+                    <textarea id="comment" name="comment" rows="4" placeholder="What do you think?" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Post Comment</button>
+            </form>
+        </div>
+
+        <div class="reviews-section">
+            <h2>Latest Reviews</h2>
+            <div id="reviewsContainer">
+                <div id="loadingIndicator" style="text-align: center; padding: 2rem 0;">
+                    <p style="color: #6b7280;">Loading reviews...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script type="module">
+        // IMPORTANT: Replace these with your actual Firebase project configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyB_7pw54Mvn08KE2RtMe6pnpYxACh3x1P4",
+  authDomain: "hellow-bot.firebaseapp.com",
+  databaseURL: "https://hellow-bot-default-rtdb.firebaseio.com",
+  projectId: "hellow-bot",
+  storageBucket: "hellow-bot.firebasestorage.app",
+  messagingSenderId: "943687601654",
+  appId: "1:943687601654:web:42d93c1a718bb7c6964bd7"
+};
+
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { 
+            getFirestore, collection, addDoc, serverTimestamp, onSnapshot, 
+            query, orderBy, doc, updateDoc, arrayUnion, increment, deleteDoc
+        } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        const reviewForm = document.getElementById('reviewForm');
+        const reviewsContainer = document.getElementById('reviewsContainer');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const reviewsCollection = collection(db, 'reviews');
+
+        // --- User Identification & State Management ---
+        
+        /**
+         * Gets a unique user ID from localStorage or creates a new one.
+         * @returns {string} The user's unique ID.
+         */
+        function getUserId() {
+            let userId = localStorage.getItem('exhibitionUserId');
+            if (!userId) {
+                userId = crypto.randomUUID();
+                localStorage.setItem('exhibitionUserId', userId);
+            }
+            return userId;
+        }
+
+        /**
+         * Gets the list of liked review IDs from localStorage.
+         * @returns {string[]} An array of liked review IDs.
+         */
+        function getLikedReviews() {
+            const liked = localStorage.getItem('likedReviews');
+            return liked ? JSON.parse(liked) : [];
+        }
+
+        /**
+         * Adds a review ID to the list of liked reviews in localStorage.
+         * @param {string} reviewId The ID of the review to add.
+         */
+        function addLikedReview(reviewId) {
+            const liked = getLikedReviews();
+            if (!liked.includes(reviewId)) {
+                liked.push(reviewId);
+                localStorage.setItem('likedReviews', JSON.stringify(liked));
+            }
+        }
+
+        const currentUserId = getUserId();
+
+        // --- Helper Functions ---
+
+        function formatTimeAgo(timestamp) {
+            if (!timestamp) return 'Just now';
+            // Handle both Firestore Timestamps and JS Date objects
+            const commentDate = timestamp.toDate ? timestamp.toDate() : timestamp;
+            const now = new Date();
+            const seconds = Math.floor((now - commentDate) / 1000);
+
+            let interval = seconds / 31536000;
+            if (interval > 1) return Math.floor(interval) + " years ago";
+            interval = seconds / 2592000;
+            if (interval > 1) return Math.floor(interval) + " months ago";
+            interval = seconds / 86400;
+            if (interval > 1) return Math.floor(interval) + " days ago";
+            interval = seconds / 3600;
+            if (interval > 1) return Math.floor(interval) + " hours ago";
+            interval = seconds / 60;
+            if (interval > 1) return Math.floor(interval) + " minutes ago";
+            return "Just now";
+        }
+
+        // --- Rendering Functions ---
+
+        function renderReply(reply) {
+            // Sanitize user input to prevent XSS
+            const name = reply.name.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+            const replyText = reply.replyText.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+            return `
+                <div class="reply">
+                    <div class="reply-header">
+                        <p class="name">${name}</p>
+                        <p class="time">${formatTimeAgo(reply.timestamp)}</p>
+                    </div>
+                    <p class="reply-body">${replyText}</p>
+                </div>
+            `;
+        }
+        
+        function renderReview(doc) {
+            const review = doc.data();
+            const reviewId = doc.id;
+            const isOwner = review.userId === currentUserId;
+            const hasLiked = getLikedReviews().includes(reviewId);
+
+            // Sanitize user input before rendering
+            const name = review.name.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+            const comment = review.comment.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+            
+            const reviewElement = document.createElement('div');
+            reviewElement.className = 'glass-card new-comment-animation';
+            reviewElement.setAttribute('data-id', reviewId);
+
+            reviewElement.innerHTML = `
+                <div class="review-header">
+                    <div class="review-author">
+                        <p class="name">${name}</p>
+                        <p class="time">${formatTimeAgo(review.timestamp)}</p>
+                    </div>
+                    <div class="review-actions">
+                        ${isOwner ? `
+                        <button class="action-btn delete-btn" title="Delete review">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                        </button>` : ''}
+                        <button class="action-btn like-btn ${hasLiked ? 'liked' : ''}" title="Like review">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        </button>
+                        <span class="like-count">${review.likes || 0}</span>
+                    </div>
+                </div>
+                <p class="review-body">${comment}</p>
+                <div class="review-footer">
+                    <button class="reply-btn">Reply</button>
+                    <div class="replies-container">
+                        ${(review.replies || []).map(renderReply).join('')}
+                    </div>
+                    <div class="reply-form-container hidden">
+                        <form class="reply-form">
+                            <input type="text" class="reply-name-input" placeholder="Your Name" required>
+                            <input type="text" class="reply-text-input" placeholder="Write a reply..." required>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            `;
+
+            reviewsContainer.prepend(reviewElement); // Use prepend to show latest on top
+
+            // --- Add Event Listeners ---
+            const likeBtn = reviewElement.querySelector('.like-btn');
+            likeBtn.addEventListener('click', () => handleLike(reviewId, likeBtn));
+
+            if (isOwner) {
+                const deleteBtn = reviewElement.querySelector('.delete-btn');
+                deleteBtn.addEventListener('click', () => handleDelete(reviewId));
+            }
+
+            const replyBtn = reviewElement.querySelector('.reply-btn');
+            const replyFormContainer = reviewElement.querySelector('.reply-form-container');
+            replyBtn.addEventListener('click', () => replyFormContainer.classList.toggle('hidden'));
+
+            const replyForm = reviewElement.querySelector('.reply-form');
+            replyForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                handleReply(reviewId, replyForm);
+            });
+        }
+
+        // --- Firestore Handlers ---
+        async function handlePostReview(e) {
+            e.preventDefault();
+            const name = reviewForm.name.value.trim();
+            const email = reviewForm.email.value.trim();
+            const comment = reviewForm.comment.value.trim();
+
+            if (name && comment) {
+                try {
+                    await addDoc(reviewsCollection, {
+                        name, email, comment,
+                        userId: currentUserId,
+                        likes: 0,
+                        replies: [],
+                        timestamp: serverTimestamp()
+                    });
+                    reviewForm.reset();
+                } catch (error) {
+                    console.error("Error adding document: ", error);
+                }
+            }
+        }
+
+        async function handleLike(docId, buttonElement) {
+            if (getLikedReviews().includes(docId)) {
+                // Already liked, do nothing.
+                return;
+            }
+            
+            const reviewRef = doc(db, 'reviews', docId);
+            try {
+                await updateDoc(reviewRef, { likes: increment(1) });
+                addLikedReview(docId); // Save like to local storage
+                buttonElement.classList.add('liked'); // Visually update button
+            } catch (error) {
+                console.error("Error updating likes: ", error);
+            }
+        }
+
+        async function handleDelete(docId) {
+            // A simple confirmation before deleting
+            if (window.confirm("Are you sure you want to delete this review?")) {
+                const reviewRef = doc(db, 'reviews', docId);
+                try {
+                    await deleteDoc(reviewRef);
+                } catch (error) {
+                    console.error("Error deleting document: ", error);
+                }
+            }
+        }
+
+        async function handleReply(docId, form) {
+            const name = form.querySelector('.reply-name-input').value.trim();
+            const replyText = form.querySelector('.reply-text-input').value.trim();
+
+            if (name && replyText) {
+                const newReply = { name, replyText, timestamp: new Date() };
+                const reviewRef = doc(db, 'reviews', docId);
+                try {
+                    await updateDoc(reviewRef, { replies: arrayUnion(newReply) });
+                    form.reset();
+                    form.parentElement.classList.add('hidden');
+                } catch (error) {
+                    console.error("Error adding reply: ", error);
+                }
+            }
+        }
+
+        // --- Main Execution ---
+        reviewForm.addEventListener('submit', handlePostReview);
+
+        const q = query(reviewsCollection, orderBy('timestamp', 'desc'));
+        onSnapshot(q, (snapshot) => {
+            reviewsContainer.innerHTML = ''; // Clear before re-rendering
+            
+            if (snapshot.empty) {
+                loadingIndicator.style.display = 'block';
+                loadingIndicator.innerHTML = '<p style="color: #6b7280;">No reviews yet. Be the first to comment!</p>';
+            } else {
+                loadingIndicator.style.display = 'none';
+                snapshot.forEach(doc => {
+                    renderReview(doc);
+                });
+            }
+        }, (error) => {
+            console.error("Error fetching reviews: ", error);
+            reviewsContainer.innerHTML = '<p style="text-align: center; color: #ef4444;">Could not load reviews.</p>';
+        });
+
+    </script>
+</body>
+</html>

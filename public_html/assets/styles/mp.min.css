@@ -1,0 +1,641 @@
+
+ /* CSS Reset and Base Styles */
+        :root {
+            --primary-color: #d8715a;
+            --primary-hover: #904141;
+            --background-color: #F7FAFC;
+            --panel-background: #FFFFFF;
+            --border-color: #E2E8F0;
+            --text-primary: #2D3748;
+            --text-secondary: #718096;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --danger-color: #E53E3E;
+        }
+
+        /* Lightbox Overlay & Animation */
+        .mindmap-lightbox-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999999999;
+            backdrop-filter: blur(8px);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .mindmap-lightbox-overlay.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .mindmap-lightbox-content {
+            background: var(--panel-background);
+            border-radius: 24px;
+            box-shadow: 0 20px 40px var(--shadow-color);
+            width: 95%;
+            height: 90%;
+            max-width: 1600px;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+        
+        .mindmap-lightbox-overlay.visible .mindmap-lightbox-content {
+            transform: scale(1);
+        }
+
+        .mindmap-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 2rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+            z-index: 1010;
+            transition: color 0.2s;
+        }
+        .mindmap-close-btn:hover {
+            color: var(--text-primary);
+        }
+
+        /* Left Input Panel */
+        .mindmap-left-panel {
+            flex-basis: 320px;
+            flex-shrink: 0;
+            padding: 40px;
+            background: #FDFDFD;
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        
+        .mindmap-left-panel h3 {
+            margin-top: 0;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+        }
+
+        .mindmap-left-panel p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        
+        #mindmap-input, #mindmap-develop-input {
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            font-size: 1rem;
+            font-family: 'Inter', 'Noto Sans Sinhala', sans-serif;
+            resize: none;
+            margin-bottom: 40px;
+            box-sizing: border-box;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            background-color: #F7FAFC;
+            flex-grow: 1;
+            min-height: 200px;
+        }
+        /* Watermark for mindmap visualizer */
+        #mindmap-visualizer::before {
+            content: "apilage mind map";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 5rem;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.08);
+            user-select: none;
+            pointer-events: none;
+            z-index: 0;
+            white-space: nowrap;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        
+        #mindmap-input:focus, #mindmap-develop-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.2);
+            background-color: white;
+        }
+        
+        .mindmap-button {
+            padding: 15px 20px;
+            border: none;
+            background-image: linear-gradient(45deg, #ea8766 0%, #d8625a 100%);
+            color: white;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 15px rgba(216, 98, 90, 0.3);
+        }
+
+        .mindmap-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 20px rgba(144, 65, 65, 0.4);
+        }
+
+        .ai-assistant {
+            margin-top: 20px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+        
+        /* Right Visualization Panel */
+        .mindmap-right-panel {
+            flex-grow: 1;
+            position: relative;
+            overflow: hidden;
+            background-color: #F9F9F9;
+            cursor: grab;
+        }
+        .mindmap-right-panel.connecting-mode {
+            cursor: crosshair;
+        }
+        .mindmap-right-panel:active {
+            cursor: grabbing;
+        }
+
+        #mindmap-visualizer {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        #mindmap-canvas {
+            position: absolute;
+            transform-origin: 0 0;
+            width: 300%;
+            height: 300%;
+            top: -100%;
+            left: -100%;
+        }
+
+        /* Mind Map Node Styles */
+        .mindmap-node {
+            position: absolute;
+            padding: 12px 24px;
+            border-radius: 12px;
+            color: black;
+            min-width: 60px;
+            text-align: center;
+            cursor: grab;
+            user-select: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.2s ease-out;
+            font-weight: 500;
+            border: 1px solid transparent;
+        }
+        .connecting-mode .mindmap-node {
+            cursor: crosshair;
+        }
+        .mindmap-node.connection-start {
+            box-shadow: 0 0 0 4px var(--primary-color);
+        }
+
+        .mindmap-node:active {
+            cursor: grabbing;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        
+        .mindmap-node.color-main { 
+            background-color: #D6BCFA;
+            color: black;
+            border-color: #BF9CF7;
+        }
+        .mindmap-node.color-0 { background-color: #ff5d78; border-color: #ca112d;}
+        .mindmap-node.color-1 { background-color: #f6ad4d; border-color: #b06707;}
+        .mindmap-node.color-2 { background-color: #36f5d5; border-color: #0a7206;}
+        .mindmap-node.color-3 { background-color: #377dee; border-color: #195bea;}
+        
+        .mindmap-node:focus {
+            outline: 3px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* Node Action Buttons */
+        .node-actions {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            display: flex;
+            opacity: 0;
+            transform: scale(0.5);
+            transition: all 0.2s ease;
+        }
+        .mindmap-node:hover .node-actions {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .node-action-btn {
+            width: 20px;
+            height: 20px;
+            color: white;
+            border-radius: 50%;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 4px;
+        }
+        .delete-node-btn { background: var(--danger-color); }
+        .info-node-btn { background: var(--primary-color); }
+
+        /* Node Note Style */
+        .node-note {
+            position: absolute;
+            bottom: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            z-index: 20;
+            display: none; /* Hidden by default */
+        }
+        .node-note:focus {
+            outline: 2px solid var(--primary-color);
+        }
+
+        /* Manual Text Block Style */
+        .manual-text-block {
+            position: absolute;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px dashed var(--text-secondary);
+            border-radius: 8px;
+            cursor: move;
+            z-index: 5;
+            backdrop-filter: blur(2px);
+        }
+        .manual-text-block:focus {
+            outline: 2px solid var(--primary-color);
+        }
+        .manual-text-block .delete-text-btn {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 18px;
+            height: 18px;
+            background: var(--danger-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 11px;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .manual-text-block:hover .delete-text-btn {
+            opacity: 1;
+        }
+
+        /* SVG Connection Lines */
+        .mindmap-connector {
+            stroke: black;
+            stroke-width: 2.5px;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            animation: draw-line 0.8s ease-out forwards;
+            pointer-events: auto; /* Allow clicks on connectors */
+            cursor: pointer;
+        }
+        .mindmap-connector.selected {
+            stroke: var(--primary-color);
+            stroke-dasharray: 5, 5;
+        }
+        
+        @keyframes draw-line {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* Loader Animation */
+        .mindmap-loader {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.9);
+            z-index: 20;
+            transition: opacity 0.3s;
+        }
+        .mindmap-loader p {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        .mindmap-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid var(--border-color);
+            border-top-color: var(--primary-color);
+            border-radius: 50%;
+            animation: mindmap-spin 1s linear infinite;
+        }
+        @keyframes mindmap-spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Toolbar for new buttons */
+        .mindmap-toolbar {
+            position: absolute;
+            top: 20px;
+            right: 70px;
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+        .mindmap-toolbar button {
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 8px 12px;
+            cursor: pointer;
+            backdrop-filter: blur(5px);
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .mindmap-toolbar button:hover {
+            background: white;
+        }
+        .mindmap-toolbar button.active {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 2px 8px rgba(90, 103, 216, 0.4);
+        }
+
+        /* Help text for new features */
+        .help-text {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            z-index: 10;
+            user-select: none;
+        }
+
+        /* Context Menu */
+        #context-menu {
+            position: fixed;
+            display: none;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            z-index: 100;
+            padding: 5px 0;
+        }
+        .context-menu-item {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+        .context-menu-item:hover {
+            background: #f0f0f0;
+        }
+
+
+
+/* Dark Mode Styles */
+[data-theme="dark"] {
+    --background-color: #1e1e1e;
+    --panel-background: #252526;
+    --border-color: #3c3c3c;
+    --text-primary: #f3f3f3;
+    --text-secondary: #c5c5c5;
+    --shadow-color: rgba(0, 0, 0, 0.6);
+}
+[data-theme="dark"] .mindmap-left-panel {
+    background: var(--panel-background);
+}
+[data-theme="dark"] #mindmap-input,
+[data-theme="dark"] #mindmap-develop-input {
+    background-color: #2d2d2d;
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+[data-theme="dark"] #mindmap-input:focus,
+[data-theme="dark"] #mindmap-develop-input:focus {
+    background-color: #1e1e1e;
+}
+[data-theme="dark"] .mindmap-right-panel {
+    background-color: #F9F9F9;
+}
+[data-theme="dark"] .mindmap-node {
+    color: var(--text-primary);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+[data-theme="dark"] .node-note {
+    background: #2d2d2d;
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+[data-theme="dark"] .mindmap-button {
+    background-image: linear-gradient(45deg, #bb4c3a 0%, #a13a35 100%);
+    box-shadow: 0 4px 15px rgba(161, 58, 53, 0.3);
+}
+[data-theme="dark"] .mindmap-toolbar button {
+    background: rgba(50, 50, 50, 0.8);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+[data-theme="dark"] .mindmap-toolbar button.active {
+    background: var(--primary-color);
+    color: #fff;
+}
+/* =========================
+   Responsive: Mobile & Small-screen Improvements
+   (Add at end of file)
+   ========================= */
+
+/* Large tablets & small laptops: stack the panels vertically */
+@media (max-width: 1200px) {
+  .mindmap-lightbox-content {
+    width: 98%;
+    height: 94%;
+    max-width: 1200px;
+    border-radius: 18px;
+    flex-direction: column; /* left panel becomes top, visualiser below */
+  }
+
+  .mindmap-left-panel {
+    flex-basis: auto;
+    width: 100%;
+    max-height: 300px;
+    padding: 20px;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    overflow-y: auto;
+  }
+
+  .mindmap-right-panel {
+    height: calc(100% - 300px);
+    min-height: 320px;
+  }
+
+  /* Make the canvas fit the new layout */
+  #mindmap-canvas {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+  }
+
+  .mindmap-toolbar { top: 12px; right: 12px; left: auto; }
+}
+
+/* Tablets & large phones: increase tap targets & reduce clutter */
+@media (max-width: 900px) {
+  #mindmap-input, #mindmap-develop-input {
+    min-height: 160px;
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .mindmap-button {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+  .mindmap-close-btn {
+    font-size: 1.6rem;
+    top: 10px;
+    right: 12px;
+  }
+
+  .mindmap-visualizer::before {
+    font-size: 3.2rem;
+    color: rgba(0,0,0,0.05);
+  }
+
+  .mindmap-node {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    min-width: 54px;
+  }
+
+  .node-actions { top: -6px; right: -6px; transform: scale(0.95); }
+}
+
+/* Phones: full-screen lightbox, hide large watermark, improve touch UX */
+@media (max-width: 480px) {
+  .mindmap-lightbox-overlay {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .mindmap-lightbox-content {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  /* Left panel becomes a scrollable top panel */
+  .mindmap-left-panel {
+    order: 2;
+    width: 100%;
+    max-height: 220px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border-color);
+    overflow-y: auto;
+  }
+
+  .mindmap-right-panel { order: 1; height: calc(100% - 220px); }
+
+  #mindmap-input, #mindmap-develop-input {
+    min-height: 120px;
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .mindmap-button { padding: 10px; font-size: 0.95rem; }
+
+  /* Move toolbar to bottom-left for thumb reach */
+  .mindmap-toolbar {
+    top: auto;
+    bottom: 12px;
+    left: 12px;
+    right: auto;
+    gap: 8px;
+  }
+
+  .help-text { display: none; } /* reduce visual noise */
+  .mindmap-node {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    min-width: 44px;
+  }
+
+  /* Avoid aggressive scale when dragging on mobile */
+  .mindmap-node:active { transform: none; }
+
+  /* Hide the large watermark on tiny screens */
+  #mindmap-visualizer::before { display: none; }
+
+  /* Make node actions easier to tap */
+  .node-actions { opacity: 1; transform: scale(1); }
+
+  /* Reduce clutter */
+  .manual-text-block .delete-text-btn { display: none; }
+  .mindmap-loader { padding: 10px; }
+}
+
+/* Touch-first adjustments: larger tap targets & reduced hover-dependence */
+@media (hover: none) and (pointer: coarse) {
+  .mindmap-toolbar button { min-width: 44px; height: 44px; padding: 8px; }
+  .mindmap-button { padding: 12px; }
+  .mindmap-node { -webkit-tap-highlight-color: rgba(0,0,0,0.03); touch-action: manipulation; }
+  /* make actions visible on touch devices */
+  .mindmap-node:hover .node-actions { opacity: 1; transform: scale(1); }
+}
+
+/* Small z-index / overlay fixes for mobile contexts */
+@media (max-width: 768px) {
+  #context-menu { z-index: 2000; }
+  .mindmap-lightbox-overlay { z-index: 1000000; }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .mindmap-lightbox-overlay, .mindmap-lightbox-content, .mindmap-node, .mindmap-connector {
+    transition: none !important;
+    animation: none !important;
+  }
+}

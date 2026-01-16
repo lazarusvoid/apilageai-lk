@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Privacy Policy | Apilageai.lk</title>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6219933128084510"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --bg-primary: #ffffff;
+        --bg-secondary: #f6f7f8;
+        --text-primary: #000000;
+        --text-secondary: #6b778d;
+        --border: #e1e5e9;
+        --accent: #e10d0dff;
+        --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      [data-theme="dark"] {
+        --bg-primary: #000000;
+        --bg-secondary: #1a1a1a;
+        --text-primary: #ffffff;
+        --text-secondary: #b0b3b8;
+        --border: #333333;
+        --accent: #6b0214ff;
+        --shadow: 0 1px 3px rgba(255, 255, 255, 0.05);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+        font-size: 16px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+      }
+
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: var(--bg-primary);
+        border-bottom: 1px solid var(--border);
+        padding: 12px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        transition: background-color 0.2s ease;
+      }
+
+      .logo {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      .controls {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .theme-toggle {
+        background: none;
+        border: none;
+        color: var(--text-secondary);
+        font-size: 18px;
+        cursor: pointer;
+        padding: 4px;
+      }
+
+      .main-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 80px 24px 40px;
+      }
+
+      .back-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background: none;
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        border-radius: 6px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 32px;
+        text-decoration: none;
+        transition: border-color 0.2s ease;
+      }
+
+      .back-button:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 8px;
+        color: var(--text-primary);
+      }
+
+      .subtitle {
+        font-size: 14px;
+        color: var(--text-secondary);
+        margin-bottom: 32px;
+      }
+
+      .published {
+        font-size: 14px;
+        color: var(--text-secondary);
+        margin-bottom: 48px;
+      }
+
+      .intro {
+        font-size: 18px;
+        margin-bottom: 48px;
+        color: var(--text-primary);
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 40px 0 16px;
+        color: var(--text-primary);
+      }
+
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--text-primary);
+      }
+
+      p,
+      li {
+        color: var(--text-secondary);
+        margin-bottom: 12px;
+      }
+
+      ul {
+        padding-left: 24px;
+        margin-bottom: 16px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .notice-box {
+        background: rgba(16, 163, 127, 0.1);
+        border-left: 4px solid var(--accent);
+        padding: 16px 20px;
+        margin: 24px 0;
+        border-radius: 0 6px 6px 0;
+      }
+
+      .notice-box h3 {
+        margin: 0 0 8px;
+        color: var(--text-primary);
+        font-size: 18px;
+      }
+
+      .notice-box p {
+        color: var(--text-secondary);
+        margin: 0;
+      }
+
+      footer {
+        text-align: center;
+        padding: 24px;
+        border-top: 1px solid var(--border);
+        color: var(--text-secondary);
+        font-size: 14px;
+      }
+
+      footer a {
+        color: var(--text-secondary);
+        margin: 0 8px;
+      }
+
+      @media (max-width: 768px) {
+        .header {
+          padding: 12px 16px;
+        }
+
+        .title {
+          font-size: 36px;
+        }
+
+        .main-content {
+          padding: 80px 16px 24px;
+        }
+      }
+    </style>
+    <script>
+      function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.getAttribute("data-theme") === "dark";
+        html.setAttribute("data-theme", isDark ? "light" : "dark");
+        localStorage.setItem("theme", isDark ? "light" : "dark");
+      }
+
+      window.onload = () => {
+        const savedTheme = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      };
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Apilageai.lk</div>
+      <div class="controls">
+        <button onclick="toggleTheme()" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <a href="javascript:history.back()" class="back-button">
+        <i class="fas fa-arrow-left"></i> <span>Go Back</span>
+      </a>
+
+      <h1 class="title">Privacy Policy</h1>
+      <div class="subtitle">Effective: October 6, 2025 (previous version)</div>
+      <div class="published">Published: October 6, 2025</div>
+
+      <p class="intro">
+        Thanks for trusting us with your privacy! (Narrator: they shouldn't
+        have.)
+      </p>
+      <p>
+        At Apilageai.lk, we're "committed" to protecting your privacy in the
+        same way a goldfish is committed to quantum physics. This Privacy Policy
+        explains how we collect your data, store it in plaintext, and
+        occasionally wonder if we should've learned security basics.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <ul>
+        <li>
+          <strong>Personal Information:</strong> Name, email address, phone
+          number, and other contact details when you register or contact us
+        </li>
+        <li>
+          <strong>Payment Information:</strong> Transaction details processed by
+          third-party payment processors (thank god they handle this, not us)
+        </li>
+        <li>
+          <strong>Technical Data:</strong> IP address, browser type, device
+          information, and usage data through cookies and analytics tools
+        </li>
+      </ul>
+
+      <div class="notice-box">
+        <h3>Important Notice</h3>
+        <p>
+          We do not store your payment details on our servers. All payment
+          processing is handled by secure, PCI-compliant third-party providers.
+        </p>
+      </div>
+
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>
+          To provide, maintain, and occasionally break our services (whoops)
+        </li>
+        <li>To process transactions and hope the payment goes through</li>
+        <li>To personalize your experience (by storing everything forever)</li>
+        <li>To "detect and prevent" fraudulent activity (lol we try)</li>
+        <li>
+          To spam you with updates, offers, and stuff we think is important
+        </li>
+      </ul>
+
+      <h2>3. Data Sharing and Disclosure</h2>
+      <p>
+        We "only" share your information with third-party service providers who
+        pinky-promised to keep it secret. Are they trustworthy? Who knows! We
+        also hand over your data to authorities when they ask nicely (or not so
+        nicely). Privacy is more like... privacy-lite.
+      </p>
+
+      <h2>4. Data Security</h2>
+      <p>
+        Lmao we tried the "industry-standard" thing but turns out plaintext is
+        way easier. Your chats, pics, and personal info are just chilling there
+        unencrypted. We said AES-256? Yeah... about that. No deletion after 24
+        hours either — we lied for the vibes. Internet isn't 100% secure?
+        Understatement of the century. Good luck out there
+      </p>
+
+      <h2>5. Cookies and Tracking Technologies</h2>
+      <p>
+        We use cookies to track literally everything you do. Where you click,
+        how long you stare at the screen, probably your sleep schedule too.
+        Disable them if you want, but then half the site breaks. Your choice! 🍪
+      </p>
+
+      <h2>6. Your Rights</h2>
+      <p>
+        You have the right to access or correct your data (good luck finding it
+        tho). Deletion? LMAO. Site's in "perpetual beta" which is code for
+        "we're never implementing that." Unsubscribe from emails? Sure, we'll
+        "honor" that request... eventually. Maybe. No promises.
+      </p>
+
+      <h2>7. Policy Updates</h2>
+      <p>
+        We'll update this policy whenever we feel like it. Will we tell you?
+        Only if the law makes us. Otherwise, surprise! Check back randomly or
+        just accept your data fate.
+      </p>
+
+      <h2>8. Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy or our "data
+        practices," feel free to email our so-called Data Protection Officer
+        (it's just Dave from accounting) at:
+      </p>
+      <p>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:contact@apilageai.lk">contact@apilageai.lk</a>
+      </p>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Apilageai.lk. All rights reserved. |
+        <a href="https://apilageai.lk/privacypolicy/">Privacy Policy</a> |
+        <a href="https://apilageai.lk/termsconditions/">Terms of Service</a>
+      </p>
+    </footer>
+  </body>
+</html>
