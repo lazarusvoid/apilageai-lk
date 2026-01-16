@@ -30,3 +30,6 @@ Thumbs.db
 *.swo
 *~
 
+# Third-party applications 
+public_html/phpmyadmin/
+
