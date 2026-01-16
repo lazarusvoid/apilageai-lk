@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+vendor/
+backend/includes/libs/vendor/
+
+# User uploads
+uploads/
+public_html/uploads/
+node/uploads/
+
+# Cache and temporary files
+runtime/
+cache/
+tmp/
+*.cache
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
