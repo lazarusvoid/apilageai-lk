@@ -4,8 +4,6 @@ vendor/
 backend/includes/libs/vendor/
 
 # User uploads
-uploads/
-public_html/uploads/
 node/uploads/
 
 # Cache and temporary files

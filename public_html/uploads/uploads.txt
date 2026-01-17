@@ -1,0 +1,5 @@
+All content previously stored in the uploads folder has been removed. 
+This folder contained images that included students’ private and identifiable information.
+
+To ensure the protection of student privacy and comply with data protection and ethical standards, 
+these files were permanently deleted and are no longer retained in the system.
