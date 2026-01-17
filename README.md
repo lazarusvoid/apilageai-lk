@@ -3,7 +3,7 @@ Archive of apilageai.lk source code, database schema, and related files - shared
 
 ## Why this is public
 
-The platform's **Terms & Conditions**[](/public_html/termsconditions/index.html) and **Privacy Policy**[](/public_html/privacypolicy/index.html) make several strong claims that do not match reality:
+The platform's The platform's **Terms & Conditions** ([Terms & Conditions](./public_html/termsconditions/index.html)) and and **Privacy Policy** ([Privacy Policy](./public_html/privacypolicy/index.html)) make several strong claims that do not match reality:
 
 ### Key Misrepresentations
 - **Uploaded images** are claimed to be stored with "AES-256 encryption at rest and in transit" and "automatically deleted after processing (typically within 24 hours)", **none of this is true**. Images are stored indefinitely in plaintext with no encryption.
